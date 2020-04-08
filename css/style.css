@@ -95,17 +95,24 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 33, ../sass/style.scss */
 header {
+  -webkit-background-image: linear-gradient(to left, #910FFF, #EB1DD5, #FFDF09);
+  background-image: linear-gradient(to left, #910FFF, #EB1DD5, #FFDF09);
+  box-shadow: 0 0 5px black;
   position: fixed;
   width: 100%;
 }
-/* line 36, ../sass/style.scss */
+/* line 39, ../sass/style.scss */
 header .navbar {
   width: auto;
 }
 
-/* line 41, ../sass/style.scss */
+/* line 44, ../sass/style.scss */
 .main-section {
   background: url("../images/1.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
+}
+/* line 49, ../sass/style.scss */
+.main-section .d-flex h1.big-text {
+  color: white;
 }

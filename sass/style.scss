@@ -31,6 +31,9 @@ $bgSz: cover;
 }
 
 header {
+	-webkit-background-image: linear-gradient(to left, #910FFF, #EB1DD5, #FFDF09);
+	background-image: linear-gradient(to left, #910FFF, #EB1DD5, #FFDF09);
+	box-shadow: 0 0 5px black;
 	position: fixed;
 	width:100%;
 	.navbar {
@@ -42,4 +45,9 @@ header {
 	background: url("../images/1.jpg") $bgRp;
 	background-position: $bgPos;
 	background-size: $bgSz;
+	.d-flex {
+		h1.big-text {
+			color:white;
+		}
+	}
 }
