@@ -162,3 +162,42 @@ header {
 		}
 	}
 }
+
+.sec3 {
+	h2.big-text {
+		margin-top: 7vh;
+		margin-bottom: 7vh;
+	}	
+	.carousel {
+		width: 80vw;
+
+		.carousel-caption {
+			background:rgba(0,0,0,0.5);
+		}
+
+		.carousel-item {
+			min-height: 450px;
+			line-height: 1.7;
+			background-size: $bgSz;
+			background-position: $bgPos;
+	       	background-repeat: $bgRp;
+	       	h5 {
+	       		font-weight: bold;
+	       	}
+		}
+
+		.item1 {
+			background-image: url("../images/slide1.jpg");
+			
+		}
+
+		.item2 {
+			background-image: url("../images/slide2.jpg");
+		}
+
+		.item3 {
+			background-image: url("../images/slide3.jpg");
+		}
+	}
+	
+}

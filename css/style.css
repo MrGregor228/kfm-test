@@ -223,3 +223,41 @@ header .navbar .collapse .navbar-nav .nav-item a:hover:after {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+/* line 167, ../sass/style.scss */
+.sec3 h2.big-text {
+  margin-top: 7vh;
+  margin-bottom: 7vh;
+}
+/* line 171, ../sass/style.scss */
+.sec3 .carousel {
+  width: 80vw;
+}
+/* line 174, ../sass/style.scss */
+.sec3 .carousel .carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+}
+/* line 178, ../sass/style.scss */
+.sec3 .carousel .carousel-item {
+  min-height: 450px;
+  line-height: 1.7;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+/* line 184, ../sass/style.scss */
+.sec3 .carousel .carousel-item h5 {
+  font-weight: bold;
+}
+/* line 189, ../sass/style.scss */
+.sec3 .carousel .item1 {
+  background-image: url("../images/slide1.jpg");
+}
+/* line 194, ../sass/style.scss */
+.sec3 .carousel .item2 {
+  background-image: url("../images/slide2.jpg");
+}
+/* line 198, ../sass/style.scss */
+.sec3 .carousel .item3 {
+  background-image: url("../images/slide3.jpg");
+}
