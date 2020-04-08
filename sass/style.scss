@@ -75,7 +75,11 @@ header {
 			transform:translate(-48%, 0%);
 			color:white;
 			animation: bouncing-btn .5s linear infinite both;
-
+			&:focus,&:hover,&:active {
+				box-shadow: none;
+				outline:none;
+				border:none;
+			}
 		}
 		@keyframes bouncing-btn {
 			0%{

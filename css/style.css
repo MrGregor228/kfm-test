@@ -143,6 +143,12 @@ header .navbar {
   color: white;
   animation: bouncing-btn .5s linear infinite both;
 }
+/* line 78, ../sass/style.scss */
+.main-section .d-flex .custom-btn:focus, .main-section .d-flex .custom-btn:hover, .main-section .d-flex .custom-btn:active {
+  box-shadow: none;
+  outline: none;
+  border: none;
+}
 @keyframes bouncing-btn {
   0% {
     bottom: 0px;
