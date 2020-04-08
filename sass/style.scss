@@ -17,6 +17,9 @@ $bgSz: cover;
 .h100vh {
 	height: 100vh;
 }
+.mh25vh {
+	min-height: 25vh;
+}
 
 .big-text {
 	font-size: 2em;
@@ -30,6 +33,25 @@ $bgSz: cover;
 	background: none;
 }
 
+.order-md-1 {
+	order: 1;
+	&.order-md-2 {
+		order: 2;
+	}
+	&.order-md-3 {
+		order: 3;
+	}
+	&.order-md-4 {
+		order: 4;
+	}
+	&.order-md-5 {
+		order: 5;
+	}
+	&.order-md-6 {
+		order: 6;
+	}
+}
+
 header {
 
 	-webkit-background-image: linear-gradient(to left, #910FFF, #EB1DD5, #FFDF09);
@@ -41,12 +63,14 @@ header {
 	box-shadow: 0 0 5px black;
 	position: fixed;
 	width:100%;
+	z-index: 10;
 	.navbar {
 		width: auto;
 		.collapse {
 			.navbar-nav {
 				.nav-item {
 					a {
+						font-weight: bold;
 						transition: .3s linear;
 						&:after {
 							position: relative;
@@ -114,6 +138,44 @@ header {
 			100% {
 				bottom: 0px;
 			}
+		}
+	}
+}
+
+.sec2 {
+	.row {
+		h2 {
+			margin-top: 7vh;
+			text-align: center;
+			width: 100%;
+		}
+		.gray-anonses {
+			.row {
+				div {
+					overflow: hidden;
+					background-color: lightgray;
+					p {
+						width: 100%;
+						padding: 1.5em;
+						position: absolute;
+						top: 50%;
+						left:50%;
+						transform:translate(-50%, -50%);
+					}
+				}
+			}
+		}
+		.gray-anonse {
+			background-color: lightgray;
+			overflow: hidden;
+			p {
+				width: 100%;
+				padding: 1.5em;
+						position: absolute;
+						top: 50%;
+						left:50%;
+						transform:translate(-50%, -50%);
+					}
 		}
 	}
 }
