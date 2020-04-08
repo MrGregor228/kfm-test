@@ -43,6 +43,28 @@ header {
 	width:100%;
 	.navbar {
 		width: auto;
+		.collapse {
+			.navbar-nav {
+				.nav-item {
+					a {
+						transition: .3s linear;
+						&:after {
+							position: relative;
+							top: 2px;
+							content: "";
+							display: block;
+							height: 2px;
+							background-color: #8A00FF;
+							width: 0px;
+							transition:width .3s linear;
+						}
+						&:hover:after {
+							width: 100%;
+						}
+					}					
+				}
+			}
+		}
 	}
 }
 
@@ -68,6 +90,7 @@ header {
 			position: absolute;
 			bottom:0;
 			left:50%;
+			padding: 0.25rem;
 			-webkit-transform:translate(-48%, 0%);
 			-moz-transform:translate(-48%, 0%);
 			-o-transform:translate(-48%, 0%);

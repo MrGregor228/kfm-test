@@ -108,14 +108,33 @@ header {
 header .navbar {
   width: auto;
 }
-
 /* line 49, ../sass/style.scss */
+header .navbar .collapse .navbar-nav .nav-item a {
+  transition: .3s linear;
+}
+/* line 51, ../sass/style.scss */
+header .navbar .collapse .navbar-nav .nav-item a:after {
+  position: relative;
+  top: 2px;
+  content: "";
+  display: block;
+  height: 2px;
+  background-color: #8A00FF;
+  width: 0px;
+  transition: width .3s linear;
+}
+/* line 61, ../sass/style.scss */
+header .navbar .collapse .navbar-nav .nav-item a:hover:after {
+  width: 100%;
+}
+
+/* line 71, ../sass/style.scss */
 .main-section {
   background: url("../images/1.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
 }
-/* line 54, ../sass/style.scss */
+/* line 76, ../sass/style.scss */
 .main-section .d-flex h1.big-text {
   color: white;
   -webkit-transition: .3s linear;
@@ -125,16 +144,17 @@ header .navbar {
   transition: .3s linear;
 }
 @media screen and (max-width: 576px) {
-  /* line 63, ../sass/style.scss */
+  /* line 85, ../sass/style.scss */
   .main-section .d-flex h1.big-text {
     font-size: 1.5em;
   }
 }
-/* line 67, ../sass/style.scss */
+/* line 89, ../sass/style.scss */
 .main-section .d-flex .custom-btn {
   position: absolute;
   bottom: 0;
   left: 50%;
+  padding: 0.25rem;
   -webkit-transform: translate(-48%, 0%);
   -moz-transform: translate(-48%, 0%);
   -o-transform: translate(-48%, 0%);
@@ -143,7 +163,7 @@ header .navbar {
   color: white;
   animation: bouncing-btn .5s linear infinite both;
 }
-/* line 78, ../sass/style.scss */
+/* line 101, ../sass/style.scss */
 .main-section .d-flex .custom-btn:focus, .main-section .d-flex .custom-btn:hover, .main-section .d-flex .custom-btn:active {
   box-shadow: none;
   outline: none;
