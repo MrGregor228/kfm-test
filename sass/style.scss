@@ -74,7 +74,19 @@ header {
 			-ms-transform:translate(-48%, 0%);
 			transform:translate(-48%, 0%);
 			color:white;
+			animation: bouncing-btn .5s linear infinite both;
 
+		}
+		@keyframes bouncing-btn {
+			0%{
+				bottom: 0px;
+			}
+			50%{
+				bottom: 5px;
+			}
+			100% {
+				bottom: 0px;
+			}
 		}
 	}
 }
