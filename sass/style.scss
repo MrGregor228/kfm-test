@@ -37,7 +37,7 @@ header {
 	-o-background-image: linear-gradient(to left, #910FFF, #EB1DD5, #FFDF09);
 	-ms-background-image: linear-gradient(to left, #910FFF, #EB1DD5, #FFDF09);
 	background-image: linear-gradient(to left, #910FFF, #EB1DD5, #FFDF09);
-	
+
 	box-shadow: 0 0 5px black;
 	position: fixed;
 	width:100%;
@@ -53,6 +53,28 @@ header {
 	.d-flex {
 		h1.big-text {
 			color:white;
+			-webkit-transition: .3s linear;
+			-moz-transition: .3s linear;
+			-o-transition: .3s linear;
+			-ms-transition: .3s linear;
+			transition: .3s linear;
+		}
+		@media screen and (max-width: 576px) {
+			h1.big-text {
+				font-size: 1.5em;
+			}
+		}
+		.custom-btn {
+			position: absolute;
+			bottom:0;
+			left:50%;
+			-webkit-transform:translate(-48%, 0%);
+			-moz-transform:translate(-48%, 0%);
+			-o-transform:translate(-48%, 0%);
+			-ms-transform:translate(-48%, 0%);
+			transform:translate(-48%, 0%);
+			color:white;
+
 		}
 	}
 }
