@@ -14,6 +14,8 @@ $bgSz: cover;
 	font-family: 'Montserrat', sans-serif !important;
 }
 
+// Custom Styles
+
 .h100vh {
 	height: 100vh;
 }
@@ -29,9 +31,24 @@ $bgSz: cover;
 	font-weight: bold;
 }
 
+.mw1280 {
+	max-width: 1280px;
+}
+
 .no-bg {
 	background: none;
 }
+.h2-mt-mb-7vh {
+	margin-top: 7vh;
+	margin-bottom: 7vh;
+}
+.card-title {
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 0;
+}
+
+// Custom Styles
 
 header {
 
@@ -44,7 +61,7 @@ header {
 	box-shadow: 0 0 5px black;
 	position: fixed;
 	width:100%;
-	z-index: 10;
+	z-index: 999;
 	.navbar {
 		width: auto;
 		.collapse {
@@ -64,7 +81,7 @@ header {
 							width: 0px;
 							transition:width .3s linear;
 						}
-						&:hover:after {
+						&:hover:after, &:focus:after, &:active:after {
 							width: 100%;
 						}
 					}					
@@ -124,11 +141,12 @@ header {
 	}
 }
 
+// ------- Section 2 -------
+
 .sec2 {
 	.row {
 		h2 {
-			margin-top: 7vh;
-			margin-bottom: 7vh;
+			@extend .h2-mt-mb-7vh;
 			text-align: center;
 			width: 100%;
 		}
@@ -163,10 +181,11 @@ header {
 	}
 }
 
+// ------- Section 3 -------
+
 .sec3 {
 	h2.big-text {
-		margin-top: 7vh;
-		margin-bottom: 7vh;
+		@extend .h2-mt-mb-7vh;
 	}	
 	.carousel {
 		width: 80vw;
@@ -200,4 +219,43 @@ header {
 		}
 	}
 	
+}
+
+// ------- Section 4 -------
+
+.sec4 {
+	line-height: 1.7;
+	h2.big-text {
+		@extend .h2-mt-mb-7vh;
+	}
+	.row {
+		.col {
+			.card {
+				.card-img-holder{
+					min-height: 250px;
+					background-color: lightgray;
+				}
+				.btn {
+					margin-top: 15px;
+				}
+			}
+		}
+	}
+}
+
+// ------- Section 4 -------
+
+.sec5 {
+	line-height: 1.7;
+	h2.big-text {
+		@extend .h2-mt-mb-7vh;
+	}
+	.row-cols-4 {
+		.col-6 {
+			.infographic-handler{
+				font-size: 28px;
+				height: 100%
+			}
+		}
+	}
 }

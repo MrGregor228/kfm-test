@@ -73,32 +73,50 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-family: 'Montserrat', sans-serif !important;
 }
 
-/* line 17, ../sass/style.scss */
+/* line 19, ../sass/style.scss */
 .h100vh {
   height: 100vh;
 }
 
-/* line 20, ../sass/style.scss */
+/* line 22, ../sass/style.scss */
 .mh25vh {
   min-height: 25vh;
 }
 
-/* line 24, ../sass/style.scss */
+/* line 26, ../sass/style.scss */
 .big-text {
   font-size: 2em;
 }
 
-/* line 28, ../sass/style.scss */
+/* line 30, ../sass/style.scss */
 .bld {
   font-weight: bold;
 }
 
-/* line 32, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
+.mw1280 {
+  max-width: 1280px;
+}
+
+/* line 38, ../sass/style.scss */
 .no-bg {
   background: none;
 }
 
-/* line 36, ../sass/style.scss */
+/* line 41, ../sass/style.scss */
+.h2-mt-mb-7vh, .sec2 .row h2, .sec3 h2.big-text, .sec4 h2.big-text, .sec5 h2.big-text {
+  margin-top: 7vh;
+  margin-bottom: 7vh;
+}
+
+/* line 45, ../sass/style.scss */
+.card-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+/* line 53, ../sass/style.scss */
 header {
   -webkit-background-image: linear-gradient(to left, #910FFF, #EB1DD5, #FFDF09);
   -moz-background-image: linear-gradient(to left, #910FFF, #EB1DD5, #FFDF09);
@@ -108,19 +126,19 @@ header {
   box-shadow: 0 0 5px black;
   position: fixed;
   width: 100%;
-  z-index: 10;
+  z-index: 999;
 }
-/* line 48, ../sass/style.scss */
+/* line 65, ../sass/style.scss */
 header .navbar {
   width: auto;
 }
-/* line 53, ../sass/style.scss */
+/* line 70, ../sass/style.scss */
 header .navbar .collapse .navbar-nav .nav-item a {
   font-weight: bold;
   transition: .3s linear;
   width: max-content;
 }
-/* line 57, ../sass/style.scss */
+/* line 74, ../sass/style.scss */
 header .navbar .collapse .navbar-nav .nav-item a:after {
   position: relative;
   top: 2px;
@@ -131,18 +149,18 @@ header .navbar .collapse .navbar-nav .nav-item a:after {
   width: 0px;
   transition: width .3s linear;
 }
-/* line 67, ../sass/style.scss */
-header .navbar .collapse .navbar-nav .nav-item a:hover:after {
+/* line 84, ../sass/style.scss */
+header .navbar .collapse .navbar-nav .nav-item a:hover:after, header .navbar .collapse .navbar-nav .nav-item a:focus:after, header .navbar .collapse .navbar-nav .nav-item a:active:after {
   width: 100%;
 }
 
-/* line 77, ../sass/style.scss */
+/* line 94, ../sass/style.scss */
 .main-section {
   background: url("../images/1.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
 }
-/* line 82, ../sass/style.scss */
+/* line 99, ../sass/style.scss */
 .main-section .d-flex h1.big-text {
   color: white;
   -webkit-transition: .3s linear;
@@ -152,12 +170,12 @@ header .navbar .collapse .navbar-nav .nav-item a:hover:after {
   transition: .3s linear;
 }
 @media screen and (max-width: 576px) {
-  /* line 91, ../sass/style.scss */
+  /* line 108, ../sass/style.scss */
   .main-section .d-flex h1.big-text {
     font-size: 1.5em;
   }
 }
-/* line 95, ../sass/style.scss */
+/* line 112, ../sass/style.scss */
 .main-section .d-flex .custom-btn {
   position: absolute;
   bottom: 0;
@@ -171,7 +189,7 @@ header .navbar .collapse .navbar-nav .nav-item a:hover:after {
   color: white;
   animation: bouncing-btn .5s linear infinite both;
 }
-/* line 107, ../sass/style.scss */
+/* line 124, ../sass/style.scss */
 .main-section .d-flex .custom-btn:focus, .main-section .d-flex .custom-btn:hover, .main-section .d-flex .custom-btn:active {
   box-shadow: none;
   outline: none;
@@ -188,19 +206,17 @@ header .navbar .collapse .navbar-nav .nav-item a:hover:after {
     bottom: 0px;
   }
 }
-/* line 129, ../sass/style.scss */
+/* line 148, ../sass/style.scss */
 .sec2 .row h2 {
-  margin-top: 7vh;
-  margin-bottom: 7vh;
   text-align: center;
   width: 100%;
 }
-/* line 137, ../sass/style.scss */
+/* line 155, ../sass/style.scss */
 .sec2 .row .gray-anonses .row div {
   overflow: hidden;
   background-color: lightgray;
 }
-/* line 140, ../sass/style.scss */
+/* line 158, ../sass/style.scss */
 .sec2 .row .gray-anonses .row div p {
   width: 100%;
   padding: 1.5em;
@@ -209,12 +225,12 @@ header .navbar .collapse .navbar-nav .nav-item a:hover:after {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* line 151, ../sass/style.scss */
+/* line 169, ../sass/style.scss */
 .sec2 .row .gray-anonse {
   background-color: lightgray;
   overflow: hidden;
 }
-/* line 154, ../sass/style.scss */
+/* line 172, ../sass/style.scss */
 .sec2 .row .gray-anonse p {
   width: 100%;
   padding: 1.5em;
@@ -224,20 +240,15 @@ header .navbar .collapse .navbar-nav .nav-item a:hover:after {
   transform: translate(-50%, -50%);
 }
 
-/* line 167, ../sass/style.scss */
-.sec3 h2.big-text {
-  margin-top: 7vh;
-  margin-bottom: 7vh;
-}
-/* line 171, ../sass/style.scss */
+/* line 190, ../sass/style.scss */
 .sec3 .carousel {
   width: 80vw;
 }
-/* line 174, ../sass/style.scss */
+/* line 193, ../sass/style.scss */
 .sec3 .carousel .carousel-caption {
   background: rgba(0, 0, 0, 0.5);
 }
-/* line 178, ../sass/style.scss */
+/* line 197, ../sass/style.scss */
 .sec3 .carousel .carousel-item {
   min-height: 450px;
   line-height: 1.7;
@@ -245,19 +256,43 @@ header .navbar .collapse .navbar-nav .nav-item a:hover:after {
   background-position: center center;
   background-repeat: no-repeat;
 }
-/* line 184, ../sass/style.scss */
+/* line 203, ../sass/style.scss */
 .sec3 .carousel .carousel-item h5 {
   font-weight: bold;
 }
-/* line 189, ../sass/style.scss */
+/* line 208, ../sass/style.scss */
 .sec3 .carousel .item1 {
   background-image: url("../images/slide1.jpg");
 }
-/* line 194, ../sass/style.scss */
+/* line 213, ../sass/style.scss */
 .sec3 .carousel .item2 {
   background-image: url("../images/slide2.jpg");
 }
-/* line 198, ../sass/style.scss */
+/* line 217, ../sass/style.scss */
 .sec3 .carousel .item3 {
   background-image: url("../images/slide3.jpg");
+}
+
+/* line 226, ../sass/style.scss */
+.sec4 {
+  line-height: 1.7;
+}
+/* line 234, ../sass/style.scss */
+.sec4 .row .col .card .card-img-holder {
+  min-height: 250px;
+  background-color: lightgray;
+}
+/* line 238, ../sass/style.scss */
+.sec4 .row .col .card .btn {
+  margin-top: 15px;
+}
+
+/* line 248, ../sass/style.scss */
+.sec5 {
+  line-height: 1.7;
+}
+/* line 255, ../sass/style.scss */
+.sec5 .row-cols-4 .col-6 .infographic-handler {
+  font-size: 28px;
+  height: 100%;
 }

@@ -7,7 +7,7 @@ $(document).ready(function(){
  
             top = $(id).offset().top;
          
-        $('body,html').animate({scrollTop: top - 60}, 500);
+        $('body,html').animate({scrollTop: top - 90}, 500);
     });
 
     // $(".top_button").on("click","a", function (event) {
@@ -23,7 +23,7 @@ $(document).ready(function(){
     $('.angle-bottom').click(function() {
         var sectionTo = $(this).attr('href');
         $('html, body').animate({
-            scrollTop: $(sectionTo).offset().top - 60
+            scrollTop: $(sectionTo).offset().top - 70
         }, 500);
     });
 });
