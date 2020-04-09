@@ -73,57 +73,67 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-family: 'Montserrat', sans-serif !important;
 }
 
-/* line 20, ../sass/style.scss */
+/* line 19, ../sass/style.scss */
+.mt10vh {
+  margin-top: 10vh;
+}
+
+/* line 22, ../sass/style.scss */
+.mb10vh {
+  margin-bottom: 10vh;
+}
+
+/* line 25, ../sass/style.scss */
 .h100vh {
   height: 100vh;
 }
 
-/* line 23, ../sass/style.scss */
+/* line 28, ../sass/style.scss */
 .mh25vh {
   min-height: 25vh;
 }
 
-/* line 27, ../sass/style.scss */
+/* line 32, ../sass/style.scss */
 .big-text {
   font-size: 2em;
 }
 
-/* line 31, ../sass/style.scss */
+/* line 36, ../sass/style.scss */
 .bld {
   font-weight: bold;
 }
 
-/* line 35, ../sass/style.scss */
+/* line 40, ../sass/style.scss */
 .mw1280 {
   max-width: 1280px;
 }
 
-/* line 39, ../sass/style.scss */
+/* line 44, ../sass/style.scss */
 .no-bg {
   background: none;
 }
 
-/* line 42, ../sass/style.scss */
-.h2-mt-mb-7vh, .sec2 .row h2, .sec3 h2.big-text, .sec4 h2.big-text, .sec5 .rgba-bg h2.big-text {
+/* line 47, ../sass/style.scss */
+.h2-mt-mb-7vh, .sec2 .row h2, .sec3 h2.big-text, .sec4 h2.big-text, .sec5 .rgba-bg h2.big-text, .sec7 h2.big-text {
   margin-top: 7vh;
   margin-bottom: 7vh;
 }
 
-/* line 46, ../sass/style.scss */
+/* line 51, ../sass/style.scss */
 .card-title {
   font-weight: bold;
   font-size: 18px;
   margin-bottom: 0;
 }
 
-/* line 52, ../sass/style.scss */
+/* line 57, ../sass/style.scss */
 .bgPlacement, .sec3 .carousel .carousel-item, .sec5 {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
-/* line 60, ../sass/style.scss */
+/* line 65, ../sass/style.scss */
 header {
   -webkit-background-image: linear-gradient(to left, #910FFF, #EB1DD5, #FFDF09);
   -moz-background-image: linear-gradient(to left, #910FFF, #EB1DD5, #FFDF09);
@@ -135,17 +145,17 @@ header {
   width: 100%;
   z-index: 999;
 }
-/* line 72, ../sass/style.scss */
+/* line 77, ../sass/style.scss */
 header .navbar {
   width: auto;
 }
-/* line 77, ../sass/style.scss */
+/* line 82, ../sass/style.scss */
 header .navbar .collapse .navbar-nav .nav-item a {
   font-weight: bold;
   transition: .3s linear;
   width: max-content;
 }
-/* line 81, ../sass/style.scss */
+/* line 86, ../sass/style.scss */
 header .navbar .collapse .navbar-nav .nav-item a:after {
   position: relative;
   top: 2px;
@@ -156,18 +166,18 @@ header .navbar .collapse .navbar-nav .nav-item a:after {
   width: 0px;
   transition: width .3s linear;
 }
-/* line 91, ../sass/style.scss */
+/* line 96, ../sass/style.scss */
 header .navbar .collapse .navbar-nav .nav-item a:hover:after, header .navbar .collapse .navbar-nav .nav-item a:focus:after, header .navbar .collapse .navbar-nav .nav-item a:active:after {
   width: 100%;
 }
 
-/* line 101, ../sass/style.scss */
+/* line 106, ../sass/style.scss */
 .main-section {
   background: url("../images/1.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
 }
-/* line 106, ../sass/style.scss */
+/* line 111, ../sass/style.scss */
 .main-section .d-flex h1.big-text {
   color: white;
   -webkit-transition: .3s linear;
@@ -177,12 +187,12 @@ header .navbar .collapse .navbar-nav .nav-item a:hover:after, header .navbar .co
   transition: .3s linear;
 }
 @media screen and (max-width: 576px) {
-  /* line 115, ../sass/style.scss */
+  /* line 120, ../sass/style.scss */
   .main-section .d-flex h1.big-text {
     font-size: 1.5em;
   }
 }
-/* line 119, ../sass/style.scss */
+/* line 124, ../sass/style.scss */
 .main-section .d-flex .custom-btn {
   position: absolute;
   bottom: 0;
@@ -196,7 +206,7 @@ header .navbar .collapse .navbar-nav .nav-item a:hover:after, header .navbar .co
   color: white;
   animation: bouncing-btn .5s linear infinite both;
 }
-/* line 131, ../sass/style.scss */
+/* line 136, ../sass/style.scss */
 .main-section .d-flex .custom-btn:focus, .main-section .d-flex .custom-btn:hover, .main-section .d-flex .custom-btn:active {
   box-shadow: none;
   outline: none;
@@ -213,17 +223,17 @@ header .navbar .collapse .navbar-nav .nav-item a:hover:after, header .navbar .co
     bottom: 0px;
   }
 }
-/* line 155, ../sass/style.scss */
+/* line 160, ../sass/style.scss */
 .sec2 .row h2 {
   text-align: center;
   width: 100%;
 }
-/* line 162, ../sass/style.scss */
+/* line 167, ../sass/style.scss */
 .sec2 .row .gray-anonses .row div {
   overflow: hidden;
   background-color: lightgray;
 }
-/* line 165, ../sass/style.scss */
+/* line 170, ../sass/style.scss */
 .sec2 .row .gray-anonses .row div p {
   width: 100%;
   padding: 1.5em;
@@ -232,12 +242,12 @@ header .navbar .collapse .navbar-nav .nav-item a:hover:after, header .navbar .co
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* line 176, ../sass/style.scss */
+/* line 181, ../sass/style.scss */
 .sec2 .row .gray-anonse {
   background-color: lightgray;
   overflow: hidden;
 }
-/* line 179, ../sass/style.scss */
+/* line 184, ../sass/style.scss */
 .sec2 .row .gray-anonse p {
   width: 100%;
   padding: 1.5em;
@@ -247,95 +257,138 @@ header .navbar .collapse .navbar-nav .nav-item a:hover:after, header .navbar .co
   transform: translate(-50%, -50%);
 }
 
-/* line 197, ../sass/style.scss */
+/* line 202, ../sass/style.scss */
 .sec3 .carousel {
   width: 80vw;
 }
-/* line 200, ../sass/style.scss */
+/* line 205, ../sass/style.scss */
 .sec3 .carousel .carousel-caption {
   background: rgba(0, 0, 0, 0.5);
 }
-/* line 204, ../sass/style.scss */
+/* line 209, ../sass/style.scss */
 .sec3 .carousel .carousel-item {
   min-height: 450px;
   line-height: 1.7;
 }
-/* line 208, ../sass/style.scss */
+/* line 213, ../sass/style.scss */
 .sec3 .carousel .carousel-item h5 {
   font-weight: bold;
 }
-/* line 213, ../sass/style.scss */
+/* line 218, ../sass/style.scss */
 .sec3 .carousel .item1 {
   background-image: url("../images/slide1.jpg");
 }
-/* line 218, ../sass/style.scss */
+/* line 223, ../sass/style.scss */
 .sec3 .carousel .item2 {
   background-image: url("../images/slide2.jpg");
 }
-/* line 222, ../sass/style.scss */
+/* line 227, ../sass/style.scss */
 .sec3 .carousel .item3 {
   background-image: url("../images/slide3.jpg");
 }
-/* line 225, ../sass/style.scss */
+/* line 230, ../sass/style.scss */
 .sec3 .carousel .carousel-control-prev, .sec3 .carousel .carousel-control-next {
   font-size: 40px;
   opacity: .7;
   color: #820CE6;
 }
-/* line 231, ../sass/style.scss */
+/* line 236, ../sass/style.scss */
 .sec3 .carousel .carousel-indicators li {
   background-color: #820CE6;
 }
 
-/* line 241, ../sass/style.scss */
+/* line 246, ../sass/style.scss */
 .sec4 {
   line-height: 1.7;
 }
-/* line 249, ../sass/style.scss */
+/* line 254, ../sass/style.scss */
 .sec4 .row .col .card .card-img-holder {
   min-height: 250px;
   background-color: lightgray;
 }
-/* line 253, ../sass/style.scss */
+/* line 258, ../sass/style.scss */
 .sec4 .row .col .card .btn {
   margin-top: 15px;
   border: none;
   background-color: #820CE6;
   transition: box-shadow .3s linear;
 }
-/* line 258, ../sass/style.scss */
+/* line 263, ../sass/style.scss */
 .sec4 .row .col .card .btn:focus {
   box-shadow: 0 0 0 3px #ca92f9;
 }
-/* line 261, ../sass/style.scss */
+/* line 266, ../sass/style.scss */
 .sec4 .row .col .card .btn:hover, .sec4 .row .col .card .btn:active {
   outline: none;
   border: none;
 }
 
-/* line 273, ../sass/style.scss */
+/* line 278, ../sass/style.scss */
 .sec5 {
   background: url("../images/team.jpg");
   background-position: center center;
   line-height: 1.7;
   color: white;
-  box-shadow: inset 0 0 20px #7309CC;
+  box-shadow: inset 0 0 20px #7309CC, inset 0 0 200px #000;
 }
-/* line 281, ../sass/style.scss */
+/* line 286, ../sass/style.scss */
 .sec5 .rgba-bg h2.big-text {
   padding-top: 2em;
 }
-/* line 287, ../sass/style.scss */
+/* line 292, ../sass/style.scss */
 .sec5 .rgba-bg {
   background-color: rgba(115, 9, 204, 0.7);
 }
-/* line 292, ../sass/style.scss */
+/* line 297, ../sass/style.scss */
 .sec5 .row-cols-4 .col-6 .infographic-handler {
   font-size: 28px;
   height: 100%;
   color: #FFA200;
 }
-/* line 296, ../sass/style.scss */
+/* line 301, ../sass/style.scss */
 .sec5 .row-cols-4 .col-6 .infographic-handler span {
   color: white;
+}
+
+/* line 313, ../sass/style.scss */
+.sec7 h2.big-text {
+  margin-top: 0;
+}
+/* line 317, ../sass/style.scss */
+.sec7 .slider-1 {
+  position: relative;
+  line-height: 1.5;
+}
+/* line 323, ../sass/style.scss */
+.sec7 .slider-1 .owl-stage-outer .owl-stage .owl-item .card {
+  border: none;
+}
+/* line 330, ../sass/style.scss */
+.sec7 .slider-1 .falseNavigationLeft {
+  position: absolute;
+  height: 100%;
+  top: 50%;
+  left: 0;
+  transform: translate(0%, -50%);
+}
+/* line 338, ../sass/style.scss */
+.sec7 .slider-1 .falseNavigationRight {
+  position: absolute;
+  height: 100%;
+  top: 50%;
+  right: 0;
+  transform: translate(0%, -50%);
+}
+/* line 346, ../sass/style.scss */
+.sec7 .slider-1 .falseNavigationLeft, .sec7 .slider-1 .falseNavigationRight {
+  transition: .3s linear;
+  color: #FFA200;
+}
+/* line 349, ../sass/style.scss */
+.sec7 .slider-1 .falseNavigationLeft:hover, .sec7 .slider-1 .falseNavigationLeft:focus, .sec7 .slider-1 .falseNavigationLeft:active, .sec7 .slider-1 .falseNavigationRight:hover, .sec7 .slider-1 .falseNavigationRight:focus, .sec7 .slider-1 .falseNavigationRight:active {
+  box-shadow: none;
+}
+/* line 352, ../sass/style.scss */
+.sec7 .slider-1 .falseNavigationLeft:hover, .sec7 .slider-1 .falseNavigationRight:hover {
+  opacity: .6;
 }

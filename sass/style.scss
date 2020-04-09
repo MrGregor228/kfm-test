@@ -16,7 +16,12 @@ $yellow: #FFA200;
 }
 
 // Custom Styles
-
+.mt10vh {
+	margin-top: 10vh;
+}
+.mb10vh {
+	margin-bottom: 10vh;
+}
 .h100vh {
 	height: 100vh;
 }
@@ -268,7 +273,7 @@ header {
 	}
 }
 
-// ------- Section 4 -------
+// ------- Section 5 -------
 
 .sec5 {
 	@extend .bgPlacement;
@@ -276,7 +281,7 @@ header {
 	background-position: center center;
 	line-height: 1.7;
 	color:white;
-	box-shadow: inset 0 0 20px #7309CC;
+	box-shadow: inset 0 0 20px #7309CC, inset 0 0 200px #000;
 	.rgba-bg {
 		h2.big-text {
 			@extend .h2-mt-mb-7vh;
@@ -299,4 +304,55 @@ header {
 			}
 		}
 	}
+}
+
+// ------- Section 6 -------
+
+// ------- Section 7 -------
+.sec7 {
+	h2.big-text {
+		@extend .h2-mt-mb-7vh;
+		margin-top: 0;
+	}
+	.slider-1 {
+        position: relative;
+        line-height: 1.5;
+        .owl-stage-outer {
+        	.owl-stage {
+				.owl-item {
+					.card {
+			        	border:none;
+			        }
+				}			        
+        	}
+        }
+			
+            .falseNavigationLeft{
+                position: absolute;
+                height: 100%;
+                top: 50%;
+                left: 0;
+                transform: translate(0%, -50%);
+            }
+
+            .falseNavigationRight {
+                position: absolute;
+                height: 100%;
+                top: 50%;
+                right: 0;
+                transform: translate(0%, -50%);
+            }
+
+            .falseNavigationLeft,.falseNavigationRight {
+                transition: .3s linear;
+                color: $yellow;
+                &:hover, &:focus, &:active {
+                    box-shadow: none;
+                }
+                &:hover {
+                    opacity: .6;
+                }
+            }
+    }
+
 }
