@@ -1,0 +1,16 @@
+.sec8 {
+    .mw320 {
+        max-width: 200px;
+        max-height: 200px;
+    }
+    .grayscale {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        transition: .3s linear;
+    
+        &:hover {
+            filter: grayscale(0%);
+        }
+    }
+    
+}

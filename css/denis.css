@@ -1,0 +1,15 @@
+/* line 2, ../sass/denis.scss */
+.sec8 .mw320 {
+  max-width: 200px;
+  max-height: 200px;
+}
+/* line 6, ../sass/denis.scss */
+.sec8 .grayscale {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: .3s linear;
+}
+/* line 11, ../sass/denis.scss */
+.sec8 .grayscale:hover {
+  filter: grayscale(0%);
+}
