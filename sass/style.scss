@@ -49,6 +49,12 @@ $yellow: #FFA200;
 	margin-bottom: 0;
 }
 
+.bgPlacement {
+	background-size: $bgSz;
+	background-position: $bgPos;
+	background-repeat: $bgRp;
+}
+
 // Custom Styles
 
 header {
@@ -196,11 +202,9 @@ header {
 		}
 
 		.carousel-item {
+			@extend .bgPlacement;
 			min-height: 450px;
 			line-height: 1.7;
-			background-size: $bgSz;
-			background-position: $bgPos;
-	       	background-repeat: $bgRp;
 	       	h5 {
 	       		font-weight: bold;
 	       	}
@@ -267,9 +271,20 @@ header {
 // ------- Section 4 -------
 
 .sec5 {
+	@extend .bgPlacement;
+	background:url("../images/team.jpg");
+	background-position: center center;
 	line-height: 1.7;
-	h2.big-text {
-		@extend .h2-mt-mb-7vh;
+	color:white;
+	.rgba-bg {
+		h2.big-text {
+			@extend .h2-mt-mb-7vh;
+			padding-top: 2em;
+		}
+	}
+	
+	.rgba-bg {
+		background-color: rgba(#7309CC,0.7);
 	}
 	.row-cols-4 {
 		.col-6 {
@@ -278,7 +293,7 @@ header {
 				height: 100%;
 				color: $yellow;
 				span {
-					color:black;
+					color:white;
 				}
 			}
 		}

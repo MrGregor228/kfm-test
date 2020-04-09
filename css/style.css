@@ -104,7 +104,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 42, ../sass/style.scss */
-.h2-mt-mb-7vh, .sec2 .row h2, .sec3 h2.big-text, .sec4 h2.big-text, .sec5 h2.big-text {
+.h2-mt-mb-7vh, .sec2 .row h2, .sec3 h2.big-text, .sec4 h2.big-text, .sec5 .rgba-bg h2.big-text {
   margin-top: 7vh;
   margin-bottom: 7vh;
 }
@@ -116,7 +116,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-bottom: 0;
 }
 
-/* line 54, ../sass/style.scss */
+/* line 52, ../sass/style.scss */
+.bgPlacement, .sec3 .carousel .carousel-item, .sec5 {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/* line 60, ../sass/style.scss */
 header {
   -webkit-background-image: linear-gradient(to left, #910FFF, #EB1DD5, #FFDF09);
   -moz-background-image: linear-gradient(to left, #910FFF, #EB1DD5, #FFDF09);
@@ -128,17 +135,17 @@ header {
   width: 100%;
   z-index: 999;
 }
-/* line 66, ../sass/style.scss */
+/* line 72, ../sass/style.scss */
 header .navbar {
   width: auto;
 }
-/* line 71, ../sass/style.scss */
+/* line 77, ../sass/style.scss */
 header .navbar .collapse .navbar-nav .nav-item a {
   font-weight: bold;
   transition: .3s linear;
   width: max-content;
 }
-/* line 75, ../sass/style.scss */
+/* line 81, ../sass/style.scss */
 header .navbar .collapse .navbar-nav .nav-item a:after {
   position: relative;
   top: 2px;
@@ -149,18 +156,18 @@ header .navbar .collapse .navbar-nav .nav-item a:after {
   width: 0px;
   transition: width .3s linear;
 }
-/* line 85, ../sass/style.scss */
+/* line 91, ../sass/style.scss */
 header .navbar .collapse .navbar-nav .nav-item a:hover:after, header .navbar .collapse .navbar-nav .nav-item a:focus:after, header .navbar .collapse .navbar-nav .nav-item a:active:after {
   width: 100%;
 }
 
-/* line 95, ../sass/style.scss */
+/* line 101, ../sass/style.scss */
 .main-section {
   background: url("../images/1.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
 }
-/* line 100, ../sass/style.scss */
+/* line 106, ../sass/style.scss */
 .main-section .d-flex h1.big-text {
   color: white;
   -webkit-transition: .3s linear;
@@ -170,12 +177,12 @@ header .navbar .collapse .navbar-nav .nav-item a:hover:after, header .navbar .co
   transition: .3s linear;
 }
 @media screen and (max-width: 576px) {
-  /* line 109, ../sass/style.scss */
+  /* line 115, ../sass/style.scss */
   .main-section .d-flex h1.big-text {
     font-size: 1.5em;
   }
 }
-/* line 113, ../sass/style.scss */
+/* line 119, ../sass/style.scss */
 .main-section .d-flex .custom-btn {
   position: absolute;
   bottom: 0;
@@ -189,7 +196,7 @@ header .navbar .collapse .navbar-nav .nav-item a:hover:after, header .navbar .co
   color: white;
   animation: bouncing-btn .5s linear infinite both;
 }
-/* line 125, ../sass/style.scss */
+/* line 131, ../sass/style.scss */
 .main-section .d-flex .custom-btn:focus, .main-section .d-flex .custom-btn:hover, .main-section .d-flex .custom-btn:active {
   box-shadow: none;
   outline: none;
@@ -206,17 +213,17 @@ header .navbar .collapse .navbar-nav .nav-item a:hover:after, header .navbar .co
     bottom: 0px;
   }
 }
-/* line 149, ../sass/style.scss */
+/* line 155, ../sass/style.scss */
 .sec2 .row h2 {
   text-align: center;
   width: 100%;
 }
-/* line 156, ../sass/style.scss */
+/* line 162, ../sass/style.scss */
 .sec2 .row .gray-anonses .row div {
   overflow: hidden;
   background-color: lightgray;
 }
-/* line 159, ../sass/style.scss */
+/* line 165, ../sass/style.scss */
 .sec2 .row .gray-anonses .row div p {
   width: 100%;
   padding: 1.5em;
@@ -225,12 +232,12 @@ header .navbar .collapse .navbar-nav .nav-item a:hover:after, header .navbar .co
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* line 170, ../sass/style.scss */
+/* line 176, ../sass/style.scss */
 .sec2 .row .gray-anonse {
   background-color: lightgray;
   overflow: hidden;
 }
-/* line 173, ../sass/style.scss */
+/* line 179, ../sass/style.scss */
 .sec2 .row .gray-anonse p {
   width: 100%;
   padding: 1.5em;
@@ -240,86 +247,94 @@ header .navbar .collapse .navbar-nav .nav-item a:hover:after, header .navbar .co
   transform: translate(-50%, -50%);
 }
 
-/* line 191, ../sass/style.scss */
+/* line 197, ../sass/style.scss */
 .sec3 .carousel {
   width: 80vw;
 }
-/* line 194, ../sass/style.scss */
+/* line 200, ../sass/style.scss */
 .sec3 .carousel .carousel-caption {
   background: rgba(0, 0, 0, 0.5);
 }
-/* line 198, ../sass/style.scss */
+/* line 204, ../sass/style.scss */
 .sec3 .carousel .carousel-item {
   min-height: 450px;
   line-height: 1.7;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
 }
-/* line 204, ../sass/style.scss */
+/* line 208, ../sass/style.scss */
 .sec3 .carousel .carousel-item h5 {
   font-weight: bold;
 }
-/* line 209, ../sass/style.scss */
+/* line 213, ../sass/style.scss */
 .sec3 .carousel .item1 {
   background-image: url("../images/slide1.jpg");
 }
-/* line 214, ../sass/style.scss */
+/* line 218, ../sass/style.scss */
 .sec3 .carousel .item2 {
   background-image: url("../images/slide2.jpg");
 }
-/* line 218, ../sass/style.scss */
+/* line 222, ../sass/style.scss */
 .sec3 .carousel .item3 {
   background-image: url("../images/slide3.jpg");
 }
-/* line 221, ../sass/style.scss */
+/* line 225, ../sass/style.scss */
 .sec3 .carousel .carousel-control-prev, .sec3 .carousel .carousel-control-next {
   font-size: 40px;
   opacity: .7;
   color: #820CE6;
 }
-/* line 227, ../sass/style.scss */
+/* line 231, ../sass/style.scss */
 .sec3 .carousel .carousel-indicators li {
   background-color: #820CE6;
 }
 
-/* line 237, ../sass/style.scss */
+/* line 241, ../sass/style.scss */
 .sec4 {
   line-height: 1.7;
 }
-/* line 245, ../sass/style.scss */
+/* line 249, ../sass/style.scss */
 .sec4 .row .col .card .card-img-holder {
   min-height: 250px;
   background-color: lightgray;
 }
-/* line 249, ../sass/style.scss */
+/* line 253, ../sass/style.scss */
 .sec4 .row .col .card .btn {
   margin-top: 15px;
   border: none;
   background-color: #820CE6;
   transition: box-shadow .3s linear;
 }
-/* line 254, ../sass/style.scss */
+/* line 258, ../sass/style.scss */
 .sec4 .row .col .card .btn:focus {
   box-shadow: 0 0 0 3px #ca92f9;
 }
-/* line 257, ../sass/style.scss */
+/* line 261, ../sass/style.scss */
 .sec4 .row .col .card .btn:hover, .sec4 .row .col .card .btn:active {
   outline: none;
   border: none;
 }
 
-/* line 269, ../sass/style.scss */
+/* line 273, ../sass/style.scss */
 .sec5 {
+  background: url("../images/team.jpg");
+  background-position: center center;
   line-height: 1.7;
+  color: white;
 }
-/* line 276, ../sass/style.scss */
+/* line 280, ../sass/style.scss */
+.sec5 .rgba-bg h2.big-text {
+  padding-top: 2em;
+}
+/* line 286, ../sass/style.scss */
+.sec5 .rgba-bg {
+  background-color: rgba(115, 9, 204, 0.7);
+}
+/* line 291, ../sass/style.scss */
 .sec5 .row-cols-4 .col-6 .infographic-handler {
   font-size: 28px;
   height: 100%;
   color: #FFA200;
 }
-/* line 280, ../sass/style.scss */
+/* line 295, ../sass/style.scss */
 .sec5 .row-cols-4 .col-6 .infographic-handler span {
-  color: black;
+  color: white;
 }
