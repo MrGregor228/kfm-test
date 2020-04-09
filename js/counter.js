@@ -1,7 +1,7 @@
-var number = document.querySelectorAll('.number')[0],
-	numberTwo = document.querySelectorAll('.number')[1],
-	numberThree = document.querySelectorAll('.number')[2],
-	numberFour = document.querySelectorAll('.number')[3],
+var number = document.querySelector('.numberOne'),
+	numberTwo = document.querySelector('.numberTwo'),
+	numberThree = document.querySelector('.numberThree'),
+	numberFour = document.querySelector('.numberFour'),
 
 	numberTop = number.getBoundingClientRect().top,
 	numberTopTwo = numberTwo.getBoundingClientRect().top,
@@ -20,11 +20,13 @@ var number = document.querySelectorAll('.number')[0],
 	startFourth = +numberFour.innerHTML,
 	endFourth = +numberFour.dataset.max,
 
+	windowHeight = window.innerHeight,
+
 	usuallSpeed = 8,
 	customSpeed = 0.0001;
 
 window.addEventListener('scroll', function onScroll() {
-	if (window.pageYOffset > numberTop - window.innerHeight) {
+	if (window.pageYOffset > numberTop - windowHeight) {
 		this.removeEventListener('scroll', onScroll);
 		var interval = setInterval(function() {
 			number.innerHTML = ++start;
@@ -35,7 +37,7 @@ window.addEventListener('scroll', function onScroll() {
 		}, usuallSpeed + 100);
 	}
 
-	if (window.pageYOffset > numberTopTwo - window.innerHeight) {
+	if (window.pageYOffset > numberTopTwo - windowHeight) {
 		this.removeEventListener('scroll', onScroll);
 		var intervalTwo = setInterval(function() {
 			numberTwo.innerHTML = ++startSecond;
@@ -57,7 +59,7 @@ window.addEventListener('scroll', function onScroll() {
 		}, usuallSpeed);
 	}
 
-	if (window.pageYOffset > numberTopThree - window.innerHeight) {
+	if (window.pageYOffset > numberTopFour - window.innerHeight) {
 		this.removeEventListener('scroll', onScroll);
 		var intervalFour = setInterval(function() {
 			numberFour.innerHTML = ++startFourth;
@@ -67,4 +69,4 @@ window.addEventListener('scroll', function onScroll() {
 
 		}, usuallSpeed);
 	}
-});
+})
