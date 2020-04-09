@@ -319,22 +319,23 @@ header .navbar .collapse .navbar-nav .nav-item a:hover:after, header .navbar .co
   background-position: center center;
   line-height: 1.7;
   color: white;
+  box-shadow: inset 0 0 20px #7309CC;
 }
-/* line 280, ../sass/style.scss */
+/* line 281, ../sass/style.scss */
 .sec5 .rgba-bg h2.big-text {
   padding-top: 2em;
 }
-/* line 286, ../sass/style.scss */
+/* line 287, ../sass/style.scss */
 .sec5 .rgba-bg {
   background-color: rgba(115, 9, 204, 0.7);
 }
-/* line 291, ../sass/style.scss */
+/* line 292, ../sass/style.scss */
 .sec5 .row-cols-4 .col-6 .infographic-handler {
   font-size: 28px;
   height: 100%;
   color: #FFA200;
 }
-/* line 295, ../sass/style.scss */
+/* line 296, ../sass/style.scss */
 .sec5 .row-cols-4 .col-6 .infographic-handler span {
   color: white;
 }
