@@ -186,55 +186,7 @@ a {
 
 //  --------------- MAIN SECTION ---------------
 
-.main-section {
-	background: url("../images/1.jpg") $bgRp;
-	background-position: $bgPos;
-	background-size: $bgSz;
-	.d-flex {
-		h1.big-text {
-			color:white;
-			-webkit-transition: .3s linear;
-			-moz-transition: .3s linear;
-			-o-transition: .3s linear;
-			-ms-transition: .3s linear;
-			transition: .3s linear;
-		}
-		@media screen and (max-width: 576px) {
-			h1.big-text {
-				font-size: 1.5em;
-			}
-		}
-		.custom-btn {
-			position: absolute;
-			bottom:0;
-			left:50%;
-			padding: 0.25rem;
-			-webkit-transform:translate(-48%, 0%);
-			-moz-transform:translate(-48%, 0%);
-			-o-transform:translate(-48%, 0%);
-			-ms-transform:translate(-48%, 0%);
-			transform:translate(-48%, 0%);
-			color:white;
-			animation: bouncing-btn .5s linear infinite both;
-			&:focus,&:hover,&:active {
-				box-shadow: none;
-				outline:none;
-				border:none;
-			}
-		}
-		@keyframes bouncing-btn {
-			0%{
-				bottom: 0px;
-			}
-			50%{
-				bottom: 5px;
-			}
-			100% {
-				bottom: 0px;
-			}
-		}
-	}
-}
+
 //  --------------- MAIN SECTION ---------------
 
 // --------------- Section 2 ---------------
