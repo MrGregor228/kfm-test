@@ -105,6 +105,12 @@ a {
 					transition: .3s linear;
 					width: max-content;
 					text-decoration: none;
+					@media screen and (max-width: 768px) {
+						font-size: 25px;						
+					}
+					@media screen and (max-width: 576px) {
+							font-size: 20px;
+						}
 					&:after {
 						position: relative;
 						// left: 15px;
