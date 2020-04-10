@@ -60,16 +60,16 @@ $dark: #343a40;
 	background-position: $bgPos;
 	background-repeat: $bgRp;
 }
-
+.h100vh {
+	height: 100vh;
+}
+a {
+	text-decoration: none;
+}
 // Custom Styles
 
-header {
+#menu {
 	@extend .bgPlacement;
-	// -webkit-background-image: linear-gradient(to left, #910FFF, #EB1DD5, #FFDF09);
-	// -moz-background-image: linear-gradient(to left, #910FFF, #EB1DD5, #FFDF09);
-	// -o-background-image: linear-gradient(to left, #910FFF, #EB1DD5, #FFDF09);
-	// -ms-background-image: linear-gradient(to left, #910FFF, #EB1DD5, #FFDF09);
-	// background-image: linear-gradient(to left, #910FFF, #EB1DD5, #FFDF09);
 	position: fixed;
 	background-image: url("../images/team.jpg");
 	width:100%;
@@ -81,35 +81,55 @@ header {
 	z-index: 999;
 	opacity: 0;
 	display: none;
-	transition: .3s;
-
-	.navbar {
-		width: auto;
-		.collapse {
-			.navbar-nav {
-				.nav-item {
-					a {
-						font-weight: bold;
-						transition: .3s linear;
-						width: max-content;
-						&:after {
-							position: relative;
-							top: 2px;
-							content: "";
-							display: block;
-							height: 2px;
-							background-color: #8A00FF;
-							width: 0px;
-							transition:width .3s linear;
-						}
-						&:hover:after, &:focus:after, &:active:after {
-							width: 100%;
-						}
-					}					
+	-webkit-transition:all .3s;
+	-moz-transition:all .3s;
+	-ms-transition:all .3s;
+	-o-transition:all .3s;
+	transition:all .3s;
+	.menu-links-list {
+		line-height: 1.5;
+		background-color: rgba($dark, .9);
+		.links-wrapper {
+			li {
+				width: max-content;
+				a {
+					color:white;
+					font-weight: bold;
+					transition: .3s linear;
+					width: max-content;
+					text-decoration: none;
+					&:after {
+						position: relative;
+						// left: 15px;
+						top: 2px;
+						content: "";
+						display: block;
+						height: 3px;
+						background-color: #fff;
+						width: 0px;
+						transition:width .3s linear;
+					}		
+					// &:before {
+					// 	content: "";
+					// 	display: inline-block;
+					// 	position: relative;
+					// 	bottom: 13px;
+					// 	width: 0px;
+					// 	height: 2.5px;
+					// 	background-color: #fff;
+					// 	transition:width .3s linear;
+					// }	
+					// &:hover:before, &:focus:before, &:active:before {
+					// 	width: 15px;
+					// }
+					&:hover:after, &:focus:after, &:active:after {
+						width: 100%;
+					}
 				}
 			}
 		}
-	}
+		
+	}			
 }
 
 .menu-trigger-open {
