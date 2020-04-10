@@ -68,6 +68,7 @@ a {
 }
 // Custom Styles
 
+//  --------------- MENU ---------------
 #menu {
 	@extend .bgPlacement;
 	position: fixed;
@@ -87,9 +88,15 @@ a {
 	-o-transition:all .3s;
 	transition:all .3s;
 	.menu-links-list {
+		position: relative;
 		line-height: 1.5;
 		background-color: rgba($dark, .9);
 		.links-wrapper {
+			position: absolute;
+			top: 50%;
+			left: 20%;
+			transform:translate(-20%, -50%);
+
 			li {
 				width: max-content;
 				a {
@@ -131,6 +138,10 @@ a {
 		
 	}			
 }
+//  --------------- MENU ---------------
+
+
+//  --------------- MENU BUTTON ---------------
 
 .menu-trigger-open {
 	position: fixed;
@@ -144,11 +155,11 @@ a {
 	z-index: 100;
 	box-shadow: 0 0 10px black;
 	cursor: pointer;
-	-webkit-transition:.3s linear;
-	-moz-transition:.3s linear;
-	-ms-transition:.3s linear;
-	-o-transition:.3s linear;
-	transition:.3s linear;
+	-webkit-transition:opacity .3s linear;
+	-moz-transition:opacity .3s linear;
+	-ms-transition:opacity .3s linear;
+	-o-transition:opacity .3s linear;
+	transition:opacity .3s linear;
 }
 
 .menu-trigger-close {
@@ -157,6 +168,10 @@ a {
 	background-color: $dark;
 	color: white;
 }
+//  --------------- MENU BUTTON ---------------
+
+
+//  --------------- MAIN SECTION ---------------
 
 .main-section {
 	background: url("../images/1.jpg") $bgRp;
@@ -207,8 +222,9 @@ a {
 		}
 	}
 }
+//  --------------- MAIN SECTION ---------------
 
-// ------- Section 2 -------
+// --------------- Section 2 ---------------
 
 .sec2 {
 	.row {
@@ -248,7 +264,7 @@ a {
 	}
 }
 
-// ------- Section 3 -------
+// --------------- Section 3 ---------------
 
 .sec3 {
 	h2.big-text {
@@ -296,7 +312,7 @@ a {
 	
 }
 
-// ------- Section 4 -------
+// --------------- Section 4 ---------------
 
 .sec4 {
 	line-height: 1.7;
@@ -328,7 +344,7 @@ a {
 	}
 }
 
-// ------- Section 5 -------
+// --------------- Section 5 ---------------
 
 .sec5 {
 	@extend .bgPlacement;
@@ -361,9 +377,9 @@ a {
 	}
 }
 
-// ------- Section 6 -------
+// --------------- Section X ---------------
 
-// ------- Section 7 -------
+// --------------- Section 7 ---------------
 .sec7 {
 	h2.big-text {
 		@extend .h2-mt-mb-7vh;

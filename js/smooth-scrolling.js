@@ -4,6 +4,7 @@ var menuOpen = document.querySelector(".menu-trigger-open"),
 
 function showMenu() {
     menuOpen.style.display = "none";
+    menuOpen.style.opacity = "0";
     menuClose.style.display = "block";
     menu.style.opacity = "1";
     setTimeout(function() {
@@ -11,6 +12,7 @@ function showMenu() {
     }, 500);
 }
 function hideMenu() {
+    menuOpen.style.opacity = "1";
     menuOpen.style.display = "block";
     menuClose.style.display = "none";
     menu.style.opacity = "0";
