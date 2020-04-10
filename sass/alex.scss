@@ -1,37 +1,133 @@
-.footer{
-    padding: 2rem;
-    p{
-        color: #fff;
-        margin-bottom: 2rem;
 
-        a{
-            color: #fff;
-            text-decoration: none;
-            transition: all .3s ease-in-out;
-            &:hover{
-                text-shadow: 0px 0px 15px rgba(255, 255, 255, 1);
-            }
-        }
-    }
+// ------- main -------
 
-    ul{
-        li{
-            margin-right: 1rem;
-            font-size: 1.5em;
-
-            a{
-                padding: .5em;
-                color: #fff;
-                text-decoration: none;
-                transition: ease 0.5s all;
-                border: 1px solid transparent;
-
-                &:hover {
-                  border: 1px solid #fff;
-                  opacity: 60%;
-                }
-            }
-        }
-    }
+.mainS{
+    background: url(../images/background.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;  
+    position: relative;
     
+    .flyElement{
+      position: absolute;
+      height: 20rem;
+      max-width: 30rem;
+      background-color: #fff;
+      top: 40%;
+      left: 30%;
+      transform: translate(-50%, -50%);
+      padding: 4rem;
+  
+      &::before{
+        content: "";
+        width: 13rem;
+        height: 1.2rem;
+        background: #373F48;
+        display: block;
+        position: absolute;
+        right: -25%;
+      }
+    }
+   
+  }
+  
+  .stat{
+    position: static;
+  }
+  
+  
+  
+  
+  
+  // ------- Footer -------
+  
+  .footer{
+      padding: 2rem;
+      p{
+          color: #fff;
+          margin-bottom: 2rem;
+  
+          a{
+              color: #fff;
+              text-decoration: none;
+              transition: all .3s ease-in-out;
+              &:hover{
+                  text-shadow: 0px 0px 15px rgba(255, 255, 255, 1);
+              }
+          }
+      }
+  
+      ul{
+          li{
+              margin-right: 1rem;
+              font-size: 1.5em;
+  
+              a{
+                  padding: .5em;
+                  color: #fff;
+                  text-decoration: none;
+                  transition: ease 0.5s all;
+                  border: 1px solid transparent;
+  
+                  &:hover {
+                    border: 1px solid #fff;
+                    opacity: 60%;
+                  }
+              }
+          }
+      }
+      
+  }
+  
+
+  /*----------------------------------------Media queries----------------------------------------------*/
+
+                                      /*---992-1200px---*/
+
+@media screen and (max-width: 1200px){
+
+}
+
+
+                                       /*---768-992px---*/
+
+@media screen and (max-width: 992px){
+
+}
+
+                                         /*---576-768px---*/
+
+@media screen and (max-width: 768px){
+
+    .mainS{
+        
+        .flyElement{
+            height: 16rem;
+          &::before{
+            content: "";
+            width: 10rem;
+            height: 1.2rem;
+          }
+        }
+       
+      }
+
+}
+
+                                        /*---320-576px---*/
+
+@media screen and (max-width: 576px){
+
+    .mainS{
+        
+        .flyElement{
+      
+          &::before{
+            content: "";
+            width: 7rem;
+            height: 1rem;
+          }
+        }
+       
+      }
+
 }
