@@ -7,13 +7,13 @@
   .custom-btn {
       position: absolute;
       bottom: 10%;
-      left:28%;
+      left:50%;
       padding: 0.25rem;
-      -webkit-transform:translate(-48%, 0%);
-      -moz-transform:translate(-48%, 0%);
-      -o-transform:translate(-48%, 0%);
-      -ms-transform:translate(-48%, 0%);
-      transform:translate(-48%, 0%);
+      -webkit-transform:translate(-50%, 0%);
+      -moz-transform:translate(-50%, 0%);
+      -o-transform:translate(-50%, 0%);
+      -ms-transform:translate(-50%, 0%);
+      transform:translate(-50%, 0%);
       color: #7309cc;
       animation: bouncing-btn .5s linear infinite both;
       &:focus,&:hover,&:active {
