@@ -9,6 +9,7 @@ $bgPos: center center;
 $bgRp: no-repeat;
 $bgSz: cover;
 $yellow: #FFA200;
+$dark: #343a40;
 
 * {
 	box-sizing: border-box;
@@ -101,6 +102,28 @@ header {
 			}
 		}
 	}
+}
+
+.menu-trigger-open {
+	position: fixed;
+	right: 5vw;
+	top: 0;
+	width: fit-content;
+	display: block;
+	padding: 10px;
+	height: 100px;
+	background-color: #fff;
+	z-index: 100;
+	box-shadow: 0 0 10px black;
+	cursor: pointer;
+}
+
+.menu-trigger-close {
+	@extend .menu-trigger-open;
+	z-index: 101;
+	display: none;
+	background-color: $dark;
+	color: white;
 }
 
 .main-section {
