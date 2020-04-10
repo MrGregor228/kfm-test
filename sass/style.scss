@@ -69,16 +69,12 @@ a {
 // Custom Styles
 
 //  --------------- MENU ---------------
-#menu {
-	@extend .bgPlacement;
-	position: fixed;
-	background-image: url("../images/team.jpg");
+#menu {	
+	position: fixed;	
 	width:100%;
 	height: 100%;
 	top: 0;
-	bottom: 0;
 	left: 0;
-	right: 0;
 	z-index: 999;
 	opacity: 0;
 	display: none;
@@ -87,10 +83,21 @@ a {
 	-ms-transition:all .3s;
 	-o-transition:all .3s;
 	transition:all .3s;
+	&:before {
+		@extend .bgPlacement;
+		background-image: url("../images/background.jpg");
+		content: "";
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		filter:grayscale(100%);
+	}
 	.menu-links-list {
 		position: relative;
 		line-height: 1.5;
-		background-color: rgba($dark, .9);
+		background-color: rgba($dark, .9);		
 		.links-wrapper {
 			position: absolute;
 			top: 50%;
