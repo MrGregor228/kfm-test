@@ -1,27 +1,45 @@
 // ------- main -------
 
+.line{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 5rem;
+  background-color: #fff;
+  img{
+    max-width: 15rem;
+    padding: 1rem;
+  }
+}
+
+
+
 .mainS{
   height: 100vh;  
   position: relative;
 
+.arrowBtn{
+  position: absolute;
+  bottom: 0;
+
   .custom-btn {
-      position: absolute;
-      bottom: 10%;
-      left:50%;
-      padding: 0.25rem;
-      -webkit-transform:translate(-50%, 0%);
-      -moz-transform:translate(-50%, 0%);
-      -o-transform:translate(-50%, 0%);
-      -ms-transform:translate(-50%, 0%);
-      transform:translate(-50%, 0%);
-      color: #7309cc;
-      animation: bouncing-btn .5s linear infinite both;
-      &:focus,&:hover,&:active {
-          box-shadow: none;
-          outline:none;
-          border:none;
-      }
+    position: absolute;
+    padding: 0.25rem;
+    -webkit-transform:translate(-50%, 0%);
+    -moz-transform:translate(-50%, 0%);
+    -o-transform:translate(-50%, 0%);
+    -ms-transform:translate(-50%, 0%);
+    transform:translate(-50%, 0%);
+    color: #7309cc;
+    animation: bouncing-btn .5s linear infinite both;
+    &:focus,&:hover,&:active {
+        box-shadow: none;
+        outline:none;
+        border:none;
+    }
   }
+}
+
   @keyframes bouncing-btn {
       0%{
           bottom: 0px;
@@ -49,7 +67,7 @@
     height: 25rem;
     max-width: 35rem;
     background-color: #fff;
-    top: 40%;
+    top: 50%;
     left: 30%;
     transform: translate(-50%, -50%);
     padding: 4rem;
@@ -84,9 +102,6 @@
 .stat{
   position: static;
 }
-
-
-
 
 
 // ------- Footer -------
@@ -163,6 +178,10 @@
 
   .mainS{
 
+    .arrowBtn{
+      bottom: -5%;
+    }
+
       .bgwhite{
           background-color: none;
 
@@ -196,6 +215,15 @@
 @media screen and (max-width: 576px){
 
   .mainS{
+
+    img{
+      max-width: 12rem;
+      padding: 1rem;
+    }
+
+    .arrowBtn{
+      bottom: -6%;
+    }
       
       .flyElement{
         padding: 2rem;
@@ -220,4 +248,19 @@
      
     }
 
+}
+
+                                     /*---320-576px---*/
+
+@media screen and (max-width: 319px){
+
+.mainS{
+
+  .line{
+    img{
+      display: none;
+    }
+  }
+
+}
 }

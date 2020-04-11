@@ -1,13 +1,30 @@
 /* line 3, ../sass/alex.scss */
+.line {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 5rem;
+  background-color: #fff;
+}
+/* line 9, ../sass/alex.scss */
+.line img {
+  max-width: 15rem;
+  padding: 1rem;
+}
+
+/* line 17, ../sass/alex.scss */
 .mainS {
   height: 100vh;
   position: relative;
 }
-/* line 7, ../sass/alex.scss */
-.mainS .custom-btn {
+/* line 21, ../sass/alex.scss */
+.mainS .arrowBtn {
   position: absolute;
-  bottom: 10%;
-  left: 50%;
+  bottom: 0;
+}
+/* line 25, ../sass/alex.scss */
+.mainS .arrowBtn .custom-btn {
+  position: absolute;
   padding: 0.25rem;
   -webkit-transform: translate(-50%, 0%);
   -moz-transform: translate(-50%, 0%);
@@ -17,8 +34,8 @@
   color: #7309cc;
   animation: bouncing-btn .5s linear infinite both;
 }
-/* line 19, ../sass/alex.scss */
-.mainS .custom-btn:focus, .mainS .custom-btn:hover, .mainS .custom-btn:active {
+/* line 35, ../sass/alex.scss */
+.mainS .arrowBtn .custom-btn:focus, .mainS .arrowBtn .custom-btn:hover, .mainS .arrowBtn .custom-btn:active {
   box-shadow: none;
   outline: none;
   border: none;
@@ -34,42 +51,42 @@
     bottom: 0px;
   }
 }
-/* line 37, ../sass/alex.scss */
+/* line 55, ../sass/alex.scss */
 .mainS .bgwhite {
   background-color: #fff;
 }
-/* line 41, ../sass/alex.scss */
+/* line 59, ../sass/alex.scss */
 .mainS .bgimage {
   background: url(../images/background.jpg) no-repeat;
   background-size: cover;
   height: 100vh;
 }
-/* line 47, ../sass/alex.scss */
+/* line 65, ../sass/alex.scss */
 .mainS .flyElement {
   position: absolute;
   height: 25rem;
   max-width: 35rem;
   background-color: #fff;
-  top: 40%;
+  top: 50%;
   left: 30%;
   transform: translate(-50%, -50%);
   padding: 4rem;
   box-shadow: 0 0 10px lightgray;
 }
-/* line 57, ../sass/alex.scss */
+/* line 75, ../sass/alex.scss */
 .mainS .flyElement h1 {
   font-size: 3em;
   font-weight: bold;
   line-height: 1.5;
   margin-bottom: 2rem;
 }
-/* line 65, ../sass/alex.scss */
+/* line 83, ../sass/alex.scss */
 .mainS .flyElement p {
   font-size: 1em;
   font-weight: bold;
   line-height: 1.7;
 }
-/* line 71, ../sass/alex.scss */
+/* line 89, ../sass/alex.scss */
 .mainS .flyElement::before {
   content: "";
   width: 13rem;
@@ -80,36 +97,36 @@
   right: -25%;
 }
 
-/* line 84, ../sass/alex.scss */
+/* line 102, ../sass/alex.scss */
 .stat {
   position: static;
 }
 
-/* line 94, ../sass/alex.scss */
+/* line 109, ../sass/alex.scss */
 .footer {
   padding: 2rem;
 }
-/* line 96, ../sass/alex.scss */
+/* line 111, ../sass/alex.scss */
 .footer p {
   color: #fff;
   margin-bottom: 2rem;
 }
-/* line 100, ../sass/alex.scss */
+/* line 115, ../sass/alex.scss */
 .footer p a {
   color: #fff;
   text-decoration: none;
   transition: all .3s ease-in-out;
 }
-/* line 104, ../sass/alex.scss */
+/* line 119, ../sass/alex.scss */
 .footer p a:hover {
   text-shadow: 0px 0px 15px white;
 }
-/* line 111, ../sass/alex.scss */
+/* line 126, ../sass/alex.scss */
 .footer ul li {
   margin-right: 1rem;
   font-size: 1.5em;
 }
-/* line 115, ../sass/alex.scss */
+/* line 130, ../sass/alex.scss */
 .footer ul li a {
   padding: .5em;
   color: #fff;
@@ -117,7 +134,7 @@
   transition: ease 0.5s all;
   border: 1px solid transparent;
 }
-/* line 122, ../sass/alex.scss */
+/* line 137, ../sass/alex.scss */
 .footer ul li a:hover {
   border: 1px solid #fff;
   opacity: 60%;
@@ -127,7 +144,7 @@
 /*---992-1200px---*/
 /*---768-992px---*/
 @media screen and (max-width: 992px) {
-  /* line 150, ../sass/alex.scss */
+  /* line 165, ../sass/alex.scss */
   .mainS .flyElement h1 {
     font-size: 2.5em;
     line-height: 1.3;
@@ -135,24 +152,28 @@
 }
 /*---576-768px---*/
 @media screen and (max-width: 768px) {
-  /* line 166, ../sass/alex.scss */
+  /* line 181, ../sass/alex.scss */
+  .mainS .arrowBtn {
+    bottom: -5%;
+  }
+  /* line 185, ../sass/alex.scss */
   .mainS .bgwhite {
     background-color: none;
   }
-  /* line 171, ../sass/alex.scss */
+  /* line 190, ../sass/alex.scss */
   .mainS .flyElement {
     height: 16rem;
   }
-  /* line 173, ../sass/alex.scss */
+  /* line 192, ../sass/alex.scss */
   .mainS .flyElement h1 {
     font-size: 2em;
     line-height: 1.3;
   }
-  /* line 178, ../sass/alex.scss */
+  /* line 197, ../sass/alex.scss */
   .mainS .flyElement p {
     font-size: .8em;
   }
-  /* line 183, ../sass/alex.scss */
+  /* line 202, ../sass/alex.scss */
   .mainS .flyElement::before {
     content: "";
     width: 10rem;
@@ -161,25 +182,41 @@
 }
 /*---320-576px---*/
 @media screen and (max-width: 576px) {
-  /* line 200, ../sass/alex.scss */
+  /* line 219, ../sass/alex.scss */
+  .mainS img {
+    max-width: 12rem;
+    padding: 1rem;
+  }
+  /* line 224, ../sass/alex.scss */
+  .mainS .arrowBtn {
+    bottom: -6%;
+  }
+  /* line 228, ../sass/alex.scss */
   .mainS .flyElement {
     padding: 2rem;
   }
-  /* line 202, ../sass/alex.scss */
+  /* line 230, ../sass/alex.scss */
   .mainS .flyElement h1 {
     font-size: 1.8em;
     font-weight: bold;
     line-height: 1.3;
     margin-bottom: 1.3rem;
   }
-  /* line 210, ../sass/alex.scss */
+  /* line 238, ../sass/alex.scss */
   .mainS .flyElement p {
     font-size: .7em;
     font-weight: bold;
     line-height: 1.5;
   }
-  /* line 216, ../sass/alex.scss */
+  /* line 244, ../sass/alex.scss */
   .mainS .flyElement::before {
+    display: none;
+  }
+}
+/*---320-576px---*/
+@media screen and (max-width: 319px) {
+  /* line 260, ../sass/alex.scss */
+  .mainS .line img {
     display: none;
   }
 }
