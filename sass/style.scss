@@ -5,6 +5,16 @@
 
 @import "compass/reset";
 
+@mixin transform($property) {
+	-webkit-transform: $property;
+	-moz-transform: $property;
+	-ms-transform: $property;
+	-o-transform: $property;
+	transform: $property;
+}
+
+// @include transform(rotate(30deg)) - пример использования
+
 $bgPos: center center;
 $bgRp: no-repeat;
 $bgSz: cover;
@@ -128,20 +138,7 @@ a {
 						background-color: #fff;
 						width: 0px;
 						transition:width .3s linear;
-					}		
-					// &:before {
-					// 	content: "";
-					// 	display: inline-block;
-					// 	position: relative;
-					// 	bottom: 13px;
-					// 	width: 0px;
-					// 	height: 2.5px;
-					// 	background-color: #fff;
-					// 	transition:width .3s linear;
-					// }	
-					// &:hover:before, &:focus:before, &:active:before {
-					// 	width: 15px;
-					// }
+					}
 					&:hover:after, &:focus:after, &:active:after {
 						width: 100%;
 					}
@@ -182,12 +179,6 @@ a {
 	color: white;
 }
 //  --------------- MENU BUTTON ---------------
-
-
-//  --------------- MAIN SECTION ---------------
-
-
-//  --------------- MAIN SECTION ---------------
 
 // --------------- Section 2 ---------------
 
@@ -232,49 +223,39 @@ a {
 // --------------- Section 3 ---------------
 
 .sec3 {
-	h2.big-text {
-		@extend .h2-mt-mb-7vh;
-	}	
-	.carousel {
-		width: 80vw;
-
-		.carousel-caption {
-			background:rgba(0,0,0,0.5);
-		}
-
-		.carousel-item {
-			@extend .bgPlacement;
-			min-height: 450px;
-			line-height: 1.7;
-	       	h5 {
-	       		font-weight: bold;
-	       	}
-		}
-
-		.item1 {
-			background-image: url("../images/slide1.jpg");
-			
-		}
-
-		.item2 {
-			background-image: url("../images/slide2.jpg");
-		}
-
-		.item3 {
-			background-image: url("../images/slide3.jpg");
-		}
-		.carousel-control-prev, .carousel-control-next {
-			font-size: 40px;
-			opacity: .7;
-			color:#820CE6;
-		}
-		.carousel-indicators {
-			li {
-				background-color:#820CE6 ;
+	.gray-anonses {
+		.row {
+			div {
+				overflow: hidden;
+				background-color: lightgray;
+				p {
+					width: 100%;
+					padding: 1.5em;
+					position: absolute;
+					top: 50%;
+					left:50%;
+					transform:translate(-50%, -50%);
+				}
 			}
 		}
 	}
+	.gray-anonse {
+		background-color: lightgray;
+		overflow: hidden;
+		p {
+			width: 100%;
+			padding: 1.5em;
+			position: absolute;
+			top: 50%;
+			left:50%;
+			transform:translate(-50%, -50%);
+		}
+	}
 	
+	h2.big-text {
+		@extend .h2-mt-mb-7vh;
+	}	
+		
 }
 
 // --------------- Section 4 ---------------
