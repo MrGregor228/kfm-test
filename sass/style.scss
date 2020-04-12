@@ -183,6 +183,8 @@ small {
 //  --------------- MENU ---------------
 
 // ---------------- MODALS ---------------
+
+
 .modal-window {
 	position: fixed;
 	display: flex;
@@ -246,7 +248,7 @@ small {
 		overflow-y: auto;
 
 		.img-holder {
-			background: url("../images/slide1.jpg") no-repeat;
+			background-repeat: no-repeat;
 			background-position: center center;
 			background-size: 100% 100%;
 			display: block;
@@ -277,14 +279,15 @@ small {
 	}
 
 }
-
-.showModal {
-  opacity:1;
-  transition:opacity .3s linear;
+#modalFirst {
+	.img-holder {
+		background-image: url("../images/slide1.jpg");
+	}
 }
-.closed {
-  opacity:0;
-  transition:opacity .3s linear;
+#modalSecond {
+	.img-holder {
+		background-image: url("../images/slide2.jpg");
+	}
 }
 // ---------------- MODALS ---------------
 
@@ -329,39 +332,45 @@ small {
 		}
 
 		.gray-anonses {
+			
 			.row {
-				div {
-					overflow: hidden;
+				.anonse {
+					padding: 0;
+					@extend .bgPlacement;
 					background-color: lightgray;
+					overflow: hidden;
 					transition: .2s linear;
 					cursor: pointer;
-					&:hover {
+					&:hover, &:focus, &:active {
 						box-shadow: 0 0 10px black;
+						.centred-content {
+							opacity: 1;
+							background-color: rgba(black, .5);
+						}
 					}
-					p {
+					.centred-content {
+						opacity: 0;
 						width: 100%;
+						height: 100%;
 						padding: 1.5em;
-						position: absolute;
-						top: 50%;
-						left: 50%;
-						transform: translate(-50%, -50%);
+						position: relative;
+						p {
+							position: absolute;
+							top: 50%;
+							left: 50%;
+							transform: translate(-50%, -50%);							
+						}						
+						transition: .3s linear;
 					}
 				}
 			}
 		}
-
-		.gray-anonse {
-			background-color: lightgray;
-			overflow: hidden;
-
-			p {
-				width: 100%;
-				padding: 1.5em;
-				position: absolute;
-				top: 50%;
-				left: 50%;
-				transform: translate(-50%, -50%);
-			}
+		
+		#anonseOne {
+			background-image: url("../images/slide1.jpg");
+		}
+		#anonseTwo {
+			background-image: url("../images/slide2.jpg");
 		}
 	}
 }
@@ -384,20 +393,6 @@ small {
 					transform: translate(-50%, -50%);
 				}
 			}
-		}
-	}
-
-	.gray-anonse {
-		background-color: lightgray;
-		overflow: hidden;
-
-		p {
-			width: 100%;
-			padding: 1.5em;
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
 		}
 	}
 
