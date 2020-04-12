@@ -276,28 +276,37 @@ small {
 
 }
 
+// .showModal {
+// 	animation: showModal .6s linear 1 both;
+// }
+// .closed {
+// 	animation: closeModal .6s linear 1 both;
+// }
+
+// @keyframes showModal {
+// 	0% {
+// 		opacity: 0;
+// 	}
+// 	100% {
+// 		opacity: 1;
+// 	}
+// }
+// @keyframes closeModal {
+// 	0% {
+// 		opacity:1;
+// 	}
+// 	100% {
+// 		opacity: 0;
+// 	}
+// }
+
 .showModal {
-	animation: showModal .6s linear 1 both;
+  opacity:1;
+  transition:.3s linear;
 }
 .closed {
-	animation: closeModal .6s linear 1 both;
-}
-
-@keyframes showModal {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-@keyframes closeModal {
-	0% {
-		opacity:1;
-	}
-	100% {
-		opacity: 0;
-	}
+  opacity:0;
+  transition:.3s linear;
 }
 // ---------------- MODALS ---------------
 
