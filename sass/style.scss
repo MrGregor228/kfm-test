@@ -185,17 +185,19 @@ small {
 // ---------------- MODALS ---------------
 .modal-window {
 	position: fixed;
-	display: none;
+	display: flex;
+	visibility: hidden;	
+	opacity: 0;
 	justify-content: center;
 	width: 100%;
 	height: 100%;
 	top: 0;
-	left: 0;
-	opacity: 0;
+	left: 0;	
 	background-color: rgba(black, .5);
 	font-size: 15px;
-	z-index: 999;
-	transition: .3s linear;
+	z-index: 999;	
+	transition:opacity .3s linear;
+	animation-fill-mode: both;
 
 	.modal-body-content {
 		position: relative;
@@ -276,37 +278,13 @@ small {
 
 }
 
-// .showModal {
-// 	animation: showModal .6s linear 1 both;
-// }
-// .closed {
-// 	animation: closeModal .6s linear 1 both;
-// }
-
-// @keyframes showModal {
-// 	0% {
-// 		opacity: 0;
-// 	}
-// 	100% {
-// 		opacity: 1;
-// 	}
-// }
-// @keyframes closeModal {
-// 	0% {
-// 		opacity:1;
-// 	}
-// 	100% {
-// 		opacity: 0;
-// 	}
-// }
-
 .showModal {
   opacity:1;
-  transition:.3s linear;
+  transition:opacity .3s linear;
 }
 .closed {
   opacity:0;
-  transition:.3s linear;
+  transition:opacity .3s linear;
 }
 // ---------------- MODALS ---------------
 
