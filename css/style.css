@@ -390,7 +390,14 @@ small {
   opacity: 1;
   background-color: rgba(0, 0, 0, 0.5);
 }
-/* line 351, ../sass/style.scss */
+@media (hover: none) {
+  /* line 352, ../sass/style.scss */
+  .sec2 .row .gray-anonses .row .anonse .centred-content {
+    opacity: 1 !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+  }
+}
+/* line 358, ../sass/style.scss */
 .sec2 .row .gray-anonses .row .anonse .centred-content {
   opacity: 0;
   width: 100%;
@@ -399,28 +406,28 @@ small {
   position: relative;
   transition: .3s linear;
 }
-/* line 357, ../sass/style.scss */
+/* line 364, ../sass/style.scss */
 .sec2 .row .gray-anonses .row .anonse .centred-content p {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* line 369, ../sass/style.scss */
+/* line 376, ../sass/style.scss */
 .sec2 .row #anonseOne {
   background-image: url("../images/slide1.jpg");
 }
-/* line 372, ../sass/style.scss */
+/* line 379, ../sass/style.scss */
 .sec2 .row #anonseTwo {
   background-image: url("../images/slide2.jpg");
 }
 
-/* line 383, ../sass/style.scss */
+/* line 390, ../sass/style.scss */
 .sec3 .gray-anonses .row div {
   overflow: hidden;
   background-color: lightgray;
 }
-/* line 387, ../sass/style.scss */
+/* line 394, ../sass/style.scss */
 .sec3 .gray-anonses .row div p {
   width: 100%;
   padding: 1.5em;
@@ -430,33 +437,33 @@ small {
   transform: translate(-50%, -50%);
 }
 
-/* line 407, ../sass/style.scss */
+/* line 414, ../sass/style.scss */
 .sec4 {
   line-height: 1.7;
 }
-/* line 417, ../sass/style.scss */
+/* line 424, ../sass/style.scss */
 .sec4 .row .col .card .card-img-holder {
   min-height: 250px;
   background-color: lightgray;
 }
-/* line 422, ../sass/style.scss */
+/* line 429, ../sass/style.scss */
 .sec4 .row .col .card .btn {
   margin-top: 15px;
   border: none;
   background-color: #820CE6;
   transition: box-shadow .3s linear;
 }
-/* line 428, ../sass/style.scss */
+/* line 435, ../sass/style.scss */
 .sec4 .row .col .card .btn:focus {
   box-shadow: 0 0 0 3px #ca92f9;
 }
-/* line 432, ../sass/style.scss */
+/* line 439, ../sass/style.scss */
 .sec4 .row .col .card .btn:hover, .sec4 .row .col .card .btn:active {
   outline: none;
   border: none;
 }
 
-/* line 445, ../sass/style.scss */
+/* line 452, ../sass/style.scss */
 .sec5 {
   background: url("../images/team.jpg");
   background-position: center center;
@@ -464,39 +471,39 @@ small {
   color: white;
   box-shadow: inset 0 0 20px #7309CC, inset 0 0 200px #000;
 }
-/* line 454, ../sass/style.scss */
+/* line 461, ../sass/style.scss */
 .sec5 .rgba-bg h2.big-text {
   padding-top: 2em;
 }
-/* line 460, ../sass/style.scss */
+/* line 467, ../sass/style.scss */
 .sec5 .rgba-bg {
   background-color: rgba(115, 9, 204, 0.7);
 }
-/* line 466, ../sass/style.scss */
+/* line 473, ../sass/style.scss */
 .sec5 .row-cols-4 .col-6 .infographic-handler {
   font-size: 28px;
   height: 100%;
   color: #FFA200;
 }
-/* line 471, ../sass/style.scss */
+/* line 478, ../sass/style.scss */
 .sec5 .row-cols-4 .col-6 .infographic-handler span {
   color: white;
 }
 
-/* line 483, ../sass/style.scss */
+/* line 490, ../sass/style.scss */
 .sec7 h2.big-text {
   margin-top: 0;
 }
-/* line 488, ../sass/style.scss */
+/* line 495, ../sass/style.scss */
 .sec7 .slider-1 {
   position: relative;
   line-height: 1.5;
 }
-/* line 495, ../sass/style.scss */
+/* line 502, ../sass/style.scss */
 .sec7 .slider-1 .owl-stage-outer .owl-stage .owl-item .card {
   border: none;
 }
-/* line 502, ../sass/style.scss */
+/* line 509, ../sass/style.scss */
 .sec7 .slider-1 .falseNavigationLeft {
   position: absolute;
   height: 100%;
@@ -504,7 +511,7 @@ small {
   left: 0;
   transform: translate(0%, -50%);
 }
-/* line 510, ../sass/style.scss */
+/* line 517, ../sass/style.scss */
 .sec7 .slider-1 .falseNavigationRight {
   position: absolute;
   height: 100%;
@@ -512,20 +519,20 @@ small {
   right: 0;
   transform: translate(0%, -50%);
 }
-/* line 518, ../sass/style.scss */
+/* line 525, ../sass/style.scss */
 .sec7 .slider-1 .falseNavigationLeft,
 .sec7 .slider-1 .falseNavigationRight {
   transition: .3s linear;
   color: #FFA200;
 }
-/* line 523, ../sass/style.scss */
+/* line 530, ../sass/style.scss */
 .sec7 .slider-1 .falseNavigationLeft:hover, .sec7 .slider-1 .falseNavigationLeft:focus, .sec7 .slider-1 .falseNavigationLeft:active,
 .sec7 .slider-1 .falseNavigationRight:hover,
 .sec7 .slider-1 .falseNavigationRight:focus,
 .sec7 .slider-1 .falseNavigationRight:active {
   box-shadow: none;
 }
-/* line 529, ../sass/style.scss */
+/* line 536, ../sass/style.scss */
 .sec7 .slider-1 .falseNavigationLeft:hover,
 .sec7 .slider-1 .falseNavigationRight:hover {
   opacity: .6;

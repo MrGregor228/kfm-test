@@ -348,6 +348,13 @@ small {
 							background-color: rgba(black, .5);
 						}
 					}
+					@media (hover:none) {
+						.centred-content {
+							opacity: 1 !important;
+							background-color: rgba(black, .5) !important;
+						}
+					}
+					
 					.centred-content {
 						opacity: 0;
 						width: 100%;
@@ -364,7 +371,7 @@ small {
 					}
 				}
 			}
-		}
+		}		
 		
 		#anonseOne {
 			background-image: url("../images/slide1.jpg");
