@@ -499,41 +499,41 @@ $wht: #ffffff;
 
 // --------------- Section 4 ---------------
 
-.sec4 {
-	line-height: 1.7;
+// .sec4 {
+// 	line-height: 1.7;
 
-	h2.big-text {
-		@extend .h2-mt-mb-7vh;
-	}
+// 	h2.big-text {
+// 		@extend .h2-mt-mb-7vh;
+// 	}
 
-	.row {
-		.col {
-			.card {
-				.card-img-holder {
-					min-height: 250px;
-					background-color: lightgray;
-				}
+// 	.row {
+// 		.col {
+// 			.card {
+// 				.card-img-holder {
+// 					min-height: 250px;
+// 					background-color: lightgray;
+// 				}
 
-				.btn {
-					margin-top: 15px;
-					border: none;
-					background-color: rgb(71, 10, 124);
-					transition: box-shadow .3s linear;
+// 				.btn {
+// 					margin-top: 15px;
+// 					border: none;
+// 					background-color: rgb(71, 10, 124);
+// 					transition: box-shadow .3s linear;
 
-					&:focus {
-						box-shadow: 0 0 0 3px lighten(rgb(71, 10, 124), 30%);
-					}
+// 					&:focus {
+// 						box-shadow: 0 0 0 3px lighten(rgb(71, 10, 124), 30%);
+// 					}
 
-					&:hover,
-					&:active {
-						outline: none;
-						border: none;
-					}
-				}
-			}
-		}
-	}
-}
+// 					&:hover,
+// 					&:active {
+// 						outline: none;
+// 						border: none;
+// 					}
+// 				}
+// 			}
+// 		}
+// 	}
+// }
 
 // --------------- Section 5 ---------------
 
