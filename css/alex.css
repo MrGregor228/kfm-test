@@ -41,7 +41,7 @@
   -o-transform: translate(-50%, 0%);
   -ms-transform: translate(-50%, 0%);
   transform: translate(-50%, 0%);
-  color: #7309cc;
+  color: #470a7c;
   animation: bouncing-btn .5s linear infinite both;
 }
 @keyframes bouncing-btn {
@@ -95,7 +95,7 @@
   content: "";
   width: 13rem;
   height: 1.2rem;
-  background: #7309cc;
+  background: #470a7c;
   display: block;
   position: absolute;
   right: -25%;
