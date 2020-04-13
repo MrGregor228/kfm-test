@@ -114,7 +114,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 62, ../sass/style.scss */
-.h2-mt-mb-7vh, .sec2 .row h2, .sec3 h2.big-text, .sec4 h2.big-text, .sec5 .rgba-bg h2.big-text, .sec7 h2.big-text {
+.h2-mt-mb-7vh, .sec2 .row h2, .sec3 h2.big-text, .sec5 .rgba-bg h2.big-text, .sec7 h2.big-text {
   margin-top: 7vh;
   margin-bottom: 7vh;
 }
@@ -512,32 +512,6 @@ small {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-/* line 507, ../sass/style.scss */
-.sec4 {
-  line-height: 1.7;
-}
-/* line 517, ../sass/style.scss */
-.sec4 .row .col .card .card-img-holder {
-  min-height: 250px;
-  background-color: lightgray;
-}
-/* line 522, ../sass/style.scss */
-.sec4 .row .col .card .btn {
-  margin-top: 15px;
-  border: none;
-  background-color: #470a7c;
-  transition: box-shadow .3s linear;
-}
-/* line 528, ../sass/style.scss */
-.sec4 .row .col .card .btn:focus {
-  box-shadow: 0 0 0 3px #9631ee;
-}
-/* line 532, ../sass/style.scss */
-.sec4 .row .col .card .btn:hover, .sec4 .row .col .card .btn:active {
-  outline: none;
-  border: none;
 }
 
 /* line 545, ../sass/style.scss */
