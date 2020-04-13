@@ -107,7 +107,6 @@ small {
 	top: 0;
 	left: 0;
 	z-index: 999;
-	opacity: 0;
 	display: none;
 	-webkit-transition: all .3s;
 	-moz-transition: all .3s;
@@ -115,23 +114,21 @@ small {
 	-o-transition: all .3s;
 	transition: all .3s;
 
-	&:before {
-		@extend .bgPlacement;
-		background-image: url("../images/background.jpg");
-		content: "";
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		filter: grayscale(100%);
-	}
-
 	.menu-links-list {
 		position: relative;
 		line-height: 1.5;
 		background-color: rgba($dark, .9);
-
+		// &:before {
+		// 	@extend .bgPlacement;
+		// 	background-image: url("../images/background.jpg");
+		// 	content: "";
+		// 	position: fixed;
+		// 	top: 0;
+		// 	right:0;
+		// 	width: 40%;
+		// 	height: 100%;
+		// 	filter: grayscale(100%);
+		// }
 		.links-wrapper {
 			position: absolute;
 			top: 50%;
