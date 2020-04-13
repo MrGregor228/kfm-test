@@ -106,22 +106,26 @@
   position: static;
 }
 
-/* line 123, ../sass/alex.scss */
+/* line 121, ../sass/alex.scss */
+.projects {
+  padding: 5rem;
+}
+/* line 125, ../sass/alex.scss */
 .projects .projects__title {
   background-color: #F3F3F3;
   height: 80vh;
   width: 50%;
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
   font-weight: bold;
   font-size: 2em;
-  margin-right: 2rem;
+  margin-right: 1rem;
 }
-/* line 134, ../sass/alex.scss */
+/* line 136, ../sass/alex.scss */
 .projects .projects__card {
   border: 1px solid #000;
 }
-/* line 137, ../sass/alex.scss */
+/* line 139, ../sass/alex.scss */
 .projects .projects__card .overlay {
   opacity: 0;
   color: #fff;
@@ -143,11 +147,11 @@
   background-color: lightgray;
   padding: 1rem;
 }
-/* line 158, ../sass/alex.scss */
+/* line 160, ../sass/alex.scss */
 .projects .projects__card .overlay .card-title {
   margin-bottom: 1rem;
 }
-/* line 162, ../sass/alex.scss */
+/* line 164, ../sass/alex.scss */
 .projects .projects__card .overlay .btn {
   position: absolute;
   bottom: 1rem;
@@ -155,66 +159,66 @@
   background-color: #470a7c;
   transition: box-shadow .3s linear;
 }
-/* line 169, ../sass/alex.scss */
+/* line 171, ../sass/alex.scss */
 .projects .projects__card .overlay .btn:focus {
   box-shadow: 0 0 0 3px #9631ee;
 }
-/* line 173, ../sass/alex.scss */
+/* line 175, ../sass/alex.scss */
 .projects .projects__card .overlay .btn:hover, .projects .projects__card .overlay .btn:active {
   outline: none;
   border: none;
 }
-/* line 181, ../sass/alex.scss */
+/* line 183, ../sass/alex.scss */
 .projects .projects__card .card-img-holder:hover .overlay {
   opacity: 1;
 }
-/* line 185, ../sass/alex.scss */
+/* line 187, ../sass/alex.scss */
 .projects .projects__card .card-img-holder {
   position: relative;
 }
-/* line 188, ../sass/alex.scss */
+/* line 190, ../sass/alex.scss */
 .projects .projects__card .card-img-holder img {
   display: block;
   max-width: 100%;
   height: 35vh;
 }
-/* line 196, ../sass/alex.scss */
+/* line 198, ../sass/alex.scss */
 .projects .projects__card_small {
   width: 50%;
   height: 35vh;
 }
-/* line 201, ../sass/alex.scss */
+/* line 203, ../sass/alex.scss */
 .projects .projects__card_large {
   width: 100%;
   height: 70vh;
 }
-/* line 204, ../sass/alex.scss */
+/* line 206, ../sass/alex.scss */
 .projects .projects__card_large img {
   height: 70vh !important;
 }
 
-/* line 211, ../sass/alex.scss */
+/* line 213, ../sass/alex.scss */
 .projects__block {
   height: 30vh;
   width: 100%;
   background-color: lightgray;
   cursor: pointer;
-  margin-bottom: 4vh;
+  margin-bottom: 1em;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* line 226, ../sass/alex.scss */
+/* line 228, ../sass/alex.scss */
 .footer {
   padding: 2rem;
 }
-/* line 229, ../sass/alex.scss */
+/* line 231, ../sass/alex.scss */
 .footer p {
   color: #fff;
   margin-bottom: 2rem;
 }
-/* line 234, ../sass/alex.scss */
+/* line 236, ../sass/alex.scss */
 .footer .authors {
   visibility: hidden;
   opacity: 0;
@@ -227,34 +231,34 @@
   width: 100%;
   transition: opacity .3s linear;
 }
-/* line 245, ../sass/alex.scss */
+/* line 247, ../sass/alex.scss */
 .footer .authors img {
   border-radius: 30px;
   cursor: pointer;
 }
-/* line 250, ../sass/alex.scss */
+/* line 252, ../sass/alex.scss */
 .footer .author-wrapper {
   position: relative;
   color: #fff;
   text-decoration: none;
   transition: all .3s ease-in-out;
 }
-/* line 256, ../sass/alex.scss */
+/* line 258, ../sass/alex.scss */
 .footer .author-wrapper:hover {
   text-shadow: 0px 0px 15px white;
 }
-/* line 258, ../sass/alex.scss */
+/* line 260, ../sass/alex.scss */
 .footer .author-wrapper:hover .authors {
   visibility: visible;
   opacity: 1;
   transition: opacity .3s linear;
 }
-/* line 269, ../sass/alex.scss */
+/* line 271, ../sass/alex.scss */
 .footer ul li {
   margin-right: 1rem;
   font-size: 1.5em;
 }
-/* line 273, ../sass/alex.scss */
+/* line 275, ../sass/alex.scss */
 .footer ul li a {
   padding: .5em;
   color: #fff;
@@ -262,7 +266,7 @@
   transition: ease 0.5s all;
   border: 1px solid transparent;
 }
-/* line 280, ../sass/alex.scss */
+/* line 282, ../sass/alex.scss */
 .footer ul li a:hover {
   border: 1px solid #fff;
   opacity: 60%;
@@ -270,80 +274,149 @@
 
 /*----------------------------------------Media queries----------------------------------------------*/
 /*---992-1200px---*/
+@media screen and (max-width: 1200px) {
+  /* line 299, ../sass/alex.scss */
+  .projects {
+    padding: 4rem;
+  }
+}
 /*---768-992px---*/
 @media screen and (max-width: 992px) {
-  /* line 306, ../sass/alex.scss */
+  /* line 310, ../sass/alex.scss */
+  .projects__left {
+    margin-bottom: 1rem;
+  }
+
+  /* line 317, ../sass/alex.scss */
   .mainS .flyElement h1 {
     font-size: 2.5em;
     line-height: 1.3;
   }
+
+  /* line 323, ../sass/alex.scss */
+  .projects {
+    padding: 3rem;
+  }
 }
 /*---576-768px---*/
 @media screen and (max-width: 768px) {
-  /* line 322, ../sass/alex.scss */
+  /* line 335, ../sass/alex.scss */
   .mainS .arrowBtn {
     bottom: -5%;
   }
-  /* line 326, ../sass/alex.scss */
+  /* line 339, ../sass/alex.scss */
   .mainS .bgwhite {
     background-color: none;
   }
-  /* line 331, ../sass/alex.scss */
+  /* line 344, ../sass/alex.scss */
   .mainS .flyElement {
     height: 16rem;
   }
-  /* line 333, ../sass/alex.scss */
+  /* line 346, ../sass/alex.scss */
   .mainS .flyElement h1 {
     font-size: 2em;
     line-height: 1.3;
   }
-  /* line 338, ../sass/alex.scss */
+  /* line 351, ../sass/alex.scss */
   .mainS .flyElement p {
     font-size: .8em;
   }
-  /* line 344, ../sass/alex.scss */
+  /* line 357, ../sass/alex.scss */
   .mainS .flyElement::before {
     content: "";
     width: 10rem;
     height: 1.2rem;
   }
+
+  /* line 366, ../sass/alex.scss */
+  .projects {
+    padding: 2rem;
+  }
 }
 /*---320-576px---*/
 @media screen and (max-width: 576px) {
-  /* line 361, ../sass/alex.scss */
+  /* line 378, ../sass/alex.scss */
   .mainS img {
     max-width: 12rem;
     padding: 1rem;
   }
-  /* line 366, ../sass/alex.scss */
+  /* line 383, ../sass/alex.scss */
   .mainS .arrowBtn {
     bottom: -6%;
   }
-  /* line 370, ../sass/alex.scss */
+  /* line 387, ../sass/alex.scss */
   .mainS .flyElement {
     padding: 2rem;
   }
-  /* line 373, ../sass/alex.scss */
+  /* line 390, ../sass/alex.scss */
   .mainS .flyElement h1 {
     font-size: 1.8em;
     font-weight: bold;
     line-height: 1.3;
     margin-bottom: 1.3rem;
   }
-  /* line 381, ../sass/alex.scss */
+  /* line 398, ../sass/alex.scss */
   .mainS .flyElement p {
     font-size: .7em;
     font-weight: bold;
     line-height: 1.5;
   }
-  /* line 387, ../sass/alex.scss */
+  /* line 404, ../sass/alex.scss */
   .mainS .flyElement::before {
     display: none;
   }
+
+  /* line 413, ../sass/alex.scss */
+  .projects .projects__top {
+    display: block !important;
+  }
+  /* line 417, ../sass/alex.scss */
+  .projects .projects__title {
+    height: 60vh;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.5em;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 429, ../sass/alex.scss */
+  .projects .projects__card .overlay {
+    padding: 1rem;
+  }
+  /* line 432, ../sass/alex.scss */
+  .projects .projects__card .overlay .card-title {
+    margin-bottom: 1rem;
+  }
+  /* line 439, ../sass/alex.scss */
+  .projects .projects__card .card-img-holder img {
+    max-width: 100%;
+    height: 35vh;
+  }
+  /* line 446, ../sass/alex.scss */
+  .projects .projects__card_small {
+    width: 100%;
+    height: 35vh;
+  }
+  /* line 451, ../sass/alex.scss */
+  .projects .projects__card_large {
+    width: 100%;
+    height: 35vh;
+  }
+  /* line 454, ../sass/alex.scss */
+  .projects .projects__card_large img {
+    height: 35vh !important;
+  }
+
+  /* line 461, ../sass/alex.scss */
+  .projects__block {
+    height: 35vh;
+    width: 100%;
+    margin-top: 1em;
+    order: 1;
+  }
 }
-/*---320-576px---*/
 @media screen and (max-width: 319px) {
-  /* line 403, ../sass/alex.scss */
+  /* line 477, ../sass/alex.scss */
   .mainS .line img {
     display: none;
   }
