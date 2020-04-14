@@ -20,6 +20,10 @@ $bgRp: no-repeat;
 $bgSz: cover;
 $yellow: #FFA200;
 $dark: #343a40;
+$darkgray: rgb(37, 37, 37);
+$violet: rgb(71, 10, 124);
+$red: rgb(212, 16, 16);
+$wht: #ffffff;
 
 * {
 	box-sizing: border-box;
@@ -116,8 +120,8 @@ small {
 .falseNavigationLeft,
 .falseNavigationRight {
 	transition: .3s linear;
-	color: $yellow;
-
+	color: $violet;
+	font-size: 25px;
 	&:hover,
 	&:focus,
 	&:active {
@@ -351,22 +355,18 @@ small {
 //  --------------- MENU BUTTON ---------------
 
 //  --------------- Language ---------------
-$darkgray: rgb(37, 37, 37);
-$violet: rgb(71, 10, 124);
-$red: rgb(212, 16, 16);
-$wht: #ffffff;
 
 #langShow {
     position: fixed;
     bottom: 3em;
     left: 1em;
     font-size: 25px;
-    border-radius: 3px;
+    border-radius: 4px;
     z-index: 11;
 	transition: .3s linear;
 	background-color: $violet;
 	color:#fff;
-	border:1px solid $violet;
+	border:1px solid white;
     &:hover{
         background: lighten($violet, 10%);
 	}
@@ -522,110 +522,48 @@ $wht: #ffffff;
 // --------------- Section 3 ---------------
 
 .sec3 {
+	position: relative;
+	background-color: rgba($violet, .7);
+	box-shadow: inset 0 0 100px $violet, inset 0 0 100px $violet;
+	color: white;
+	&:before {
+		content: "";
+		@extend .bgPlacement;
+		background-image: url("../images/news.jpg");
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: -1;		
+	}
 	h2.big-text {
 		@extend .h2-mt-mb-7vh;
+		padding-top: 7vh;
 	}
-	  
-	  .flex {
-		display: flex;
-		max-width: 90%;
-	  
-		/* макс ширина блока */
-		margin: 0 auto;
-	  
-		/* выравниваем блок по центру */
-		font-size: 100%;
-	  }
-	  
-	  .mainitem, .item {
-		flex-grow: 1;	  
-		background: lightgray;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	  
-		/* цифры по центру */
-	  }
-	  
-	  .mainitem {
-		max-height: max-content;
-	  }
-	  
-	  .sideitem {
-		flex-basis: 25%;
-		flex-shrink: 0;	  
-		display: flex;
-		flex-direction: column;
-	  }
-	  
-	  .item {
-		flex-basis: 50%;
-		min-height: 150px;
-		margin: 5px 10px;
-	  
-		&:first-child {
-		  margin-top: 0;
+	.row {
+		padding-bottom: 7vh;		
+	}
+	.slider-2 {
+		.card {
+			color: black;
+			max-width: 90%;
+			margin-right: auto;
+			margin-left: auto;
 		}
-	  
-		&:last-child {
-		  margin-bottom: 0;
-		}
-	  }
-	  
-	  /* меньше 600px */
-	  @media screen and (max-width: 992px) {
-		.flex {
-		  flex-wrap: wrap;
-		}	  
-		.item {
-		  &:first-child {
-			margin-top: 10px;
-		  }
-	  
-		  &:last-child {
-			margin-top: 10px;
-		  }
-		}
-	  
-		.sideitem {
-		  flex-direction: row;
-		  flex-basis: 100%;
-		}
-	  
-		.item {
-		  margin-left: 0;
-		  margin-top: 10px;
-	  
-		  &:first-child {
-			margin-bottom: 0;
-			margin-right: 10px;
-		  }
-		}
-	  }
-	  
-	  /* меньше 450px */
-	  @media screen and (max-width: 450px) {
-		.sideitem {
-		  flex-wrap: wrap;
-		}
-		.mainitem {
-			margin-top: 10px;
-		}
-	  
-		/* разрешаем перенос */
-	  
-		.item {
-		  flex-basis: 100%;
-		  margin-right: 0;
-		  margin-left: 0;
-	  
-		  &:first-child {
-			margin-right: 0;
-		  }
-		}
-	  
-		/* на всю ширину */
-	  }
+	}
+	.myIframe {
+		padding-right: 35px;padding-left: 35px;
+		text-align: center;
+	}
+	
+	.falseNavigationLeftSecond {
+		@extend .falseNavigationLeft;
+		color: white;
+	}
+	.falseNavigationRightSecond {
+		@extend .falseNavigationRight;
+		color: white;
+	}
 }
 
 // --------------- Section 4 ---------------
