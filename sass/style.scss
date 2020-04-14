@@ -552,7 +552,6 @@ small {
 		}
 	}
 	.myIframe {
-		padding-right: 35px;padding-left: 35px;
 		text-align: center;
 	}
 	
@@ -561,7 +560,7 @@ small {
 		background-color: #fff;
 		color: $violet;
 		height: 47px;
-		box-shadow: 0 0 15px gray;
+		box-shadow: 0 0 15px black;
 		border-radius:5px 0 0 5px;		
 	}
 	.falseNavigationRightSecond {
@@ -569,7 +568,7 @@ small {
 		background-color: #fff;
 		color: $violet;
 		height: 47px;
-		box-shadow: 0 0 15px gray;
+		box-shadow: 0 0 15px black;
 		border-radius: 0 5px 5px 0;		
 	}
 }
