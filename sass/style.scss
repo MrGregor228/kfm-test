@@ -615,12 +615,30 @@ small {
 // --------------- Section 5 ---------------
 
 .sec5 {
-	@extend .bgPlacement;
-	background: url("../images/team.jpg");
-	background-position: center center;
-	line-height: 1.7;
+	position: relative;
+	background-color: rgba($violet, .1);
+	box-shadow: inset 0 0 100px $violet, inset 0 0 100px $violet;
 	color: white;
-	box-shadow: inset 0 0 20px rgb(71, 10, 124), inset 0 0 200px #000;
+	line-height: 1.7;
+	
+	&:before {
+		content: "";
+		@extend .bgPlacement;
+		background-image: url("../images/background.jpg"); 
+		background-attachment: fixed;
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: -1;		
+	}
+
+	// @extend .bgPlacement;
+	// background: url("../images/team.jpg");
+	// background-position: center center;
+	// line-height: 1.7;
+	// color: white;
+	// box-shadow: inset 0 0 20px rgb(71, 10, 124), inset 0 0 200px #000;
 
 	.rgba-bg {
 		h2.big-text {

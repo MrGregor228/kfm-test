@@ -132,7 +132,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 79, ../sass/style.scss */
-.bgPlacement, .sec2 .row .card-img-holder, .sec3:before, .sec3 .slider-2 .mega-slider, .sec5 {
+.bgPlacement, .sec2 .row .card-img-holder, .sec3:before, .sec3 .slider-2 .mega-slider, .sec5:before {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -654,45 +654,56 @@ small {
 
 /* line 617, ../sass/style.scss */
 .sec5 {
-  background: url("../images/team.jpg");
-  background-position: center center;
-  line-height: 1.7;
+  position: relative;
+  background-color: rgba(71, 10, 124, 0.1);
+  box-shadow: inset 0 0 100px #470a7c, inset 0 0 100px #470a7c;
   color: white;
-  box-shadow: inset 0 0 20px #470a7c, inset 0 0 200px #000;
+  line-height: 1.7;
 }
-/* line 626, ../sass/style.scss */
+/* line 624, ../sass/style.scss */
+.sec5:before {
+  content: "";
+  background-image: url("../images/background.jpg");
+  background-attachment: fixed;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+/* line 644, ../sass/style.scss */
 .sec5 .rgba-bg h2.big-text {
   padding-top: 2em;
 }
-/* line 632, ../sass/style.scss */
+/* line 650, ../sass/style.scss */
 .sec5 .rgba-bg {
   background-color: rgba(71, 10, 124, 0.7);
 }
-/* line 638, ../sass/style.scss */
+/* line 656, ../sass/style.scss */
 .sec5 .row-cols-4 .col-6 .infographic-handler {
   font-size: 28px;
   height: 100%;
   color: #FFA200;
 }
-/* line 643, ../sass/style.scss */
+/* line 661, ../sass/style.scss */
 .sec5 .row-cols-4 .col-6 .infographic-handler span {
   color: white;
 }
 
-/* line 653, ../sass/style.scss */
+/* line 671, ../sass/style.scss */
 .sec7 h2.big-text {
   margin-top: 0;
 }
-/* line 658, ../sass/style.scss */
+/* line 676, ../sass/style.scss */
 .sec7 .slider-1 {
   position: relative;
   line-height: 1.5;
 }
-/* line 667, ../sass/style.scss */
+/* line 685, ../sass/style.scss */
 .sec7 .slider-1 .owl-stage-outer .owl-stage .owl-item .card .card-title .smth {
   font-size: 15px;
 }
-/* line 670, ../sass/style.scss */
+/* line 688, ../sass/style.scss */
 .sec7 .slider-1 .owl-stage-outer .owl-stage .owl-item .card .card-title:after {
   content: "";
   display: block;
@@ -702,13 +713,13 @@ small {
   margin-bottom: 15px;
   margin-top: 5px;
 }
-/* line 680, ../sass/style.scss */
+/* line 698, ../sass/style.scss */
 .sec7 .slider-1 .owl-stage-outer .owl-stage .owl-item .card .card-date {
   text-align: right;
   color: #aaaaaa;
   margin-bottom: -12px;
 }
-/* line 685, ../sass/style.scss */
+/* line 703, ../sass/style.scss */
 .sec7 .slider-1 .owl-stage-outer .owl-stage .owl-item .card .small-fz {
   font-size: 14px;
 }
