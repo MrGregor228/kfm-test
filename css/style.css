@@ -524,7 +524,7 @@ small {
 }
 /* line 465, ../sass/style.scss */
 .sec2 .row .gray-anonses .row .anonse .btn:focus {
-  box-shadow: 0 0 0 3px #9631ee;
+  box-shadow: 0 0 0 3px #c68ff6;
 }
 /* line 469, ../sass/style.scss */
 .sec2 .row .gray-anonses .row .anonse .btn:hover, .sec2 .row .gray-anonses .row .anonse .btn:active {
@@ -572,7 +572,7 @@ small {
 }
 /* line 535, ../sass/style.scss */
 .sec3 .btn:focus {
-  box-shadow: 0 0 0 3px #9631ee;
+  box-shadow: 0 0 0 3px #c68ff6;
 }
 /* line 539, ../sass/style.scss */
 .sec3 .btn:hover, .sec3 .btn:active {
@@ -625,7 +625,7 @@ small {
   border-radius: 0 5px 5px 0;
 }
 
-/* line 632, ../sass/style.scss */
+/* line 594, ../sass/style.scss */
 .sec5 {
   background: url("../images/team.jpg");
   background-position: center center;
@@ -633,39 +633,39 @@ small {
   color: white;
   box-shadow: inset 0 0 20px #470a7c, inset 0 0 200px #000;
 }
-/* line 641, ../sass/style.scss */
+/* line 603, ../sass/style.scss */
 .sec5 .rgba-bg h2.big-text {
   padding-top: 2em;
 }
-/* line 647, ../sass/style.scss */
+/* line 609, ../sass/style.scss */
 .sec5 .rgba-bg {
   background-color: rgba(71, 10, 124, 0.7);
 }
-/* line 653, ../sass/style.scss */
+/* line 615, ../sass/style.scss */
 .sec5 .row-cols-4 .col-6 .infographic-handler {
   font-size: 28px;
   height: 100%;
   color: #FFA200;
 }
-/* line 658, ../sass/style.scss */
+/* line 620, ../sass/style.scss */
 .sec5 .row-cols-4 .col-6 .infographic-handler span {
   color: white;
 }
 
-/* line 670, ../sass/style.scss */
+/* line 630, ../sass/style.scss */
 .sec7 h2.big-text {
   margin-top: 0;
 }
-/* line 675, ../sass/style.scss */
+/* line 635, ../sass/style.scss */
 .sec7 .slider-1 {
   position: relative;
   line-height: 1.5;
 }
-/* line 684, ../sass/style.scss */
+/* line 644, ../sass/style.scss */
 .sec7 .slider-1 .owl-stage-outer .owl-stage .owl-item .card .card-title .smth {
   font-size: 15px;
 }
-/* line 687, ../sass/style.scss */
+/* line 647, ../sass/style.scss */
 .sec7 .slider-1 .owl-stage-outer .owl-stage .owl-item .card .card-title:after {
   content: "";
   display: block;
@@ -675,13 +675,13 @@ small {
   margin-bottom: 15px;
   margin-top: 5px;
 }
-/* line 697, ../sass/style.scss */
+/* line 657, ../sass/style.scss */
 .sec7 .slider-1 .owl-stage-outer .owl-stage .owl-item .card .card-date {
   text-align: right;
   color: #aaaaaa;
   margin-bottom: -12px;
 }
-/* line 702, ../sass/style.scss */
+/* line 662, ../sass/style.scss */
 .sec7 .slider-1 .owl-stage-outer .owl-stage .owl-item .card .small-fz {
   font-size: 14px;
 }

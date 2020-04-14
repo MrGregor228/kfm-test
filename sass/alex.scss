@@ -171,7 +171,7 @@
         transition: box-shadow .3s linear;
     
         &:focus {
-          box-shadow: 0 0 0 3px lighten(rgb(71, 10, 124), 30%);
+          box-shadow: 0 0 0 3px lighten(rgb(71, 10, 124), 50%);
         }
     
         &:hover,
