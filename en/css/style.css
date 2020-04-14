@@ -202,7 +202,7 @@ small {
 @media screen and (max-width: 768px) {
   /* line 141, ../sass/style.scss */
   #menu .menu-links-list .links-wrapper li a {
-    font-size: 25px;
+    font-size: 22.5px;
   }
 }
 @media screen and (max-width: 576px) {
