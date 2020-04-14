@@ -562,7 +562,7 @@ small {
 .sec3 .item:last-child {
   margin-bottom: 0;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 992px) {
   /* line 545, ../sass/style.scss */
   .sec3 .flex {
     flex-wrap: wrap;
