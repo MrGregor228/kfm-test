@@ -592,8 +592,29 @@ $wht: #ffffff;
 		.owl-stage-outer {
 			.owl-stage {
 				.owl-item {
-					.card {
-						border: none;
+					.card {						
+						.card-title {
+							.smth {
+								font-size: 15px;
+							}
+							&:after {
+								content: "";
+								display: block;
+								height: 3px;
+								background-color: $violet;
+								max-width: 6em;
+								margin-bottom: 15px;
+								margin-top: 5px;
+							}
+						}
+						.card-date {
+							text-align: right;
+							color: rgb(170, 170, 170);
+							margin-bottom: -12px;
+						}
+						.small-fz {
+							font-size: 14px;
+						}
 					}
 				}
 			}
