@@ -120,7 +120,9 @@
 
 .projects{
   // max-width: 1280px;
-  padding: 5rem;
+  // padding: 5rem 5.5%;
+  max-width: 90%;
+  padding: 5rem 0;
 
   .projects__title{
     background-color: #F3F3F3;
@@ -219,6 +221,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
+  color: #000;
+  &:hover{
+    text-decoration: none;
+  }
 }
 
 
@@ -226,11 +233,99 @@
 
 
 .footer {
-  padding: 2rem;
 
+  .contact-card{
+
+    ul {
+      li {
+        margin-right: 1rem;
+        font-size: 1em;
+        margin-bottom: 1rem;
+        
+        a {
+          color: #000;
+          text-decoration: none;
+          transition: ease 0.5s all;
+          display: flex;
+          align-items: center;
+          width: fit-content;
+        
+          color: rgb(71, 10, 124);
+          svg{
+            margin-right: 1rem;
+            font-size: 2.5em;
+            color: rgb(71, 10, 124);
+            transition: ease .5s all;
+          }
+
+          &:hover{
+            color: lighten($color:  rgb(71, 10, 124), $amount: 20%);
+            opacity: 80%;
+          }
+
+          &:hover svg{
+            color: lighten($color:  rgb(71, 10, 124), $amount: 20%);
+          }
+  
+
+        }
+      }
+    }
+  }
+  form{
+    h3{
+      font-weight: bold;
+      font-size: 1.5em;
+      margin-bottom: 1rem;
+    }
+
+    p{
+      color: #000;
+      padding: 0;
+      margin-bottom: .5rem;
+    }
+
+    input{
+      margin-bottom: 1rem;
+      padding: 0.2rem;
+      border: 1px solid  rgb(71, 10, 124);
+
+      &::-webkit-input-placeholder{                          
+        color: rgb(71, 10, 124);  
+        
+      }
+      &:hover::-webkit-input-placeholder{
+        color: lighten($color:  rgb(71, 10, 124), $amount: 20%);
+      }
+    }
+
+    textarea{
+      margin-bottom: 1rem;
+      border: 1px solid  rgb(71, 10, 124);
+      &::-webkit-input-placeholder{                          
+        color: rgb(71, 10, 124);  
+        
+      }
+      &:hover::-webkit-input-placeholder{
+        color: lighten($color:  rgb(71, 10, 124), $amount: 20%);
+      }
+    }
+
+    button{
+     width: 10rem; 
+     padding: .4rem 0;
+     background-color: rgb(71, 10, 124);
+     color: #fff;
+     border: none;
+     transition: ease .4s all;
+     &:hover{
+      background-color: lighten($color:  rgb(71, 10, 124), $amount: 20%);
+     }
+    }
+  }
   p {
-    color: #fff;
-    margin-bottom: 2rem;    
+    color: #fff; 
+    padding: 1rem;
   }
   // By Grishka
   .authors {    
@@ -267,25 +362,7 @@
   // By Grishka
   
 
-  ul {
-    li {
-      margin-right: 1rem;
-      font-size: 1.5em;
-
-      a {
-        padding: .5em;
-        color: #fff;
-        text-decoration: none;
-        transition: ease 0.5s all;
-        border: 1px solid transparent;
-
-        &:hover {
-          border: 1px solid #fff;
-          opacity: 60%;
-        }
-      }
-    }
-  }
+ 
 
 }
 
