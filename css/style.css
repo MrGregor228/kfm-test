@@ -564,6 +564,22 @@ small {
   color: white;
 }
 /* line 529, ../sass/style.scss */
+.sec3 .btn {
+  margin-top: 15px;
+  border: none;
+  background-color: #470a7c;
+  transition: box-shadow .3s linear;
+}
+/* line 535, ../sass/style.scss */
+.sec3 .btn:focus {
+  box-shadow: 0 0 0 3px #9631ee;
+}
+/* line 539, ../sass/style.scss */
+.sec3 .btn:hover, .sec3 .btn:active {
+  outline: none;
+  border: none;
+}
+/* line 545, ../sass/style.scss */
 .sec3:before {
   content: "";
   background-image: url("../images/news.jpg");
@@ -573,26 +589,26 @@ small {
   height: 100%;
   z-index: -1;
 }
-/* line 539, ../sass/style.scss */
+/* line 555, ../sass/style.scss */
 .sec3 h2.big-text {
   padding-top: 7vh;
 }
-/* line 543, ../sass/style.scss */
+/* line 559, ../sass/style.scss */
 .sec3 .row {
   padding-bottom: 7vh;
 }
-/* line 547, ../sass/style.scss */
+/* line 563, ../sass/style.scss */
 .sec3 .slider-2 .card {
   color: black;
   max-width: 90%;
   margin-right: auto;
   margin-left: auto;
 }
-/* line 554, ../sass/style.scss */
+/* line 570, ../sass/style.scss */
 .sec3 .myIframe {
   text-align: center;
 }
-/* line 558, ../sass/style.scss */
+/* line 574, ../sass/style.scss */
 .sec3 .falseNavigationLeftSecond {
   background-color: #fff;
   color: #470a7c;
@@ -600,7 +616,7 @@ small {
   box-shadow: 0 0 15px black;
   border-radius: 5px 0 0 5px;
 }
-/* line 566, ../sass/style.scss */
+/* line 582, ../sass/style.scss */
 .sec3 .falseNavigationRightSecond {
   background-color: #fff;
   color: #470a7c;
@@ -609,7 +625,7 @@ small {
   border-radius: 0 5px 5px 0;
 }
 
-/* line 616, ../sass/style.scss */
+/* line 632, ../sass/style.scss */
 .sec5 {
   background: url("../images/team.jpg");
   background-position: center center;
@@ -617,39 +633,39 @@ small {
   color: white;
   box-shadow: inset 0 0 20px #470a7c, inset 0 0 200px #000;
 }
-/* line 625, ../sass/style.scss */
+/* line 641, ../sass/style.scss */
 .sec5 .rgba-bg h2.big-text {
   padding-top: 2em;
 }
-/* line 631, ../sass/style.scss */
+/* line 647, ../sass/style.scss */
 .sec5 .rgba-bg {
   background-color: rgba(71, 10, 124, 0.7);
 }
-/* line 637, ../sass/style.scss */
+/* line 653, ../sass/style.scss */
 .sec5 .row-cols-4 .col-6 .infographic-handler {
   font-size: 28px;
   height: 100%;
   color: #FFA200;
 }
-/* line 642, ../sass/style.scss */
+/* line 658, ../sass/style.scss */
 .sec5 .row-cols-4 .col-6 .infographic-handler span {
   color: white;
 }
 
-/* line 654, ../sass/style.scss */
+/* line 670, ../sass/style.scss */
 .sec7 h2.big-text {
   margin-top: 0;
 }
-/* line 659, ../sass/style.scss */
+/* line 675, ../sass/style.scss */
 .sec7 .slider-1 {
   position: relative;
   line-height: 1.5;
 }
-/* line 668, ../sass/style.scss */
+/* line 684, ../sass/style.scss */
 .sec7 .slider-1 .owl-stage-outer .owl-stage .owl-item .card .card-title .smth {
   font-size: 15px;
 }
-/* line 671, ../sass/style.scss */
+/* line 687, ../sass/style.scss */
 .sec7 .slider-1 .owl-stage-outer .owl-stage .owl-item .card .card-title:after {
   content: "";
   display: block;
@@ -659,13 +675,13 @@ small {
   margin-bottom: 15px;
   margin-top: 5px;
 }
-/* line 681, ../sass/style.scss */
+/* line 697, ../sass/style.scss */
 .sec7 .slider-1 .owl-stage-outer .owl-stage .owl-item .card .card-date {
   text-align: right;
   color: #aaaaaa;
   margin-bottom: -12px;
 }
-/* line 686, ../sass/style.scss */
+/* line 702, ../sass/style.scss */
 .sec7 .slider-1 .owl-stage-outer .owl-stage .owl-item .card .small-fz {
   font-size: 14px;
 }

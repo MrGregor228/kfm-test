@@ -526,6 +526,22 @@ small {
 	background-color: rgba($violet, .7);
 	box-shadow: inset 0 0 100px $violet, inset 0 0 100px $violet;
 	color: white;
+	.btn {
+		margin-top: 15px;
+		border: none; 
+		background-color: rgb(71, 10, 124); 
+		transition: box-shadow .3s linear;
+
+		&:focus {
+			box-shadow: 0 0 0 3px lighten(rgb(71, 10, 124), 30%);
+		}
+
+		&:hover,
+		&:active {
+			outline: none;
+			border: none;
+		}
+	}
 	&:before {
 		content: "";
 		@extend .bgPlacement;
