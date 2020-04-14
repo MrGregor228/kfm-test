@@ -573,15 +573,9 @@
   form button:hover {
     background-color: #7d12da;
   }
-
-  /* line 633, ../sass/alex.scss */
-  p {
-    color: #fff;
-    padding: 1rem;
-  }
 }
 @media screen and (max-width: 319px) {
-  /* line 647, ../sass/alex.scss */
+  /* line 643, ../sass/alex.scss */
   .mainS .line img {
     display: none;
   }
