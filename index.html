@@ -405,7 +405,7 @@
 			</div>
 			<div class="col-12 col-lg-6">
 				<div class="projects__right d-flex flex-column">
-					<div class="projects__block">Lorem ipsum dolor sit amet.</div>
+					<a href="#footer" class="projects__block">Lorem ipsum dolor sit amet.</a>
 					<div class="projects__card projects__card_large mb-3">
 						<div class="card-img-holder">
 							<img src="#" alt="img">
@@ -607,8 +607,44 @@
 		</div>
 	</section>
 	<!-- ///     ДЕНИС     \\\ -->
-	<footer class="footer bg-dark" id="footer">
+	<footer class="footer" id="footer">
 		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-6 col-lg-4 d-flex align-items-center">
+					<div class="contact-card">
+						<ul class="contact-card__list">
+							<li class="contact-card__item">
+								<a href="#" class="contact-card__link"><i class="fab fa-instagram" target="_blank"></i>link bla bla bla</a>
+							</li>
+							<li class="contact-card__item">
+								<a href="https://www.facebook.com/KryvbasFuture/" class="contact-card__link" target="_blank"><i class="fab fa-facebook-square"></i>facebook.com/KryvbasFuture/</a>
+							</li>
+							<li class="contact-card__item">
+								<a href="mailto:go.kfm.2040@gmail.com" class="contact-card__link" target="_blank"><i class="far fa-envelope"></i>go.kfm.2040@gmail.com</a>
+							</li>
+							<li class="contact-card__item">
+								<a href="#" class="contact-card__link"><i class="fas fa-map-marked-alt"></i>link bla bla bla</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-5 ml-lg-auto">
+					<form action="" class="form">
+						<div class="d-flex flex-column">
+							<h3>Do you have any questions? Ask them right now!</h3>
+							<label for="Email"><p>Email address*</p></label>
+							<input type="email" id="Email" name="Email" placeholder="example@gmail.com" required>
+							<label for="name"><p>Full name*</p></label>
+							<input type="text" id="name" name="FullName" placeholder="Name Family name" required>
+							<label for="textArea"><p>Your message*</p></label>	
+							<textarea name="text" id="textArea" cols="30" rows="5" placeholder="Your Message"></textarea>	
+							<button class="next form_btn" id="form_btn_next" type="submit" disabled>Send</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid bg-dark mt-5">
 			<div class="row">
 				<div class="col">
 					<p class="text-center">
@@ -626,19 +662,6 @@
 									width="25" onclick="document.location.href = 'https://github.com/Ritozz'"
 									title="Alex Huran"></span></span>
 					</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col">
-					<ul class="d-flex justify-content-center">
-						<li>
-							<a href="https://www.facebook.com/KryvbasFuture/" target="_blank"><i
-									class="fab fa-facebook-f"></i></a>
-						</li>
-						<li>
-							<a href="mailto:go.kfm.2040@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
-						</li>
-					</ul>
 				</div>
 			</div>
 		</div>

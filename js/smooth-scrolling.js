@@ -66,11 +66,11 @@ $(document).ready(function(){
 
     // ALEX
     
-    // $('.class').click(function() {
-    //     var sectionTo = $(this).attr('href');
-    //     $('html, body').animate({
-    //         scrollTop: $(sectionTo).offset().top - 70
-    //     }, 500);
-    // });
+    $('.projects__block').click(function() {
+        var sectionTo = $(this).attr('href');
+        $('html, body').animate({
+            scrollTop: $(sectionTo).offset().top - 70
+        }, 500);
+    });
 
 });
