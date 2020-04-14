@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Welcome to Compass.
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
@@ -513,22 +514,110 @@ small {
   background-color: lightgray;
 }
 
-/* line 495, ../sass/style.scss */
-.sec3 .gray-anonses .row div {
-  overflow: hidden;
-  background-color: lightgray;
+/* line 492, ../sass/style.scss */
+.sec3 {
+  /* ╨╝╨╡╨╜╤М╤И╨╡ 600px */
+  /* ╨╝╨╡╨╜╤М╤И╨╡ 450px */
 }
-/* line 499, ../sass/style.scss */
-.sec3 .gray-anonses .row div p {
-  width: 100%;
-  padding: 1.5em;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+/* line 497, ../sass/style.scss */
+.sec3 .flex {
+  display: flex;
+  max-width: 90%;
+  /* ╨╝╨░╨║╤Б ╤И╨╕╤А╨╕╨╜╨░ ╨▒╨╗╨╛╨║╨░ */
+  margin: 0 auto;
+  /* ╨▓╤Л╤А╨░╨▓╨╜╨╕╨▓╨░╨╡╨╝ ╨▒╨╗╨╛╨║ ╨┐╨╛ ╤Ж╨╡╨╜╤В╤А╤Г */
+  font-size: 100%;
+}
+/* line 508, ../sass/style.scss */
+.sec3 .mainitem, .sec3 .item {
+  flex-grow: 1;
+  background: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* ╤Ж╨╕╤Д╤А╤Л ╨┐╨╛ ╤Ж╨╡╨╜╤В╤А╤Г */
+}
+/* line 518, ../sass/style.scss */
+.sec3 .mainitem {
+  max-height: max-content;
+}
+/* line 522, ../sass/style.scss */
+.sec3 .sideitem {
+  flex-basis: 25%;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+}
+/* line 529, ../sass/style.scss */
+.sec3 .item {
+  flex-basis: 50%;
+  min-height: 150px;
+  margin: 5px 10px;
+}
+/* line 534, ../sass/style.scss */
+.sec3 .item:first-child {
+  margin-top: 0;
+}
+/* line 538, ../sass/style.scss */
+.sec3 .item:last-child {
+  margin-bottom: 0;
+}
+@media screen and (max-width: 576px) {
+  /* line 545, ../sass/style.scss */
+  .sec3 .flex {
+    flex-wrap: wrap;
+  }
+  /* line 549, ../sass/style.scss */
+  .sec3 .item:first-child {
+    margin-top: 10px;
+  }
+  /* line 553, ../sass/style.scss */
+  .sec3 .item:last-child {
+    margin-top: 10px;
+  }
+  /* line 558, ../sass/style.scss */
+  .sec3 .sideitem {
+    flex-direction: row;
+    flex-basis: 100%;
+  }
+  /* line 563, ../sass/style.scss */
+  .sec3 .item {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  /* line 567, ../sass/style.scss */
+  .sec3 .item:first-child {
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width: 450px) {
+  /* line 492, ../sass/style.scss */
+  .sec3 {
+    /* ╤А╨░╨╖╤А╨╡╤И╨░╨╡╨╝ ╨┐╨╡╤А╨╡╨╜╨╛╤Б */
+    /* ╨╜╨░ ╨▓╤Б╤О ╤И╨╕╤А╨╕╨╜╤Г */
+  }
+  /* line 576, ../sass/style.scss */
+  .sec3 .sideitem {
+    flex-wrap: wrap;
+  }
+  /* line 579, ../sass/style.scss */
+  .sec3 .mainitem {
+    height: 150px;
+  }
+  /* line 585, ../sass/style.scss */
+  .sec3 .item {
+    flex-basis: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  /* line 590, ../sass/style.scss */
+  .sec3 .item:first-child {
+    margin-right: 0;
+  }
 }
 
-/* line 557, ../sass/style.scss */
+/* line 639, ../sass/style.scss */
 .sec5 {
   background: url("../images/team.jpg");
   background-position: center center;
@@ -536,39 +625,39 @@ small {
   color: white;
   box-shadow: inset 0 0 20px #470a7c, inset 0 0 200px #000;
 }
-/* line 566, ../sass/style.scss */
+/* line 648, ../sass/style.scss */
 .sec5 .rgba-bg h2.big-text {
   padding-top: 2em;
 }
-/* line 572, ../sass/style.scss */
+/* line 654, ../sass/style.scss */
 .sec5 .rgba-bg {
   background-color: rgba(71, 10, 124, 0.7);
 }
-/* line 578, ../sass/style.scss */
+/* line 660, ../sass/style.scss */
 .sec5 .row-cols-4 .col-6 .infographic-handler {
   font-size: 28px;
   height: 100%;
   color: #FFA200;
 }
-/* line 583, ../sass/style.scss */
+/* line 665, ../sass/style.scss */
 .sec5 .row-cols-4 .col-6 .infographic-handler span {
   color: white;
 }
 
-/* line 595, ../sass/style.scss */
+/* line 677, ../sass/style.scss */
 .sec7 h2.big-text {
   margin-top: 0;
 }
-/* line 600, ../sass/style.scss */
+/* line 682, ../sass/style.scss */
 .sec7 .slider-1 {
   position: relative;
   line-height: 1.5;
 }
-/* line 609, ../sass/style.scss */
+/* line 691, ../sass/style.scss */
 .sec7 .slider-1 .owl-stage-outer .owl-stage .owl-item .card .card-title .smth {
   font-size: 15px;
 }
-/* line 612, ../sass/style.scss */
+/* line 694, ../sass/style.scss */
 .sec7 .slider-1 .owl-stage-outer .owl-stage .owl-item .card .card-title:after {
   content: "";
   display: block;
@@ -578,17 +667,17 @@ small {
   margin-bottom: 15px;
   margin-top: 5px;
 }
-/* line 622, ../sass/style.scss */
+/* line 704, ../sass/style.scss */
 .sec7 .slider-1 .owl-stage-outer .owl-stage .owl-item .card .card-date {
   text-align: right;
   color: #aaaaaa;
   margin-bottom: -12px;
 }
-/* line 627, ../sass/style.scss */
+/* line 709, ../sass/style.scss */
 .sec7 .slider-1 .owl-stage-outer .owl-stage .owl-item .card .small-fz {
   font-size: 14px;
 }
-/* line 635, ../sass/style.scss */
+/* line 717, ../sass/style.scss */
 .sec7 .slider-1 .falseNavigationLeft {
   position: absolute;
   height: 100%;
@@ -596,7 +685,7 @@ small {
   left: 0;
   transform: translate(0%, -50%);
 }
-/* line 643, ../sass/style.scss */
+/* line 725, ../sass/style.scss */
 .sec7 .slider-1 .falseNavigationRight {
   position: absolute;
   height: 100%;
@@ -604,20 +693,20 @@ small {
   right: 0;
   transform: translate(0%, -50%);
 }
-/* line 651, ../sass/style.scss */
+/* line 733, ../sass/style.scss */
 .sec7 .slider-1 .falseNavigationLeft,
 .sec7 .slider-1 .falseNavigationRight {
   transition: .3s linear;
   color: #FFA200;
 }
-/* line 656, ../sass/style.scss */
+/* line 738, ../sass/style.scss */
 .sec7 .slider-1 .falseNavigationLeft:hover, .sec7 .slider-1 .falseNavigationLeft:focus, .sec7 .slider-1 .falseNavigationLeft:active,
 .sec7 .slider-1 .falseNavigationRight:hover,
 .sec7 .slider-1 .falseNavigationRight:focus,
 .sec7 .slider-1 .falseNavigationRight:active {
   box-shadow: none;
 }
-/* line 662, ../sass/style.scss */
+/* line 744, ../sass/style.scss */
 .sec7 .slider-1 .falseNavigationLeft:hover,
 .sec7 .slider-1 .falseNavigationRight:hover {
   opacity: .6;

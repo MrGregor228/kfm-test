@@ -490,28 +490,110 @@ $wht: #ffffff;
 // --------------- Section 3 ---------------
 
 .sec3 {
-	.gray-anonses {
-		.row {
-			div {
-				overflow: hidden;
-				background-color: lightgray;
-
-				p {
-					width: 100%;
-					padding: 1.5em;
-					position: absolute;
-					top: 50%;
-					left: 50%;
-					transform: translate(-50%, -50%);
-				}
-			}
-		}
-	}
-
 	h2.big-text {
 		@extend .h2-mt-mb-7vh;
 	}
-
+	  
+	  .flex {
+		display: flex;
+		max-width: 90%;
+	  
+		/* макс ширина блока */
+		margin: 0 auto;
+	  
+		/* выравниваем блок по центру */
+		font-size: 100%;
+	  }
+	  
+	  .mainitem, .item {
+		flex-grow: 1;	  
+		background: lightgray;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	  
+		/* цифры по центру */
+	  }
+	  
+	  .mainitem {
+		max-height: max-content;
+	  }
+	  
+	  .sideitem {
+		flex-basis: 25%;
+		flex-shrink: 0;	  
+		display: flex;
+		flex-direction: column;
+	  }
+	  
+	  .item {
+		flex-basis: 50%;
+		min-height: 150px;
+		margin: 5px 10px;
+	  
+		&:first-child {
+		  margin-top: 0;
+		}
+	  
+		&:last-child {
+		  margin-bottom: 0;
+		}
+	  }
+	  
+	  /* меньше 600px */
+	  @media screen and (max-width: 576px) {
+		.flex {
+		  flex-wrap: wrap;
+		}	  
+		.item {
+		  &:first-child {
+			margin-top: 10px;
+		  }
+	  
+		  &:last-child {
+			margin-top: 10px;
+		  }
+		}
+	  
+		.sideitem {
+		  flex-direction: row;
+		  flex-basis: 100%;
+		}
+	  
+		.item {
+		  margin-left: 0;
+		  margin-top: 10px;
+	  
+		  &:first-child {
+			margin-bottom: 0;
+			margin-right: 10px;
+		  }
+		}
+	  }
+	  
+	  /* меньше 450px */
+	  @media screen and (max-width: 450px) {
+		.sideitem {
+		  flex-wrap: wrap;
+		}
+		.mainitem {
+			height: 150px;
+		}
+	  
+		/* разрешаем перенос */
+	  
+		.item {
+		  flex-basis: 100%;
+		  margin-right: 0;
+		  margin-left: 0;
+	  
+		  &:first-child {
+			margin-right: 0;
+		  }
+		}
+	  
+		/* на всю ширину */
+	  }
 }
 
 // --------------- Section 4 ---------------
