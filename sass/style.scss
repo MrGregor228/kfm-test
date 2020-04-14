@@ -558,11 +558,19 @@ small {
 	
 	.falseNavigationLeftSecond {
 		@extend .falseNavigationLeft;
-		color: white;
+		background-color: #fff;
+		color: $violet;
+		height: 47px;
+		box-shadow: 0 0 15px gray;
+		border-radius:5px 0 0 5px;		
 	}
 	.falseNavigationRightSecond {
 		@extend .falseNavigationRight;
-		color: white;
+		background-color: #fff;
+		color: $violet;
+		height: 47px;
+		box-shadow: 0 0 15px gray;
+		border-radius: 0 5px 5px 0;		
 	}
 }
 
