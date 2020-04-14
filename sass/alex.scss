@@ -233,7 +233,20 @@
 
 
 .footer {
-
+  background: url(../images/background.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 5rem;
+  &:before{
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		background: rgba(0, 0, 0, 60%);
+		opacity: 0.6;
+	}
   .contact-card{
 
     ul {
@@ -250,21 +263,21 @@
           align-items: center;
           width: fit-content;
         
-          color: rgb(71, 10, 124);
+          color: #FFC107;
           svg{
             margin-right: 1rem;
             font-size: 2.5em;
-            color: rgb(71, 10, 124);
+            color: #FFC107;
             transition: ease .5s all;
           }
 
           &:hover{
-            color: lighten($color:  rgb(71, 10, 124), $amount: 20%);
+            color: lighten($color:  #FFC107, $amount: 20%);
             opacity: 80%;
           }
 
           &:hover svg{
-            color: lighten($color:  rgb(71, 10, 124), $amount: 20%);
+            color: lighten($color:  #FFC107, $amount: 20%);
           }
   
 
@@ -277,46 +290,50 @@
       font-weight: bold;
       font-size: 1.5em;
       margin-bottom: 1rem;
+      color: lightgray;
     }
 
     p{
-      color: #000;
+      color: lightgray;;
       padding: 0;
       margin-bottom: .5rem;
     }
 
     input{
       margin-bottom: 1rem;
-      padding: 0.2rem;
-      border: 1px solid  rgb(71, 10, 124);
+      padding: 0.5rem;
+      border: none;
+      background-color: #EDEDED;
 
       &::-webkit-input-placeholder{                          
-        color: rgb(71, 10, 124);  
+        color: #757575;  
         
       }
       &:hover::-webkit-input-placeholder{
-        color: lighten($color:  rgb(71, 10, 124), $amount: 20%);
+        color: lighten($color:  #757575, $amount: 20%);
       }
     }
 
     textarea{
+      padding: .5rem;
       margin-bottom: 1rem;
-      border: 1px solid  rgb(71, 10, 124);
+      border: none;
+      background-color: #EDEDED;
       &::-webkit-input-placeholder{                          
-        color: rgb(71, 10, 124);  
+        color: #757575;  
         
       }
       &:hover::-webkit-input-placeholder{
-        color: lighten($color:  rgb(71, 10, 124), $amount: 20%);
+        color: lighten($color:  #757575, $amount: 10%);
       }
     }
 
     button{
-     width: 10rem; 
-     padding: .4rem 0;
-     background-color: rgb(71, 10, 124);
-     color: #fff;
-     border: none;
+     width: 8rem; 
+     padding: .7rem 0;
+     background-color: #EDEDED;
+     color: rgb(71, 10, 124);
+     border: 1px solid #000;
      transition: ease .4s all;
      &:hover{
       background-color: lighten($color:  rgb(71, 10, 124), $amount: 20%);
@@ -361,7 +378,10 @@
   }
   // By Grishka
   
-
+// .bgg{
+//   background: url(../images/background.jpg) no-repeat;
+//   background-size: cover;
+// }
  
 
 }
