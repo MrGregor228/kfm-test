@@ -571,7 +571,7 @@ small {
 /* line 532, ../sass/style.scss */
 .sec3:before {
   content: "";
-  background-image: url("../images/news.jpg");
+  background-image: url("../images/background.jpg");
   background-attachment: fixed;
   display: block;
   position: absolute;
