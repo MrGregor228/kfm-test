@@ -96,7 +96,39 @@ a {
 small {
 	font-size: 10px;
 }
+// --------------- Slider navigation buttons ---------------
+.falseNavigationLeft {
+	position: absolute;
+	height: 100%;
+	top: 50%;
+	left: 0;
+	transform: translate(0%, -50%);
+}
 
+.falseNavigationRight {
+	position: absolute;
+	height: 100%;
+	top: 50%;
+	right: 0;
+	transform: translate(0%, -50%);
+}
+
+.falseNavigationLeft,
+.falseNavigationRight {
+	transition: .3s linear;
+	color: $yellow;
+
+	&:hover,
+	&:focus,
+	&:active {
+		box-shadow: none;
+	}
+
+	&:hover {
+		opacity: .6;
+	}
+}
+// --------------- Slider navigation buttons ---------------
 // Custom Styles
 
 //  --------------- MENU ---------------
@@ -712,39 +744,7 @@ $wht: #ffffff;
 					}
 				}
 			}
-		}
-
-		.falseNavigationLeft {
-			position: absolute;
-			height: 100%;
-			top: 50%;
-			left: 0;
-			transform: translate(0%, -50%);
-		}
-
-		.falseNavigationRight {
-			position: absolute;
-			height: 100%;
-			top: 50%;
-			right: 0;
-			transform: translate(0%, -50%);
-		}
-
-		.falseNavigationLeft,
-		.falseNavigationRight {
-			transition: .3s linear;
-			color: $yellow;
-
-			&:hover,
-			&:focus,
-			&:active {
-				box-shadow: none;
-			}
-
-			&:hover {
-				opacity: .6;
-			}
-		}
+		}		
 	}
 
 }
