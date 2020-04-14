@@ -42,7 +42,9 @@ $wht: #ffffff;
 .h100vh {
 	height: 100vh;
 }
-
+.mw1400 {
+	max-width: 1600px;
+}
 .mh25vh {
 	min-height: 25vh;
 }
@@ -526,26 +528,12 @@ small {
 	background-color: rgba($violet, .7);
 	box-shadow: inset 0 0 100px $violet, inset 0 0 100px $violet;
 	color: white;
-	.btn {
-		margin-top: 15px;
-		border: none; 
-		background-color: rgb(71, 10, 124); 
-		transition: box-shadow .3s linear;
-
-		&:focus {
-			box-shadow: 0 0 0 3px lighten(rgb(71, 10, 124), 50%);
-		}
-
-		&:hover,
-		&:active {
-			outline: none;
-			border: none;
-		}
-	}
+	
 	&:before {
 		content: "";
 		@extend .bgPlacement;
-		background-image: url("../images/news.jpg");
+		background-image: url("../images/news.jpg"); 
+		background-attachment: fixed;
 		display: block;
 		position: absolute;
 		width: 100%;
@@ -560,11 +548,42 @@ small {
 		padding-bottom: 7vh;		
 	}
 	.slider-2 {
-		.card {
+		a {			
+			width: 90%;
+			height: 100%;
+			text-decoration: none;
 			color: black;
-			max-width: 90%;
-			margin-right: auto;
-			margin-left: auto;
+			border-radius: 4px;
+		}
+		.mega-slider {
+			position: relative;
+			margin: 0 auto;
+			@extend .bgPlacement;
+			width: 90%;
+			height: 500px;
+			border-radius: 4px;
+			.slider-text {
+				position: absolute;
+				bottom: 0;
+				right: 0;
+				width: 100%;
+				padding: 15px;
+				background-color: #fff;
+				border-radius:  0 0 4px 4px;
+			}
+		}
+		
+		.item-one {
+			background-image: url("../images/news.jpg");
+		}
+		.item-two {
+			background-image: url("../images/news.jpg");
+		}
+		.item-three {
+			background-image: url("../images/news.jpg");
+		}
+		.item-four {
+			background-image: url("../images/news.jpg");
 		}
 	}
 	.myIframe {
@@ -573,17 +592,21 @@ small {
 	
 	.falseNavigationLeftSecond {
 		@extend .falseNavigationLeft;
-		background-color: #fff;
-		color: $violet;
-		height: 47px;
+		
+		background-color: none;
+		color: white;
+		border: 1px solid white;
+		height: 50px;
 		box-shadow: 0 0 15px black;
 		border-radius:5px 0 0 5px;		
 	}
 	.falseNavigationRightSecond {
 		@extend .falseNavigationRight;
-		background-color: #fff;
-		color: $violet;
-		height: 47px;
+		
+		background-color: none;
+		color: white;
+		border:1px solid white;
+		height: 50px;
 		box-shadow: 0 0 15px black;
 		border-radius: 0 5px 5px 0;		
 	}
