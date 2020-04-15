@@ -207,22 +207,22 @@
 }
 /* line 221, ../sass/alex.scss */
 .projects .covid {
-  background: url(../images/covid.jpg) no-repeat center center;
+  background: url("../images/covid.jpg") no-repeat center center;
   background-size: cover;
 }
 /* line 225, ../sass/alex.scss */
 .projects .links {
-  background: url(../images/links.jpg) no-repeat center center;
+  background: url("../images/links.jpg") no-repeat center center;
   background-size: cover;
 }
 /* line 229, ../sass/alex.scss */
 .projects .leader {
-  background: url(../images/leader.jpg) no-repeat center center;
+  background: url("../images/leader.jpg") no-repeat center center;
   background-size: cover;
 }
 /* line 233, ../sass/alex.scss */
 .projects .ithub {
-  background: url(../images/ithub.jpg) no-repeat center center;
+  background: url("../images/ithub.jpg") no-repeat center center;
   background-size: cover;
 }
 /* line 238, ../sass/alex.scss */
