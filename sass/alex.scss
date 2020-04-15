@@ -119,21 +119,35 @@
 // ------- Projects -------
 
 .projects{
-  // max-width: 1280px;
-  // padding: 5rem 5.5%;
   max-width: 90%;
   padding: 5rem 0;
-
-  .projects__title{
+  .projects__wrap{
     background-color: #F3F3F3;
     height: 80vh;
     width: 50%;
     text-align: center;
     padding: 1rem;
     font-weight: bold;
-    font-size: 2em;
     margin-right: 1rem;
-  }
+    position: relative;
+
+    
+    .projects__title{
+      font-size: 2em;
+     }
+
+    .projects__text_top{
+      position: absolute;
+      top:40%;
+      left: 5%;
+    }
+    .projects__text_bottom{
+      position: absolute;
+      left: 5%;
+      bottom: 5%;
+    }
+}
+ 
 
   .projects__card{
     border: 1px solid #000;
@@ -141,12 +155,13 @@
     .overlay {
       opacity: 0;
       color: #fff;
+      background: rgba(71, 10, 124, 0.7);
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
-      transition: ease 0.4s all;
+      transition: ease 0.8s all;
       display: flex;
       -webkit-flex-direction: column;
       -moz-flex-direction: column;
@@ -156,7 +171,6 @@
       -ms-align-items: center;
       align-items: center;
       justify-content: center;
-      background-color: lightgray;
       padding: 1rem;
 
       .card-title{
@@ -185,16 +199,40 @@
     .card-img-holder:hover .overlay{
       opacity: 1;
     }
+    .card-img-holder:hover .picture{
+      transform: scale(1.2);
+    }
 
     .card-img-holder{
       position: relative;
+      overflow: hidden;
 
-      img{
+
+      .picture{
         display: block;
         max-width: 100%;
         height: 35vh;
+        transition: ease 1s all;
       }
     }
+  }
+
+
+  .covid{
+    background: url(../images/covid.jpg) no-repeat center center;
+    background-size: cover;
+  }
+  .links{
+    background: url(../images/links.jpg) no-repeat center center;
+    background-size: cover;
+  }
+  .leader{
+    background: url(../images/leader.jpg) no-repeat center center;
+    background-size: cover;
+  }
+  .ithub{
+    background: url(../images/ithub.jpg) no-repeat center center;
+    background-size: cover;
   }
 
   .projects__card_small{
@@ -205,7 +243,7 @@
   .projects__card_large{
     width:100%;
     height: 70vh;
-    img{
+    .picture{
       height: 70vh !important;
     }
   }
@@ -213,18 +251,29 @@
 }
 
 .projects__block{
+  position: relative;
   height: 30vh;
   width: 100%;
-  background-color: lightgray;
+  background-color: rgb(71, 10, 124);
   cursor: pointer;
   margin-bottom: 1em;
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  color: #000;
+  color: #fff;
+  transition: ease .5s all;
   &:hover{
     text-decoration: none;
+    color: darken($color:  #fff, $amount: 20%);
+  }
+  .projects__item{
+    margin-bottom: 1rem;
+  }
+  .projects__item_bottom{
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
   }
 }
 
@@ -263,22 +312,22 @@
           display: flex;
           align-items: center;
           width: fit-content;
-          color: #FFC107;
+          color: #fff;
 
           svg{
             margin-right: 1rem;
             font-size: 2em;
-            color: #FFC107;
+            color: #fff;
             transition: ease .5s all;
           }
 
           &:hover{
-            color: lighten($color:  #FFC107, $amount: 20%);
+            color: darken($color:  #fff, $amount: 20%);
             opacity: 80%;
           }
 
           &:hover svg{
-            color: lighten($color:  #FFC107, $amount: 20%);
+            color: darken($color:  #fff, $amount: 20%);
           }
   
 
@@ -291,11 +340,11 @@
       font-weight: bold;
       font-size: 1.5em;
       margin-bottom: 1rem;
-      color: lightgray;
+      color: #fff;
     }
 
     p{
-      color: lightgray;;
+      color: lightgray;
       padding: 0;
       margin-bottom: .5rem;
     }
@@ -341,6 +390,7 @@
      border-radius: 4px;
      &:hover{
       background-color: lighten($color:  rgb(71, 10, 124), $amount: 20%);
+      color: #fff;
      }
     }
   }
