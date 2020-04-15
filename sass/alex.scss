@@ -305,6 +305,7 @@
       padding: 0.5rem;
       border: none;
       background-color: #EDEDED;
+      border-radius: 4px;
 
       &::-webkit-input-placeholder{                          
         color: #757575;  
@@ -317,9 +318,10 @@
 
     textarea{
       padding: .5rem;
-      margin-bottom: 1rem;
+      margin-bottom: 2.3rem;
       border: none;
       background-color: #EDEDED;
+      border-radius: 4px;
       &::-webkit-input-placeholder{                          
         color: #757575;  
         
@@ -336,6 +338,7 @@
      color: rgb(71, 10, 124);
      border: 1px solid #000;
      transition: ease .4s all;
+     border-radius: 4px;
      &:hover{
       background-color: lighten($color:  rgb(71, 10, 124), $amount: 20%);
      }
