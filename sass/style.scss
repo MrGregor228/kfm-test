@@ -309,7 +309,7 @@ small {
 				text-align: center;
 				font-size: 19px;
 				font-weight: bold;
-				padding: 10px;
+				padding: 10px 50px;
 				margin:-15px;
 			}
 			p {
@@ -336,6 +336,13 @@ small {
 	.img-holder {
 		background-image: url("../images/slide2.jpg");
 	}
+}
+
+.news-modal {
+	max-height: 100%;
+	.modal-body-content {
+		max-width: 992px;
+	}	
 }
 // ---------------- MODALS ---------------
 
