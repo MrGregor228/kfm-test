@@ -559,27 +559,15 @@ small {
 .sec2 .row #anonseThree .card-img-holder {
   background-color: lightgray;
 }
-/* line 511, ../sass/style.scss */
-.sec2 .row #anonseFour .card-img-holder {
-  background-color: lightgray;
-}
-/* line 517, ../sass/style.scss */
-.sec2 .row #anonseFive .card-img-holder {
-  background-color: lightgray;
-}
-/* line 523, ../sass/style.scss */
-.sec2 .row #anonseSix .card-img-holder {
-  background-color: lightgray;
-}
 
-/* line 534, ../sass/style.scss */
+/* line 515, ../sass/style.scss */
 .sec3 {
   position: relative;
   background-color: rgba(71, 10, 124, 0.7);
   box-shadow: inset 0 0 100px #470a7c, inset 0 0 100px #470a7c;
   color: white;
 }
-/* line 540, ../sass/style.scss */
+/* line 521, ../sass/style.scss */
 .sec3:before {
   content: "";
   background-image: url("../images/background.jpg");
@@ -590,15 +578,15 @@ small {
   height: 100%;
   z-index: -1;
 }
-/* line 551, ../sass/style.scss */
+/* line 532, ../sass/style.scss */
 .sec3 h2.big-text {
   padding-top: 7vh;
 }
-/* line 555, ../sass/style.scss */
+/* line 536, ../sass/style.scss */
 .sec3 .row {
   padding-bottom: 7vh;
 }
-/* line 559, ../sass/style.scss */
+/* line 540, ../sass/style.scss */
 .sec3 .slider-2 a {
   width: 90%;
   height: 100%;
@@ -606,7 +594,7 @@ small {
   color: black;
   border-radius: 4px;
 }
-/* line 566, ../sass/style.scss */
+/* line 547, ../sass/style.scss */
 .sec3 .slider-2 .mega-slider {
   position: relative;
   margin: 0 auto;
@@ -614,7 +602,7 @@ small {
   height: 500px;
   border-radius: 4px;
 }
-/* line 573, ../sass/style.scss */
+/* line 554, ../sass/style.scss */
 .sec3 .slider-2 .mega-slider .slider-text {
   position: absolute;
   bottom: 0;
@@ -623,28 +611,29 @@ small {
   padding: 15px;
   background-color: #fff;
   border-radius: 0 0 4px 4px;
+  box-shadow: 0 -5px 30px gray;
 }
-/* line 584, ../sass/style.scss */
+/* line 566, ../sass/style.scss */
 .sec3 .slider-2 .item-one {
   background-image: url("https://scontent.fdnk3-2.fna.fbcdn.net/v/t1.0-9/93404050_544421379796729_5089887453825728512_n.jpg?_nc_cat=104&_nc_sid=8024bb&_nc_ohc=33ns7g2N280AX-xxK2z&_nc_ht=scontent.fdnk3-2.fna&oh=a9eb5348e87f69e87f135b1ce8205bdc&oe=5EBAB68B");
 }
-/* line 587, ../sass/style.scss */
+/* line 569, ../sass/style.scss */
 .sec3 .slider-2 .item-two {
-  background-image: url("../images/news.jpg");
+  background-image: url("https://scontent.fdnk3-1.fna.fbcdn.net/v/t1.0-9/91932496_537801963792004_7682333957119016960_o.jpg?_nc_cat=105&_nc_sid=8024bb&_nc_ohc=doVp1nhZJCQAX9A2afJ&_nc_ht=scontent.fdnk3-1.fna&oh=b340cba8f8382be1644beb6ae7264b68&oe=5EBD1F28");
 }
-/* line 590, ../sass/style.scss */
+/* line 572, ../sass/style.scss */
 .sec3 .slider-2 .item-three {
-  background-image: url("../images/news.jpg");
+  background-image: url("https://scontent.fdnk3-1.fna.fbcdn.net/v/t1.0-9/90812945_532016741037193_7845158855959904256_o.jpg?_nc_cat=105&_nc_sid=110474&_nc_ohc=gf9l6YRulFQAX-FC2PB&_nc_ht=scontent.fdnk3-1.fna&oh=d274348575d6fd030b14ea8e7b27f4a9&oe=5EBE3776");
 }
-/* line 593, ../sass/style.scss */
+/* line 575, ../sass/style.scss */
 .sec3 .slider-2 .item-four {
-  background-image: url("../images/news.jpg");
+  background-image: url("https://scontent.fdnk3-2.fna.fbcdn.net/v/t1.0-9/90928635_530633387842195_8208785372948201472_o.jpg?_nc_cat=103&_nc_sid=8024bb&_nc_ohc=AsCxDIPK1fEAX_ClAYW&_nc_ht=scontent.fdnk3-2.fna&oh=70c9343d94d7a20c38c7876c32393a98&oe=5EBAFC32");
 }
-/* line 597, ../sass/style.scss */
+/* line 579, ../sass/style.scss */
 .sec3 .myIframe {
   text-align: center;
 }
-/* line 601, ../sass/style.scss */
+/* line 583, ../sass/style.scss */
 .sec3 .falseNavigationLeftSecond {
   background-color: none;
   color: white;
@@ -653,7 +642,7 @@ small {
   box-shadow: 0 0 15px black;
   border-radius: 5px 0 0 5px;
 }
-/* line 611, ../sass/style.scss */
+/* line 593, ../sass/style.scss */
 .sec3 .falseNavigationRightSecond {
   background-color: none;
   color: white;
@@ -663,7 +652,7 @@ small {
   border-radius: 0 5px 5px 0;
 }
 
-/* line 625, ../sass/style.scss */
+/* line 607, ../sass/style.scss */
 .sec5 {
   position: relative;
   background-color: rgba(71, 10, 124, 0.1);
@@ -671,7 +660,7 @@ small {
   color: white;
   line-height: 1.7;
 }
-/* line 632, ../sass/style.scss */
+/* line 614, ../sass/style.scss */
 .sec5:before {
   content: "";
   background-image: url("../images/background.jpg");
@@ -682,43 +671,43 @@ small {
   height: 100%;
   z-index: -1;
 }
-/* line 652, ../sass/style.scss */
+/* line 634, ../sass/style.scss */
 .sec5 .rgba-bg h2.big-text {
   padding-top: 2em;
 }
-/* line 658, ../sass/style.scss */
+/* line 640, ../sass/style.scss */
 .sec5 .rgba-bg {
   background-color: rgba(71, 10, 124, 0.7);
 }
-/* line 664, ../sass/style.scss */
+/* line 646, ../sass/style.scss */
 .sec5 .row-cols-4 .col-6 .infographic-handler {
   font-size: 28px;
   height: 100%;
   color: #FFA200;
 }
-/* line 669, ../sass/style.scss */
+/* line 651, ../sass/style.scss */
 .sec5 .row-cols-4 .col-6 .infographic-handler span {
   color: white;
 }
 
-/* line 679, ../sass/style.scss */
+/* line 661, ../sass/style.scss */
 .sec7 h2.big-text {
   margin-top: 0;
 }
-/* line 684, ../sass/style.scss */
+/* line 666, ../sass/style.scss */
 .sec7 .slider-1 {
   position: relative;
   line-height: 1.5;
 }
-/* line 691, ../sass/style.scss */
+/* line 673, ../sass/style.scss */
 .sec7 .slider-1 .owl-stage-outer .owl-stage .owl-item .card {
   border: none;
 }
-/* line 694, ../sass/style.scss */
+/* line 676, ../sass/style.scss */
 .sec7 .slider-1 .owl-stage-outer .owl-stage .owl-item .card .card-title .smth {
   font-size: 15px;
 }
-/* line 697, ../sass/style.scss */
+/* line 679, ../sass/style.scss */
 .sec7 .slider-1 .owl-stage-outer .owl-stage .owl-item .card .card-title:after {
   content: "";
   display: block;
@@ -728,13 +717,13 @@ small {
   margin-bottom: 15px;
   margin-top: 5px;
 }
-/* line 707, ../sass/style.scss */
+/* line 689, ../sass/style.scss */
 .sec7 .slider-1 .owl-stage-outer .owl-stage .owl-item .card .card-date {
   text-align: right;
   color: #aaaaaa;
   margin-bottom: -12px;
 }
-/* line 712, ../sass/style.scss */
+/* line 694, ../sass/style.scss */
 .sec7 .slider-1 .owl-stage-outer .owl-stage .owl-item .card .small-fz {
   font-size: 14px;
 }

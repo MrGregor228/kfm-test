@@ -24,3 +24,8 @@ function onLoadSliderTexts() {
   $('.slider-text-fourth').html($(".slider-text-fourth").text().replace(/(.{250}).{0,}/, "$1... <i class='fal fa-long-arrow-right'></i>"));
 }
 onLoadSliderTexts();
+
+// Временно
+$(".owl-item a").click(function (e) {
+  e.preventDefault();
+});
