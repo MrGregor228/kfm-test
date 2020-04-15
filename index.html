@@ -422,16 +422,20 @@
 	<!-- Section 4 -->
 	<section class="projects container-fluid" id="projects">
 		<div class="row">
-			<div class="col-12 col-lg-6">
+			<div class="col-12 col-lg-6 pr-0">
 				<div class="projects__left">
 					<div class="projects__top d-flex justify-content-center align-items-end mb-3">
-						<h2 class="projects__title">Проекты</h2>
-
+						<div class="projects__wrap">
+							<h2 class="projects__title">Проекты</h2>
+							<p class="projects__text projects__text_top">Ми реалізуємо проекти для вас</p>
+							<p class="projects__text projects__text_bottom">Кожного дня</p>
+						</div>
+						
 						<div class="projects__card projects__card_small">
 							<div class="card-img-holder">
-								<img src="#" alt="img">
+								<div class="picture links"></div>
 								<div class="overlay">
-									<h5 class="card-title">Card title</h5>
+									<h5 class="card-title">Корисні Лінки</h5>
 									<p class="card-text">Some quick example text to build on the card title and make up
 										the bulk of
 										the card's content.</p>
@@ -443,9 +447,9 @@
 					<div class="projects__bottom">
 						<div class="projects__card projects__card_large">
 							<div class="card-img-holder">
-								<img src="#" alt="img">
+								<div class="picture covid"></div>
 								<div class="overlay">
-									<h5 class="card-title">Card title</h5>
+									<h5 class="card-title">Протидіємо поширенню короновірусу</h5>
 									<p class="card-text">Some quick example text to build on the card title and make up
 										the bulk of
 										the card's content.</p>
@@ -457,13 +461,17 @@
 				</div>
 			</div>
 			<div class="col-12 col-lg-6">
-				<div class="projects__right d-flex flex-column">
-					<a href="#footer" class="projects__block">Lorem ipsum dolor sit amet.</a>
+				<div class="projects__right">
+					<a href="#footer" class="projects__block d-flex flex-column">
+						<p class="projects__item">Хочете дізнатися більше про нас?</p> 
+						<p class="projects__item">Завантажте нашу електронну брошуру</p> 
+						<p class="projects__item projects__item_bottom">#KryvbasFuture.</p>
+					</a>
 					<div class="projects__card projects__card_large mb-3">
 						<div class="card-img-holder">
-							<img src="#" alt="img">
+							<div class="picture ithub"></div>
 							<div class="overlay">
-								<h5 class="card-title">Card title</h5>
+								<h5 class="card-title"> IT-HUB</h5>
 								<p class="card-text">Some quick example text to build on the card title and make up the
 									bulk of
 									the card's content.</p>
@@ -473,9 +481,9 @@
 					</div>
 					<div class="projects__card projects__card_small">
 						<div class="card-img-holder">
-							<img src="#" alt="img">
+							<div class="picture leader"></div>
 							<div class="overlay">
-								<h5 class="card-title">Card title</h5>
+								<h5 class="card-title">Школа муніципального лідерства</h5>
 								<p class="card-text">Some quick example text to build on the card title and make up the
 									bulk of
 									the card's content.</p>
@@ -681,10 +689,6 @@
 					<div class="contact-card">
 						<ul class="contact-card__list">
 							<li class="contact-card__item">
-								<a href="#" class="contact-card__link"><i class="fab fa-instagram"
-										target="_blank"></i>link bla bla bla</a>
-							</li>
-							<li class="contact-card__item">
 								<a href="https://www.facebook.com/KryvbasFuture/" class="contact-card__link"
 									target="_blank"><i
 										class="fab fa-facebook-square"></i>facebook.com/KryvbasFuture/</a>
@@ -694,8 +698,7 @@
 										class="far fa-envelope"></i>go.kfm.2040@gmail.com</a>
 							</li>
 							<li class="contact-card__item">
-								<a href="#" class="contact-card__link"><i class="fas fa-map-marked-alt"></i>link bla bla
-									bla</a>
+								<a href="#" class="contact-card__link"><i class="fas fa-map-marked-alt"></i>Площа Визволення 3</a>
 							</li>
 						</ul>
 					</div>
