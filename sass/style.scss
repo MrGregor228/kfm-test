@@ -339,9 +339,11 @@ small {
 }
 
 .news-modal {
-	max-height: 100%;
+	
 	.modal-body-content {
 		max-width: 992px;
+		height: auto;
+		max-height: 90vh;
 	}	
 }
 // ---------------- MODALS ---------------
