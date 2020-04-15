@@ -124,25 +124,27 @@
 }
 /* line 135, ../sass/alex.scss */
 .projects .projects__wrap .projects__title {
-  font-size: 2em;
+  font-size: 1.7em;
+  line-height: 1.5;
 }
-/* line 139, ../sass/alex.scss */
+/* line 140, ../sass/alex.scss */
 .projects .projects__wrap .projects__text_top {
   position: absolute;
   top: 40%;
   left: 5%;
 }
-/* line 144, ../sass/alex.scss */
+/* line 145, ../sass/alex.scss */
 .projects .projects__wrap .projects__text_bottom {
   position: absolute;
   left: 5%;
   bottom: 5%;
+  font-size: 1.7em;
 }
-/* line 152, ../sass/alex.scss */
+/* line 154, ../sass/alex.scss */
 .projects .projects__card {
   border: 1px solid #000;
 }
-/* line 155, ../sass/alex.scss */
+/* line 157, ../sass/alex.scss */
 .projects .projects__card .overlay {
   opacity: 0;
   color: #fff;
@@ -164,83 +166,88 @@
   justify-content: center;
   padding: 1rem;
 }
-/* line 176, ../sass/alex.scss */
+/* line 178, ../sass/alex.scss */
 .projects .projects__card .overlay .card-title {
   margin-bottom: 1rem;
 }
-/* line 180, ../sass/alex.scss */
-.projects .projects__card .overlay .btn {
-  position: absolute;
-  bottom: 1rem;
-  border: none;
-  background-color: #470a7c;
-  transition: box-shadow .3s linear;
+/* line 182, ../sass/alex.scss */
+.projects .projects__card .overlay .card-text {
+  margin-bottom: 1rem;
 }
-/* line 187, ../sass/alex.scss */
+/* line 186, ../sass/alex.scss */
+.projects .projects__card .overlay .btn {
+  border: 1px solid #fff;
+  background-color: transparent;
+  transition: box-shadow .3s linear;
+  transition: ease .4s all;
+}
+/* line 192, ../sass/alex.scss */
 .projects .projects__card .overlay .btn:focus {
   box-shadow: 0 0 0 3px #c68ff6;
 }
-/* line 191, ../sass/alex.scss */
+/* line 196, ../sass/alex.scss */
 .projects .projects__card .overlay .btn:hover, .projects .projects__card .overlay .btn:active {
   outline: none;
   border: none;
+  background: #fff;
+  color: #470a7c;
 }
-/* line 199, ../sass/alex.scss */
+/* line 206, ../sass/alex.scss */
 .projects .projects__card .card-img-holder:hover .overlay {
   opacity: 1;
 }
-/* line 202, ../sass/alex.scss */
+/* line 209, ../sass/alex.scss */
 .projects .projects__card .card-img-holder:hover .picture {
   transform: scale(1.2);
 }
-/* line 206, ../sass/alex.scss */
+/* line 213, ../sass/alex.scss */
 .projects .projects__card .card-img-holder {
   position: relative;
   overflow: hidden;
 }
-/* line 211, ../sass/alex.scss */
+/* line 218, ../sass/alex.scss */
 .projects .projects__card .card-img-holder .picture {
   display: block;
   max-width: 100%;
   height: 35vh;
   transition: ease 1s all;
 }
-/* line 221, ../sass/alex.scss */
+/* line 228, ../sass/alex.scss */
 .projects .covid {
   background: url("../images/covid.jpg") no-repeat center center;
   background-size: cover;
 }
-/* line 225, ../sass/alex.scss */
+/* line 232, ../sass/alex.scss */
 .projects .links {
   background: url("../images/links.jpg") no-repeat center center;
   background-size: cover;
 }
-/* line 229, ../sass/alex.scss */
+/* line 236, ../sass/alex.scss */
 .projects .leader {
   background: url("../images/leader.jpg") no-repeat center center;
   background-size: cover;
 }
-/* line 233, ../sass/alex.scss */
+/* line 240, ../sass/alex.scss */
 .projects .ithub {
   background: url("../images/ithub.jpg") no-repeat center center;
   background-size: cover;
 }
-/* line 238, ../sass/alex.scss */
+/* line 245, ../sass/alex.scss */
 .projects .projects__card_small {
   width: 50%;
   height: 35vh;
 }
-/* line 243, ../sass/alex.scss */
+/* line 250, ../sass/alex.scss */
 .projects .projects__card_large {
   width: 100%;
   height: 70vh;
 }
-/* line 246, ../sass/alex.scss */
+/* line 253, ../sass/alex.scss */
 .projects .projects__card_large .picture {
   height: 70vh !important;
 }
 
-/* line 253, ../sass/alex.scss */
+/* line 260, ../sass/alex.scss */
 .projects__block {
   position: relative;
   height: 30vh;
@@ -248,30 +255,32 @@
   background-color: #470a7c;
   cursor: pointer;
   margin-bottom: 1em;
-  display: block;
   justify-content: center;
   align-items: center;
   text-decoration: none;
   color: #fff;
   transition: ease .5s all;
 }
-/* line 266, ../sass/alex.scss */
+/* line 273, ../sass/alex.scss */
 .projects__block:hover {
   text-decoration: none;
   color: #cccccc;
 }
-/* line 270, ../sass/alex.scss */
+/* line 277, ../sass/alex.scss */
 .projects__block .projects__item {
   margin-bottom: 1rem;
+  text-align: center;
+  font-size: 1.7em;
 }
-/* line 273, ../sass/alex.scss */
+/* line 282, ../sass/alex.scss */
 .projects__block .projects__item_bottom {
   position: absolute;
   left: 5%;
-  bottom: 5%;
+  bottom: 1%;
+  font-size: 1em;
 }
 
-/* line 284, ../sass/alex.scss */
+/* line 294, ../sass/alex.scss */
 .footer {
   position: relative;
   box-shadow: inset 0 0 100px #470a7c, inset 0 0 100px #470a7c;
@@ -280,7 +289,7 @@
   background-size: cover;
   padding-top: 5rem;
 }
-/* line 291, ../sass/alex.scss */
+/* line 301, ../sass/alex.scss */
 .footer:before {
   content: '';
   position: absolute;
@@ -290,13 +299,13 @@
   right: 0;
   background: rgba(71, 10, 124, 0.7);
 }
-/* line 303, ../sass/alex.scss */
+/* line 313, ../sass/alex.scss */
 .footer .contact-card ul li {
   margin-right: 1rem;
   font-size: 1em;
   margin-bottom: 1rem;
 }
-/* line 308, ../sass/alex.scss */
+/* line 318, ../sass/alex.scss */
 .footer .contact-card ul li a {
   color: #000;
   text-decoration: none;
@@ -306,36 +315,36 @@
   width: fit-content;
   color: #fff;
 }
-/* line 317, ../sass/alex.scss */
+/* line 327, ../sass/alex.scss */
 .footer .contact-card ul li a svg {
   margin-right: 1rem;
   font-size: 2em;
   color: #fff;
   transition: ease .5s all;
 }
-/* line 324, ../sass/alex.scss */
+/* line 334, ../sass/alex.scss */
 .footer .contact-card ul li a:hover {
   color: #cccccc;
   opacity: 80%;
 }
-/* line 329, ../sass/alex.scss */
+/* line 339, ../sass/alex.scss */
 .footer .contact-card ul li a:hover svg {
   color: #cccccc;
 }
-/* line 339, ../sass/alex.scss */
+/* line 349, ../sass/alex.scss */
 .footer form h3 {
   font-weight: bold;
   font-size: 1.5em;
   margin-bottom: 1rem;
   color: #fff;
 }
-/* line 346, ../sass/alex.scss */
+/* line 356, ../sass/alex.scss */
 .footer form p {
   color: lightgray;
   padding: 0;
   margin-bottom: .5rem;
 }
-/* line 352, ../sass/alex.scss */
+/* line 362, ../sass/alex.scss */
 .footer form input {
   margin-bottom: 1rem;
   padding: 0.5rem;
@@ -343,15 +352,15 @@
   background-color: #EDEDED;
   border-radius: 4px;
 }
-/* line 359, ../sass/alex.scss */
+/* line 369, ../sass/alex.scss */
 .footer form input::-webkit-input-placeholder {
   color: #757575;
 }
-/* line 363, ../sass/alex.scss */
+/* line 373, ../sass/alex.scss */
 .footer form input:hover::-webkit-input-placeholder {
   color: #a8a8a8;
 }
-/* line 368, ../sass/alex.scss */
+/* line 378, ../sass/alex.scss */
 .footer form textarea {
   padding: .5rem;
   margin-bottom: 2.3rem;
@@ -359,15 +368,15 @@
   background-color: #EDEDED;
   border-radius: 4px;
 }
-/* line 374, ../sass/alex.scss */
+/* line 384, ../sass/alex.scss */
 .footer form textarea::-webkit-input-placeholder {
   color: #757575;
 }
-/* line 378, ../sass/alex.scss */
+/* line 388, ../sass/alex.scss */
 .footer form textarea:hover::-webkit-input-placeholder {
   color: #8f8f8f;
 }
-/* line 383, ../sass/alex.scss */
+/* line 393, ../sass/alex.scss */
 .footer form button {
   width: 8rem;
   padding: .7rem 0;
@@ -377,17 +386,17 @@
   transition: ease .4s all;
   border-radius: 4px;
 }
-/* line 391, ../sass/alex.scss */
+/* line 401, ../sass/alex.scss */
 .footer form button:hover {
   background-color: #7d12da;
   color: #fff;
 }
-/* line 397, ../sass/alex.scss */
+/* line 407, ../sass/alex.scss */
 .footer p {
   color: #fff;
   padding: 1rem;
 }
-/* line 402, ../sass/alex.scss */
+/* line 412, ../sass/alex.scss */
 .footer .authors {
   visibility: hidden;
   opacity: 0;
@@ -400,23 +409,23 @@
   width: 100%;
   transition: opacity .3s linear;
 }
-/* line 413, ../sass/alex.scss */
+/* line 423, ../sass/alex.scss */
 .footer .authors img {
   border-radius: 30px;
   cursor: pointer;
 }
-/* line 418, ../sass/alex.scss */
+/* line 428, ../sass/alex.scss */
 .footer .author-wrapper {
   position: relative;
   color: #fff;
   text-decoration: none;
   transition: all .3s ease-in-out;
 }
-/* line 424, ../sass/alex.scss */
+/* line 434, ../sass/alex.scss */
 .footer .author-wrapper:hover {
   text-shadow: 0px 0px 15px white;
 }
-/* line 426, ../sass/alex.scss */
+/* line 436, ../sass/alex.scss */
 .footer .author-wrapper:hover .authors {
   visibility: visible;
   opacity: 1;
@@ -426,107 +435,128 @@
 /*----------------------------------------Media queries----------------------------------------------*/
 /*---992-1200px---*/
 @media screen and (max-width: 1200px) {
-  /* line 446, ../sass/alex.scss */
+  /* line 456, ../sass/alex.scss */
   .projects {
     padding: 4rem;
   }
 }
 /*---768-992px---*/
 @media screen and (max-width: 992px) {
-  /* line 457, ../sass/alex.scss */
+  /* line 467, ../sass/alex.scss */
   .projects__left {
     margin-bottom: 1rem;
   }
 
-  /* line 464, ../sass/alex.scss */
+  /* line 474, ../sass/alex.scss */
   .mainS .flyElement h1 {
     font-size: 2.5em;
     line-height: 1.3;
   }
 
-  /* line 470, ../sass/alex.scss */
+  /* line 480, ../sass/alex.scss */
   .projects {
     padding: 3rem;
+  }
+
+  /* line 486, ../sass/alex.scss */
+  .projects__block {
+    order: 1;
+  }
+  /* line 488, ../sass/alex.scss */
+  .projects__block .projects__item {
+    font-size: 1.5em;
+  }
+  /* line 491, ../sass/alex.scss */
+  .projects__block .projects__item_bottom {
+    font-size: 1em;
   }
 }
 /*---576-768px---*/
 @media screen and (max-width: 768px) {
-  /* line 481, ../sass/alex.scss */
+  /* line 503, ../sass/alex.scss */
   footer form {
     margin-top: 3rem;
   }
 
-  /* line 488, ../sass/alex.scss */
+  /* line 510, ../sass/alex.scss */
   .mainS .arrowBtn {
     bottom: -5%;
   }
-  /* line 492, ../sass/alex.scss */
+  /* line 514, ../sass/alex.scss */
   .mainS .bgwhite {
     background-color: none;
   }
-  /* line 497, ../sass/alex.scss */
+  /* line 519, ../sass/alex.scss */
   .mainS .flyElement {
     height: 16rem;
   }
-  /* line 499, ../sass/alex.scss */
+  /* line 521, ../sass/alex.scss */
   .mainS .flyElement h1 {
     font-size: 2em;
     line-height: 1.3;
   }
-  /* line 504, ../sass/alex.scss */
+  /* line 526, ../sass/alex.scss */
   .mainS .flyElement p {
     font-size: .8em;
   }
-  /* line 510, ../sass/alex.scss */
+  /* line 532, ../sass/alex.scss */
   .mainS .flyElement::before {
     content: "";
     width: 10rem;
     height: 1.2rem;
   }
 
-  /* line 519, ../sass/alex.scss */
+  /* line 541, ../sass/alex.scss */
   .projects {
     padding: 2rem;
+  }
+  /* line 543, ../sass/alex.scss */
+  .projects .projects__item {
+    font-size: 1.2em;
+  }
+  /* line 546, ../sass/alex.scss */
+  .projects .projects__item_bottom {
+    font-size: 1em;
   }
 }
 /*---320-576px---*/
 @media screen and (max-width: 576px) {
-  /* line 531, ../sass/alex.scss */
+  /* line 559, ../sass/alex.scss */
   .mainS img {
     max-width: 12rem;
     padding: 1rem;
   }
-  /* line 536, ../sass/alex.scss */
+  /* line 564, ../sass/alex.scss */
   .mainS .arrowBtn {
     bottom: -6%;
   }
-  /* line 540, ../sass/alex.scss */
+  /* line 568, ../sass/alex.scss */
   .mainS .flyElement {
     padding: 2rem;
   }
-  /* line 543, ../sass/alex.scss */
+  /* line 571, ../sass/alex.scss */
   .mainS .flyElement h1 {
     font-size: 1.8em;
     font-weight: bold;
     line-height: 1.3;
     margin-bottom: 1.3rem;
   }
-  /* line 551, ../sass/alex.scss */
+  /* line 579, ../sass/alex.scss */
   .mainS .flyElement p {
     font-size: .7em;
     font-weight: bold;
     line-height: 1.5;
   }
-  /* line 557, ../sass/alex.scss */
+  /* line 585, ../sass/alex.scss */
   .mainS .flyElement::before {
     display: none;
   }
 
-  /* line 566, ../sass/alex.scss */
+  /* line 594, ../sass/alex.scss */
   .projects .projects__top {
     display: block !important;
   }
-  /* line 570, ../sass/alex.scss */
+  /* line 598, ../sass/alex.scss */
   .projects .projects__title {
     height: 60vh;
     width: 100%;
@@ -535,91 +565,90 @@
     margin-right: 1rem;
     margin-bottom: 1rem;
   }
-  /* line 582, ../sass/alex.scss */
+  /* line 610, ../sass/alex.scss */
   .projects .projects__card .overlay {
     padding: 1rem;
   }
-  /* line 585, ../sass/alex.scss */
+  /* line 613, ../sass/alex.scss */
   .projects .projects__card .overlay .card-title {
     margin-bottom: 1rem;
   }
-  /* line 592, ../sass/alex.scss */
+  /* line 620, ../sass/alex.scss */
   .projects .projects__card .card-img-holder img {
     max-width: 100%;
     height: 35vh;
   }
-  /* line 599, ../sass/alex.scss */
+  /* line 627, ../sass/alex.scss */
   .projects .projects__card_small {
     width: 100%;
     height: 35vh;
   }
-  /* line 604, ../sass/alex.scss */
+  /* line 632, ../sass/alex.scss */
   .projects .projects__card_large {
     width: 100%;
     height: 35vh;
   }
-  /* line 607, ../sass/alex.scss */
+  /* line 635, ../sass/alex.scss */
   .projects .projects__card_large img {
     height: 35vh !important;
   }
 
-  /* line 614, ../sass/alex.scss */
+  /* line 642, ../sass/alex.scss */
   .projects__block {
     height: 35vh;
     width: 100%;
     margin-top: 1em;
-    order: 1;
   }
 
-  /* line 624, ../sass/alex.scss */
+  /* line 651, ../sass/alex.scss */
   .contact-card ul li {
     margin-bottom: .8rem;
   }
-  /* line 627, ../sass/alex.scss */
+  /* line 654, ../sass/alex.scss */
   .contact-card ul li a {
     font-size: 0.8em;
   }
-  /* line 629, ../sass/alex.scss */
+  /* line 656, ../sass/alex.scss */
   .contact-card ul li a svg {
     font-size: 1.5em;
   }
 
-  /* line 640, ../sass/alex.scss */
+  /* line 667, ../sass/alex.scss */
   form h3 {
     font-size: 1em;
     line-height: 1.5;
   }
-  /* line 645, ../sass/alex.scss */
+  /* line 672, ../sass/alex.scss */
   form input {
     margin-bottom: 1rem;
     padding: 0.5rem;
     border: none;
     background-color: #EDEDED;
   }
-  /* line 651, ../sass/alex.scss */
+  /* line 678, ../sass/alex.scss */
   form input::-webkit-input-placeholder {
     color: #757575;
   }
-  /* line 655, ../sass/alex.scss */
+  /* line 682, ../sass/alex.scss */
   form input:hover::-webkit-input-placeholder {
     color: #a8a8a8;
   }
-  /* line 660, ../sass/alex.scss */
+  /* line 687, ../sass/alex.scss */
   form textarea {
     padding: .5rem;
     margin-bottom: 1rem;
     border: none;
     background-color: #EDEDED;
   }
-  /* line 665, ../sass/alex.scss */
+  /* line 692, ../sass/alex.scss */
   form textarea::-webkit-input-placeholder {
     color: #757575;
   }
-  /* line 669, ../sass/alex.scss */
+  /* line 696, ../sass/alex.scss */
   form textarea:hover::-webkit-input-placeholder {
     color: #8f8f8f;
   }
-  /* line 674, ../sass/alex.scss */
+  /* line 701, ../sass/alex.scss */
   form button {
     width: 8rem;
     padding: .7rem 0;
@@ -628,13 +657,32 @@
     border: 1px solid #000;
     transition: ease .4s all;
   }
-  /* line 681, ../sass/alex.scss */
+  /* line 708, ../sass/alex.scss */
   form button:hover {
     background-color: #7d12da;
   }
+
+  /* line 714, ../sass/alex.scss */
+  .projects__right {
+    margin-top: 2rem;
+  }
+
+  /* line 718, ../sass/alex.scss */
+  .projects__wrap {
+    margin-bottom: 1rem;
+    width: 100% !important;
+  }
+  /* line 721, ../sass/alex.scss */
+  .projects__wrap .projects__title {
+    font-size: 1em !important;
+  }
+  /* line 724, ../sass/alex.scss */
+  .projects__wrap .projects__text {
+    font-size: 1em !important;
+  }
 }
 @media screen and (max-width: 319px) {
-  /* line 696, ../sass/alex.scss */
+  /* line 738, ../sass/alex.scss */
   .mainS .line img {
     display: none;
   }
