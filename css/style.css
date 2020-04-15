@@ -699,11 +699,15 @@ small {
   position: relative;
   line-height: 1.5;
 }
-/* line 685, ../sass/style.scss */
+/* line 683, ../sass/style.scss */
+.sec7 .slider-1 .owl-stage-outer .owl-stage .owl-item .card {
+  border: none;
+}
+/* line 686, ../sass/style.scss */
 .sec7 .slider-1 .owl-stage-outer .owl-stage .owl-item .card .card-title .smth {
   font-size: 15px;
 }
-/* line 688, ../sass/style.scss */
+/* line 689, ../sass/style.scss */
 .sec7 .slider-1 .owl-stage-outer .owl-stage .owl-item .card .card-title:after {
   content: "";
   display: block;
@@ -713,13 +717,13 @@ small {
   margin-bottom: 15px;
   margin-top: 5px;
 }
-/* line 698, ../sass/style.scss */
+/* line 699, ../sass/style.scss */
 .sec7 .slider-1 .owl-stage-outer .owl-stage .owl-item .card .card-date {
   text-align: right;
   color: #aaaaaa;
   margin-bottom: -12px;
 }
-/* line 703, ../sass/style.scss */
+/* line 704, ../sass/style.scss */
 .sec7 .slider-1 .owl-stage-outer .owl-stage .owl-item .card .small-fz {
   font-size: 14px;
 }
