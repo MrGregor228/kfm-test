@@ -291,7 +291,9 @@ small {
 			width: 100%;
 			overflow: hidden;
 		}
-
+		.card-title, .modal-heading {
+			color: $violet;
+		}
 		.main-content {
 			padding: 15px;
 
@@ -302,6 +304,12 @@ small {
 				text-align: center;
 				font-size: 19px;
 				font-weight: bold;
+				padding: 10px;
+				margin:-15px;
+			}
+			p {
+				padding-top: 10px;
+				font-size: 16px;
 			}
 		}
 
@@ -574,7 +582,7 @@ small {
 		}
 		
 		.item-one {
-			background-image: url("../images/news.jpg");
+			background-image: url("https://scontent.fdnk3-2.fna.fbcdn.net/v/t1.0-9/93404050_544421379796729_5089887453825728512_n.jpg?_nc_cat=104&_nc_sid=8024bb&_nc_ohc=33ns7g2N280AX-xxK2z&_nc_ht=scontent.fdnk3-2.fna&oh=a9eb5348e87f69e87f135b1ce8205bdc&oe=5EBAB68B");
 		}
 		.item-two {
 			background-image: url("../images/news.jpg");
