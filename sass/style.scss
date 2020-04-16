@@ -228,6 +228,17 @@ small {
 
 	.modal-body-content {
 		position: relative;
+		display: block;
+		margin-right: 15px;
+		margin-left: 15px;
+		box-shadow: 0 0 15px gray;
+		border-radius: 4px;
+		align-self: center;
+		max-width: 650px;
+		height: auto;
+		max-height: 90vh;
+		background-color: rgb(235, 235, 235);
+		overflow-y: auto;
 		.close {
 			position: absolute;
 			right: 0;
@@ -261,16 +272,7 @@ small {
 			background-color: rgb(73, 73, 73);
 		}
 
-		display: block;
-		margin-right: 15px;
-		margin-left: 15px;
-		box-shadow: 0 0 15px gray;
-		border-radius: 4px;
-		align-self: center;
-		max-width: 650px;
-		height: 90vh;
-		background-color: rgb(235, 235, 235);
-		overflow-y: auto;
+		
 		.list {
 			padding-left: 10px;
 			font-size: 16px;
@@ -292,7 +294,7 @@ small {
 			background-position: center center;
 			background-size: 100% 100%;
 			display: block;
-			height: 35%;
+			height: 30vh;
 			width: 100%;
 			overflow: hidden;
 		}
