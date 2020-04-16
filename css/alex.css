@@ -121,30 +121,31 @@
   font-weight: bold;
   margin-right: 1rem;
   position: relative;
+  color: #470a7c;
 }
-/* line 135, ../sass/alex.scss */
+/* line 136, ../sass/alex.scss */
 .projects .projects__wrap .projects__title {
   font-size: 1.7em;
   line-height: 1.5;
 }
-/* line 140, ../sass/alex.scss */
+/* line 141, ../sass/alex.scss */
 .projects .projects__wrap .projects__text_top {
   position: absolute;
   top: 40%;
   left: 5%;
 }
-/* line 145, ../sass/alex.scss */
+/* line 146, ../sass/alex.scss */
 .projects .projects__wrap .projects__text_bottom {
   position: absolute;
   left: 5%;
   bottom: 5%;
   font-size: 1.7em;
 }
-/* line 154, ../sass/alex.scss */
+/* line 155, ../sass/alex.scss */
 .projects .projects__card {
   border: 1px solid #000;
 }
-/* line 157, ../sass/alex.scss */
+/* line 158, ../sass/alex.scss */
 .projects .projects__card .overlay {
   opacity: 0;
   color: #fff;
@@ -166,85 +167,85 @@
   justify-content: center;
   padding: 1rem;
 }
-/* line 178, ../sass/alex.scss */
+/* line 179, ../sass/alex.scss */
 .projects .projects__card .overlay .card-title {
   margin-bottom: 1rem;
 }
-/* line 182, ../sass/alex.scss */
+/* line 183, ../sass/alex.scss */
 .projects .projects__card .overlay .card-text {
   margin-bottom: 1rem;
 }
-/* line 186, ../sass/alex.scss */
+/* line 187, ../sass/alex.scss */
 .projects .projects__card .overlay .btn {
   border: 1px solid #fff;
   background-color: transparent;
   transition: box-shadow .3s linear;
   transition: ease .4s all;
 }
-/* line 192, ../sass/alex.scss */
+/* line 193, ../sass/alex.scss */
 .projects .projects__card .overlay .btn:focus {
   box-shadow: 0 0 0 3px #c68ff6;
 }
-/* line 196, ../sass/alex.scss */
+/* line 197, ../sass/alex.scss */
 .projects .projects__card .overlay .btn:hover, .projects .projects__card .overlay .btn:active {
   outline: none;
   border: 1px solid transparent;
   background: #fff;
   color: #470a7c;
 }
-/* line 206, ../sass/alex.scss */
+/* line 207, ../sass/alex.scss */
 .projects .projects__card .card-img-holder:hover .overlay {
   opacity: 1;
 }
-/* line 209, ../sass/alex.scss */
+/* line 210, ../sass/alex.scss */
 .projects .projects__card .card-img-holder:hover .picture {
   transform: scale(1.2);
 }
-/* line 213, ../sass/alex.scss */
+/* line 214, ../sass/alex.scss */
 .projects .projects__card .card-img-holder {
   position: relative;
   overflow: hidden;
   height: 100%;
 }
-/* line 219, ../sass/alex.scss */
+/* line 220, ../sass/alex.scss */
 .projects .projects__card .card-img-holder .picture {
   display: block;
   max-width: 100%;
   height: 100%;
   transition: ease 1s all;
 }
-/* line 229, ../sass/alex.scss */
+/* line 230, ../sass/alex.scss */
 .projects .covid {
   background: url("../images/covid.jpg") no-repeat center center;
   background-size: cover;
 }
-/* line 233, ../sass/alex.scss */
+/* line 234, ../sass/alex.scss */
 .projects .links {
   background: url("../images/links.jpg") no-repeat center center;
   background-size: cover;
 }
-/* line 237, ../sass/alex.scss */
+/* line 238, ../sass/alex.scss */
 .projects .leader {
   background: url("../images/leader.jpg") no-repeat center center;
   background-size: cover;
 }
-/* line 241, ../sass/alex.scss */
+/* line 242, ../sass/alex.scss */
 .projects .ithub {
   background: url("../images/ithub.jpg") no-repeat center center;
   background-size: cover;
 }
-/* line 246, ../sass/alex.scss */
+/* line 247, ../sass/alex.scss */
 .projects .projects__card_small {
   width: 50%;
   height: 35vh;
 }
-/* line 251, ../sass/alex.scss */
+/* line 252, ../sass/alex.scss */
 .projects .projects__card_large {
   width: 100%;
   height: 70vh;
 }
 
-/* line 258, ../sass/alex.scss */
+/* line 259, ../sass/alex.scss */
 .projects__block {
   position: relative;
   height: 30vh;
@@ -253,20 +254,19 @@
   cursor: pointer;
   margin-bottom: 1em;
   justify-content: center;
-  align-items: center;
   text-decoration: none;
   color: #fff;
   transition: ease .5s all;
+  padding: 0 1rem;
 }
-/* line 271, ../sass/alex.scss */
+/* line 272, ../sass/alex.scss */
 .projects__block:hover {
   text-decoration: none;
   color: #cccccc;
 }
-/* line 275, ../sass/alex.scss */
+/* line 276, ../sass/alex.scss */
 .projects__block .projects__item {
   margin-bottom: 1rem;
-  text-align: center;
   font-size: 1.7em;
   line-height: 1.5;
 }

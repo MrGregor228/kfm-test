@@ -130,6 +130,7 @@
     font-weight: bold;
     margin-right: 1rem;
     position: relative;
+    color: rgb(71, 10, 124);
 
     
     .projects__title{
@@ -263,10 +264,10 @@
   cursor: pointer;
   margin-bottom: 1em;
   justify-content: center;
-  align-items: center;
   text-decoration: none;
   color: #fff;
   transition: ease .5s all;
+  padding: 0 1rem;
   
   &:hover{
     text-decoration: none;
@@ -274,7 +275,6 @@
   }
   .projects__item{
     margin-bottom: 1rem;
-    text-align: center;
     font-size: 1.7em;
     line-height: 1.5;
   }

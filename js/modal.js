@@ -16,10 +16,10 @@ $('#anonseTwo').click(function () {
     $('#modalSecond').css("visibility", "visible");
 });
 
-// $('#anonseThree').click(function () {
-//     $('#modalThird').css("opacity", "1");
-//     $('#modalThird').css("visibility", "visible");
-// });
+$('#anonseThree').click(function () {
+    $('#modalThird').css("opacity", "1");
+    $('#modalThird').css("visibility", "visible");
+});
 
 $('#newsOne').click(function () {
     $('#modalNewsOne').css("opacity", "1");

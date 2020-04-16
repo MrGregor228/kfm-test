@@ -338,6 +338,12 @@ small {
 	}
 }
 
+#modalThird {
+	.img-holder {
+		background-image: url("../images/slide3.jpg");
+	}
+}
+
 .news-modal {
 	
 	.modal-body-content {
@@ -522,8 +528,7 @@ small {
 		}
 		#anonseThree {
 			.card-img-holder {
-				// background-image: url("");
-				background-color: lightgray;
+				background-image: url("../images/slide3.jpg");
 			}
 		}
 	}
