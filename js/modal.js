@@ -21,22 +21,26 @@ $('#anonseThree').click(function () {
     $('#modalThird').css("visibility", "visible");
 });
 
-$('#newsOne').click(function () {
+$('#newsOne').click(function (e) {
+    e.preventDefault();
     $('#modalNewsOne').css("opacity", "1");
     $('#modalNewsOne').css("visibility", "visible");
 });
 
-$('#newsTwo').click(function () {
+$('#newsTwo').click(function (e) {
+    e.preventDefault();
     $('#modalNewsTwo').css("opacity", "1");
     $('#modalNewsTwo').css("visibility", "visible");
 });
 
-$('#newsThree').click(function () {
+$('#newsThree').click(function (e) {
+    e.preventDefault();
     $('#modalNewsThree').css("opacity", "1");
     $('#modalNewsThree').css("visibility", "visible");
 });
 
-$('#newsFour').click(function () {
+$('#newsFour').click(function (e) {
+    e.preventDefault();
     $('#modalNewsFour').css("opacity", "1");
     $('#modalNewsFour').css("visibility", "visible");
 });
