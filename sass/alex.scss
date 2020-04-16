@@ -146,7 +146,6 @@
  
 
   .projects__card{
-    border: 1px solid #000;
     
     .overlay {
       opacity: 0;
@@ -276,6 +275,30 @@
     left: 5%;
     bottom: 1%;
     font-size: 1em;
+  }
+}
+
+.modal-window{
+
+  .main-content{
+    img{
+      width: 40%;
+      float: left;
+      margin: 0 1rem 1rem 0;
+    }
+    .projectModalPic_right{
+      float: right;
+      margin: 1rem 0 1rem 1rem;
+    }
+    .projectModalPic_bottom{
+      margin: 1rem 1rem 1rem 0;
+    }
+    .youT{
+      iframe{
+        width: 90%;
+        height: 15rem;
+      }
+    }
   }
 }
 
