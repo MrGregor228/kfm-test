@@ -136,18 +136,11 @@
     .projects__title{
       font-size: 1.7em;
       line-height: 1.5;
+      color: #000;
      }
-
-    .projects__text_top{
-      position: absolute;
-      top:40%;
-      left: 5%;
-    }
+     
     .projects__text_bottom{
-      position: absolute;
-      left: 5%;
-      bottom: 5%;
-      font-size: 1.7em;
+      font-size: 2.2em;
     }
 }
  
@@ -275,7 +268,7 @@
   }
   .projects__item{
     margin-bottom: 1rem;
-    font-size: 1.7em;
+    font-size: 1.4em;
     line-height: 1.5;
   }
   .projects__item_bottom{
