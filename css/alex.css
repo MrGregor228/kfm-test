@@ -26,13 +26,13 @@
 .mainS .arrowBtn .btn {
   border: 0 solid transparent;
 }
-/* line 30, ../sass/alex.scss */
+/* line 31, ../sass/alex.scss */
 .mainS .arrowBtn .btn:focus, .mainS .arrowBtn .btn:hover, .mainS .arrowBtn .btn:active {
   box-shadow: none;
   outline: none;
   border: none;
 }
-/* line 39, ../sass/alex.scss */
+/* line 40, ../sass/alex.scss */
 .mainS .arrowBtn .custom-btn {
   position: absolute;
   padding: 0.25rem;
@@ -55,17 +55,17 @@
     bottom: 0px;
   }
 }
-/* line 67, ../sass/alex.scss */
+/* line 68, ../sass/alex.scss */
 .mainS .bgwhite {
   background-color: #fff;
 }
-/* line 71, ../sass/alex.scss */
+/* line 72, ../sass/alex.scss */
 .mainS .bgimage {
   background: url(../images/background.jpg) no-repeat;
   background-size: cover;
   height: 100vh;
 }
-/* line 77, ../sass/alex.scss */
+/* line 78, ../sass/alex.scss */
 .mainS .flyElement {
   position: absolute;
   height: 25rem;
@@ -77,20 +77,20 @@
   padding: 4rem;
   box-shadow: 0 0 10px lightgray;
 }
-/* line 88, ../sass/alex.scss */
+/* line 89, ../sass/alex.scss */
 .mainS .flyElement h1 {
   font-size: 3em;
   font-weight: bold;
   line-height: 1.5;
   margin-bottom: 2rem;
 }
-/* line 96, ../sass/alex.scss */
+/* line 97, ../sass/alex.scss */
 .mainS .flyElement p {
   font-size: 1em;
   font-weight: bold;
   line-height: 1.7;
 }
-/* line 102, ../sass/alex.scss */
+/* line 103, ../sass/alex.scss */
 .mainS .flyElement::before {
   content: "";
   width: 13rem;
@@ -101,17 +101,17 @@
   right: -25%;
 }
 
-/* line 115, ../sass/alex.scss */
+/* line 116, ../sass/alex.scss */
 .stat {
   position: static;
 }
 
-/* line 121, ../sass/alex.scss */
+/* line 122, ../sass/alex.scss */
 .projects {
   max-width: 90%;
   padding: 5rem 0;
 }
-/* line 124, ../sass/alex.scss */
+/* line 126, ../sass/alex.scss */
 .projects .projects__wrap {
   background-color: #F3F3F3;
   height: 80vh;
@@ -123,17 +123,17 @@
   position: relative;
   color: #470a7c;
 }
-/* line 136, ../sass/alex.scss */
+/* line 138, ../sass/alex.scss */
 .projects .projects__wrap .projects__title {
   font-size: 1.7em;
   line-height: 1.5;
   color: #000;
 }
-/* line 142, ../sass/alex.scss */
+/* line 144, ../sass/alex.scss */
 .projects .projects__wrap .projects__text_bottom {
   font-size: 2.2em;
 }
-/* line 150, ../sass/alex.scss */
+/* line 152, ../sass/alex.scss */
 .projects .projects__card .overlay {
   opacity: 0;
   color: #fff;
@@ -155,85 +155,85 @@
   justify-content: center;
   padding: 1rem;
 }
-/* line 171, ../sass/alex.scss */
+/* line 173, ../sass/alex.scss */
 .projects .projects__card .overlay .card-title {
   margin-bottom: 1rem;
 }
-/* line 175, ../sass/alex.scss */
+/* line 177, ../sass/alex.scss */
 .projects .projects__card .overlay .card-text {
   margin-bottom: 1rem;
 }
-/* line 179, ../sass/alex.scss */
+/* line 181, ../sass/alex.scss */
 .projects .projects__card .overlay .btn {
   border: 1px solid #fff;
   background-color: transparent;
   transition: box-shadow .3s linear;
   transition: ease .4s all;
 }
-/* line 185, ../sass/alex.scss */
+/* line 187, ../sass/alex.scss */
 .projects .projects__card .overlay .btn:focus {
   box-shadow: 0 0 0 3px #c68ff6;
 }
-/* line 189, ../sass/alex.scss */
+/* line 191, ../sass/alex.scss */
 .projects .projects__card .overlay .btn:hover, .projects .projects__card .overlay .btn:active {
   outline: none;
   border: 1px solid transparent;
   background: #fff;
   color: #470a7c;
 }
-/* line 199, ../sass/alex.scss */
+/* line 201, ../sass/alex.scss */
 .projects .projects__card .card-img-holder:hover .overlay {
   opacity: 1;
 }
-/* line 202, ../sass/alex.scss */
+/* line 205, ../sass/alex.scss */
 .projects .projects__card .card-img-holder:hover .picture {
   transform: scale(1.2);
 }
-/* line 206, ../sass/alex.scss */
+/* line 209, ../sass/alex.scss */
 .projects .projects__card .card-img-holder {
   position: relative;
   overflow: hidden;
   height: 100%;
 }
-/* line 212, ../sass/alex.scss */
+/* line 215, ../sass/alex.scss */
 .projects .projects__card .card-img-holder .picture {
   display: block;
   max-width: 100%;
   height: 100%;
   transition: ease 1s all;
 }
-/* line 222, ../sass/alex.scss */
+/* line 225, ../sass/alex.scss */
 .projects .covid {
   background: url("../images/covid.jpg") no-repeat center center;
   background-size: cover;
 }
-/* line 226, ../sass/alex.scss */
+/* line 230, ../sass/alex.scss */
 .projects .links {
   background: url("../images/links.jpg") no-repeat center center;
   background-size: cover;
 }
-/* line 230, ../sass/alex.scss */
+/* line 235, ../sass/alex.scss */
 .projects .leader {
   background: url("../images/leader.jpg") no-repeat center center;
   background-size: cover;
 }
-/* line 234, ../sass/alex.scss */
+/* line 240, ../sass/alex.scss */
 .projects .ithub {
   background: url("../images/ithub.jpg") no-repeat center center;
   background-size: cover;
 }
-/* line 239, ../sass/alex.scss */
+/* line 245, ../sass/alex.scss */
 .projects .projects__card_small {
   width: 50%;
   height: 35vh;
 }
-/* line 244, ../sass/alex.scss */
+/* line 250, ../sass/alex.scss */
 .projects .projects__card_large {
   width: 100%;
   height: 70vh;
 }
 
-/* line 251, ../sass/alex.scss */
+/* line 262, ../sass/alex.scss */
 .projects__block {
   position: relative;
   height: 30vh;
@@ -247,18 +247,18 @@
   transition: ease .5s all;
   padding: 0 1rem;
 }
-/* line 264, ../sass/alex.scss */
+/* line 275, ../sass/alex.scss */
 .projects__block:hover {
   text-decoration: none;
   color: #cccccc;
 }
-/* line 268, ../sass/alex.scss */
+/* line 280, ../sass/alex.scss */
 .projects__block .projects__item {
   margin-bottom: 1rem;
   font-size: 1.4em;
   line-height: 1.5;
 }
-/* line 273, ../sass/alex.scss */
+/* line 286, ../sass/alex.scss */
 .projects__block .projects__item_bottom {
   position: absolute;
   left: 5%;
@@ -266,28 +266,28 @@
   font-size: 1em;
 }
 
-/* line 284, ../sass/alex.scss */
+/* line 297, ../sass/alex.scss */
 .modal-window .main-content img {
   width: 40%;
   float: left;
   margin: 0 1rem 1rem 0;
 }
-/* line 289, ../sass/alex.scss */
+/* line 303, ../sass/alex.scss */
 .modal-window .main-content .projectModalPic_right {
   float: right;
   margin: 1rem 0 1rem 1rem;
 }
-/* line 293, ../sass/alex.scss */
+/* line 308, ../sass/alex.scss */
 .modal-window .main-content .projectModalPic_bottom {
   margin: 1rem 1rem 1rem 0;
 }
-/* line 297, ../sass/alex.scss */
+/* line 313, ../sass/alex.scss */
 .modal-window .main-content .youT iframe {
   width: 90%;
   height: 15rem;
 }
 
-/* line 309, ../sass/alex.scss */
+/* line 325, ../sass/alex.scss */
 .footer {
   position: relative;
   box-shadow: inset 0 0 100px #470a7c, inset 0 0 100px #470a7c;
@@ -296,7 +296,7 @@
   background-size: cover;
   padding-top: 5rem;
 }
-/* line 316, ../sass/alex.scss */
+/* line 333, ../sass/alex.scss */
 .footer:before {
   content: '';
   position: absolute;
@@ -306,13 +306,13 @@
   right: 0;
   background: rgba(71, 10, 124, 0.7);
 }
-/* line 328, ../sass/alex.scss */
+/* line 346, ../sass/alex.scss */
 .footer .contact-card ul li {
   margin-right: 1rem;
   font-size: 1em;
   margin-bottom: 1rem;
 }
-/* line 333, ../sass/alex.scss */
+/* line 351, ../sass/alex.scss */
 .footer .contact-card ul li a {
   color: #000;
   text-decoration: none;
@@ -322,36 +322,36 @@
   width: fit-content;
   color: #fff;
 }
-/* line 342, ../sass/alex.scss */
+/* line 360, ../sass/alex.scss */
 .footer .contact-card ul li a svg {
   margin-right: 1rem;
   font-size: 2em;
   color: #fff;
   transition: ease .5s all;
 }
-/* line 349, ../sass/alex.scss */
+/* line 367, ../sass/alex.scss */
 .footer .contact-card ul li a:hover {
   color: #cccccc;
   opacity: 80%;
 }
-/* line 354, ../sass/alex.scss */
+/* line 372, ../sass/alex.scss */
 .footer .contact-card ul li a:hover svg {
   color: #cccccc;
 }
-/* line 364, ../sass/alex.scss */
+/* line 383, ../sass/alex.scss */
 .footer form h3 {
   font-weight: bold;
   font-size: 1.5em;
   margin-bottom: 1rem;
   color: #fff;
 }
-/* line 371, ../sass/alex.scss */
+/* line 390, ../sass/alex.scss */
 .footer form p {
   color: lightgray;
   padding: 0;
   margin-bottom: .5rem;
 }
-/* line 377, ../sass/alex.scss */
+/* line 396, ../sass/alex.scss */
 .footer form input {
   margin-bottom: 1rem;
   padding: 0.5rem;
@@ -359,15 +359,15 @@
   background-color: #EDEDED;
   border-radius: 4px;
 }
-/* line 384, ../sass/alex.scss */
+/* line 403, ../sass/alex.scss */
 .footer form input::-webkit-input-placeholder {
   color: #757575;
 }
-/* line 388, ../sass/alex.scss */
+/* line 408, ../sass/alex.scss */
 .footer form input:hover::-webkit-input-placeholder {
   color: #a8a8a8;
 }
-/* line 393, ../sass/alex.scss */
+/* line 413, ../sass/alex.scss */
 .footer form textarea {
   padding: .5rem;
   margin-bottom: 2.3rem;
@@ -375,15 +375,15 @@
   background-color: #EDEDED;
   border-radius: 4px;
 }
-/* line 399, ../sass/alex.scss */
+/* line 420, ../sass/alex.scss */
 .footer form textarea::-webkit-input-placeholder {
   color: #757575;
 }
-/* line 403, ../sass/alex.scss */
+/* line 425, ../sass/alex.scss */
 .footer form textarea:hover::-webkit-input-placeholder {
   color: #8f8f8f;
 }
-/* line 408, ../sass/alex.scss */
+/* line 430, ../sass/alex.scss */
 .footer form button {
   width: 8rem;
   padding: .7rem 0;
@@ -393,17 +393,17 @@
   transition: ease .4s all;
   border-radius: 4px;
 }
-/* line 416, ../sass/alex.scss */
+/* line 439, ../sass/alex.scss */
 .footer form button:hover {
   background-color: #7d12da;
   color: #fff;
 }
-/* line 422, ../sass/alex.scss */
+/* line 446, ../sass/alex.scss */
 .footer p {
   color: #fff;
   padding: 1rem;
 }
-/* line 427, ../sass/alex.scss */
+/* line 452, ../sass/alex.scss */
 .footer .authors {
   visibility: hidden;
   opacity: 0;
@@ -416,23 +416,23 @@
   width: 100%;
   transition: opacity .3s linear;
 }
-/* line 438, ../sass/alex.scss */
+/* line 464, ../sass/alex.scss */
 .footer .authors img {
   border-radius: 30px;
   cursor: pointer;
 }
-/* line 443, ../sass/alex.scss */
+/* line 470, ../sass/alex.scss */
 .footer .author-wrapper {
   position: relative;
   color: #fff;
   text-decoration: none;
   transition: all .3s ease-in-out;
 }
-/* line 449, ../sass/alex.scss */
+/* line 476, ../sass/alex.scss */
 .footer .author-wrapper:hover {
   text-shadow: 0px 0px 15px white;
 }
-/* line 451, ../sass/alex.scss */
+/* line 479, ../sass/alex.scss */
 .footer .author-wrapper:hover .authors {
   visibility: visible;
   opacity: 1;
@@ -442,150 +442,150 @@
 /*----------------------------------------Media queries----------------------------------------------*/
 /*---992-1200px---*/
 @media screen and (max-width: 1200px) {
-  /* line 471, ../sass/alex.scss */
+  /* line 500, ../sass/alex.scss */
   .projects {
     padding: 4rem;
   }
-  /* line 474, ../sass/alex.scss */
+  /* line 503, ../sass/alex.scss */
   .projects .projects__block .projects__item {
     margin-bottom: 1rem;
     text-align: center;
     font-size: 1.4em;
   }
-  /* line 481, ../sass/alex.scss */
+  /* line 511, ../sass/alex.scss */
   .projects .projects__right .projects__item {
     padding: 0 0.5rem;
   }
-  /* line 484, ../sass/alex.scss */
+  /* line 515, ../sass/alex.scss */
   .projects .projects__right .projects__item_bottom {
     font-size: 1em;
   }
 }
 /*---768-992px---*/
 @media screen and (max-width: 992px) {
-  /* line 495, ../sass/alex.scss */
+  /* line 526, ../sass/alex.scss */
   .projects__left {
     margin-bottom: 1rem;
   }
 
-  /* line 502, ../sass/alex.scss */
+  /* line 533, ../sass/alex.scss */
   .mainS .flyElement h1 {
     font-size: 2.5em;
     line-height: 1.3;
   }
 
-  /* line 508, ../sass/alex.scss */
+  /* line 540, ../sass/alex.scss */
   .projects {
     padding: 3rem;
   }
 
-  /* line 514, ../sass/alex.scss */
+  /* line 546, ../sass/alex.scss */
   .projects__block {
     order: 1;
     margin-top: 1rem;
   }
-  /* line 518, ../sass/alex.scss */
+  /* line 550, ../sass/alex.scss */
   .projects__block .projects__item {
     font-size: 1.5em;
   }
-  /* line 521, ../sass/alex.scss */
+  /* line 554, ../sass/alex.scss */
   .projects__block .projects__item_bottom {
     font-size: 1em;
   }
 }
 /*---576-768px---*/
 @media screen and (max-width: 768px) {
-  /* line 534, ../sass/alex.scss */
+  /* line 567, ../sass/alex.scss */
   footer form {
     margin-top: 3rem;
   }
 
-  /* line 541, ../sass/alex.scss */
+  /* line 574, ../sass/alex.scss */
   .mainS .arrowBtn {
     bottom: -5%;
   }
-  /* line 545, ../sass/alex.scss */
+  /* line 578, ../sass/alex.scss */
   .mainS .bgwhite {
     background-color: none;
   }
-  /* line 550, ../sass/alex.scss */
+  /* line 583, ../sass/alex.scss */
   .mainS .flyElement {
     height: 16rem;
   }
-  /* line 552, ../sass/alex.scss */
+  /* line 585, ../sass/alex.scss */
   .mainS .flyElement h1 {
     font-size: 2em;
     line-height: 1.3;
   }
-  /* line 557, ../sass/alex.scss */
+  /* line 590, ../sass/alex.scss */
   .mainS .flyElement p {
     font-size: .8em;
   }
-  /* line 563, ../sass/alex.scss */
+  /* line 596, ../sass/alex.scss */
   .mainS .flyElement::before {
     content: "";
     width: 10rem;
     height: 1.2rem;
   }
 
-  /* line 572, ../sass/alex.scss */
+  /* line 605, ../sass/alex.scss */
   .projects {
     padding: 2rem;
   }
-  /* line 574, ../sass/alex.scss */
+  /* line 608, ../sass/alex.scss */
   .projects .projects__item {
     font-size: 1.2em;
   }
-  /* line 577, ../sass/alex.scss */
+  /* line 612, ../sass/alex.scss */
   .projects .projects__item_bottom {
     font-size: 1em;
   }
 }
 /*---320-576px---*/
 @media screen and (max-width: 576px) {
-  /* line 590, ../sass/alex.scss */
+  /* line 625, ../sass/alex.scss */
   .mainS img {
     max-width: 12rem;
     padding: 1rem;
   }
-  /* line 595, ../sass/alex.scss */
+  /* line 630, ../sass/alex.scss */
   .mainS .arrowBtn {
     bottom: -6%;
   }
-  /* line 599, ../sass/alex.scss */
+  /* line 634, ../sass/alex.scss */
   .mainS .flyElement {
     padding: 2rem;
   }
-  /* line 602, ../sass/alex.scss */
+  /* line 637, ../sass/alex.scss */
   .mainS .flyElement h1 {
     font-size: 1.8em;
     font-weight: bold;
     line-height: 1.3;
     margin-bottom: 1.3rem;
   }
-  /* line 609, ../sass/alex.scss */
+  /* line 644, ../sass/alex.scss */
   .mainS .flyElement p {
     font-size: .7em;
     font-weight: bold;
     line-height: 1.5;
   }
-  /* line 615, ../sass/alex.scss */
+  /* line 650, ../sass/alex.scss */
   .mainS .flyElement::before {
     display: none;
   }
 
-  /* line 624, ../sass/alex.scss */
+  /* line 659, ../sass/alex.scss */
   .projects .projects__top {
     flex-direction: column;
   }
-  /* line 627, ../sass/alex.scss */
+  /* line 662, ../sass/alex.scss */
   .projects .projects__top .projects__wrap {
     margin-bottom: 1rem;
     width: 100%;
     height: 45vh;
     margin-right: 0;
   }
-  /* line 633, ../sass/alex.scss */
+  /* line 668, ../sass/alex.scss */
   .projects .projects__top .projects__wrap .projects__title {
     height: 60vh;
     width: 100%;
@@ -593,105 +593,105 @@
     margin-right: 1rem;
     margin-bottom: 1rem;
   }
-  /* line 640, ../sass/alex.scss */
+  /* line 676, ../sass/alex.scss */
   .projects .projects__top .projects__wrap .projects__text {
     font-size: 1.5em;
   }
-  /* line 645, ../sass/alex.scss */
+  /* line 682, ../sass/alex.scss */
   .projects .projects__card_small {
     width: 100%;
     height: 35vh;
   }
-  /* line 649, ../sass/alex.scss */
+  /* line 687, ../sass/alex.scss */
   .projects .projects__card_large {
     height: 35vh;
   }
-  /* line 652, ../sass/alex.scss */
+  /* line 691, ../sass/alex.scss */
   .projects .projects__block {
     height: 35vh;
     width: 100%;
     margin-top: 1em;
   }
-  /* line 656, ../sass/alex.scss */
+  /* line 696, ../sass/alex.scss */
   .projects .projects__block .projects__item {
     font-size: 1em;
   }
-  /* line 659, ../sass/alex.scss */
+  /* line 700, ../sass/alex.scss */
   .projects .projects__block .projects__item_bottom {
     font-size: 0.7em;
     margin-bottom: 0.5rem;
   }
 
-  /* line 666, ../sass/alex.scss */
+  /* line 707, ../sass/alex.scss */
   .projects__left {
     display: flex;
     flex-direction: column;
   }
 
-  /* line 674, ../sass/alex.scss */
+  /* line 715, ../sass/alex.scss */
   .card-img-holder img {
     max-width: 100%;
     height: 35vh;
   }
 
-  /* line 683, ../sass/alex.scss */
+  /* line 724, ../sass/alex.scss */
   .projects__card .overlay {
     padding: 1rem;
   }
-  /* line 686, ../sass/alex.scss */
+  /* line 727, ../sass/alex.scss */
   .projects__card .overlay .card-title {
     margin-bottom: 1rem;
   }
 
-  /* line 697, ../sass/alex.scss */
+  /* line 738, ../sass/alex.scss */
   .contact-card ul li {
     margin-bottom: .8rem;
   }
-  /* line 700, ../sass/alex.scss */
+  /* line 741, ../sass/alex.scss */
   .contact-card ul li a {
     font-size: 0.8em;
   }
-  /* line 702, ../sass/alex.scss */
+  /* line 744, ../sass/alex.scss */
   .contact-card ul li a svg {
     font-size: 1.5em;
   }
 
-  /* line 712, ../sass/alex.scss */
+  /* line 754, ../sass/alex.scss */
   form h3 {
     font-size: 1em;
     line-height: 1.5;
   }
-  /* line 717, ../sass/alex.scss */
+  /* line 759, ../sass/alex.scss */
   form input {
     margin-bottom: 1rem;
     padding: 0.5rem;
     border: none;
     background-color: #EDEDED;
   }
-  /* line 723, ../sass/alex.scss */
+  /* line 765, ../sass/alex.scss */
   form input::-webkit-input-placeholder {
     color: #757575;
   }
-  /* line 727, ../sass/alex.scss */
+  /* line 770, ../sass/alex.scss */
   form input:hover::-webkit-input-placeholder {
     color: #a8a8a8;
   }
-  /* line 732, ../sass/alex.scss */
+  /* line 775, ../sass/alex.scss */
   form textarea {
     padding: .5rem;
     margin-bottom: 1rem;
     border: none;
     background-color: #EDEDED;
   }
-  /* line 737, ../sass/alex.scss */
+  /* line 781, ../sass/alex.scss */
   form textarea::-webkit-input-placeholder {
     color: #757575;
   }
-  /* line 741, ../sass/alex.scss */
+  /* line 786, ../sass/alex.scss */
   form textarea:hover::-webkit-input-placeholder {
     color: #8f8f8f;
   }
-  /* line 746, ../sass/alex.scss */
+  /* line 791, ../sass/alex.scss */
   form button {
     width: 8rem;
     padding: .7rem 0;
@@ -700,13 +700,13 @@
     border: 1px solid #000;
     transition: ease .4s all;
   }
-  /* line 753, ../sass/alex.scss */
+  /* line 799, ../sass/alex.scss */
   form button:hover {
     background-color: #7d12da;
   }
 }
 @media screen and (max-width: 319px) {
-  /* line 769, ../sass/alex.scss */
+  /* line 815, ../sass/alex.scss */
   .mainS .line img {
     display: none;
   }
